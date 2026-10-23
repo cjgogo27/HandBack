@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handback-study"
+version = "0.1.0"
+description = "A bounded study of learning-value-based control handback in robotic manipulation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.7,<4"]
+docs = ["Markdown>=3.5,<4"]
+media = ["Pillow>=10,<13", "imageio-ffmpeg>=0.6,<1"]
+
+[project.scripts]
+handback = "handback.analysis:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

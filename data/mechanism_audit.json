@@ -1,0 +1,2615 @@
+{
+  "state": "completed_independent_adapter_and_treatment_audit",
+  "methods": {
+    "B": {
+      "adapter_sha256": "3603b0a1372e84b7b98b1b445638078293de073857c0a237db426850edce76af",
+      "adapter_config_sha256": "42bbec495ff24d042e2a350183489f1c039784f0af7e19dd0d10596af02ac114",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "8f430c798416a4e36d19943dd0a17e893c3d135214cc1dd807d88bd9e457c7cd",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": null,
+            "target_sha256": null,
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "old_control",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    },
+    "S1": {
+      "adapter_sha256": "92c441984da8779dafb8a300c3b8b8b8414ecd907c806959b3c92c789c730672",
+      "adapter_config_sha256": "42bbec495ff24d042e2a350183489f1c039784f0af7e19dd0d10596af02ac114",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "6c398e18886332ece31e1d0a054123e19c9151b33c431363398a72a0d03ceffa",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 2,
+            "target_sha256": "14b5b9f3af4f46b547056326f7cbbaff3d0732706dfbc995f39c659dde0507a0",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 3,
+            "target_sha256": "58394fda1093878a3aa28361ca3b84c046a0dd44a53c59b62220d834615f9817",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 4,
+            "target_sha256": "d8828c59cd2375543c2a50edec29de2799fc9e15ff67624b39dc6bc55e0abdb1",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    },
+    "F4": {
+      "adapter_sha256": "637fd04ae3863f645358f91b08f7c47cbc7ef0068342b7bff3fdbc4bdfcfae47",
+      "adapter_config_sha256": "e139016092917f1b1d2f8cc1013aa05e003b55d1384d4311c280316fe56bf124",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "ce593d4abfe4c9163bb03712ca21dc7bb74427630e313f2f2c7b93cf38cf574c",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 2,
+            "target_sha256": "35220dd4210211627f25a8fc9e6f6262c337e2550dbc7219ddf7a2c480c50c89",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 2,
+            "target_sha256": "6ecca084a9cab38adc840e6207a066baaeccf242a3e0e53f47f9a66d2c21c7ad",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 2,
+            "target_sha256": "4579275593abadb929ef1c4fce82aaabb72399cd1e21e73df3acf6e30f76ef3d",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 2,
+            "target_sha256": "14b5b9f3af4f46b547056326f7cbbaff3d0732706dfbc995f39c659dde0507a0",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 2,
+            "target_sha256": "645e298ea598c34a00a15fd34b48933da745334cfe504fd274b7cfc4a12022e0",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 2,
+            "target_sha256": "46dfcb1b4e5cf35aed953dc56d4239f6207b5851e5fa0d8825ad4d09d5c2b5c8",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 3,
+            "target_sha256": "c64b742c9f2e3b163e006478b5629fdf610f684854960174a6aad4e9c52bf54a",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 3,
+            "target_sha256": "ac33dcbca490f3898c5bb704e08ab6abc1dac32ebb830825056fd72b380e1bd1",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 3,
+            "target_sha256": "26b2a0100047053e3f6ed15e121a115e896eeddb23812e702a29c669e39ccd73",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 3,
+            "target_sha256": "58394fda1093878a3aa28361ca3b84c046a0dd44a53c59b62220d834615f9817",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 3,
+            "target_sha256": "f910e74c4597587fd48a7025f65185017264b5d1a178f6f4a65610fa8bd8b625",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 3,
+            "target_sha256": "644d8776134878e3a3feacf2e84f36360eb754fc1daf887ac6d00fde27cfd499",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 4,
+            "target_sha256": "eac9bf9ccd7d419008244ab92578f1172239ffec408e0be03542db4e689620ec",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 4,
+            "target_sha256": "23b6318ee10bfef96c680cfd14225455f7e563cfbbf7bc69cc7f42e76a7d4dda",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 4,
+            "target_sha256": "3e3d1f05c8cefd87511d7459c44d50da5045379f7193f02660b46b5faf537a18",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 4,
+            "target_sha256": "d8828c59cd2375543c2a50edec29de2799fc9e15ff67624b39dc6bc55e0abdb1",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 4,
+            "target_sha256": "9bfe84917412d5b6f57240071ce1bdc6cbd5f137cbd94b6d8a3daa076d171ceb",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 4,
+            "target_sha256": "e4764b08a73f1fe41dd34d2dc74ad4b08327f8fbc6f9d4360930b7e2a02ee4bb",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    },
+    "Fbest": {
+      "adapter_sha256": "0c9bdc7a70afecf4ae4aff01350e00fe5e7130caecea951a0ce612b22ec33096",
+      "adapter_config_sha256": "e139016092917f1b1d2f8cc1013aa05e003b55d1384d4311c280316fe56bf124",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "6980d457c649b8939363fe027fbe70a6b834edc4dfbf7384660fd15376fa6975",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    },
+    "V": {
+      "adapter_sha256": "f8a364b477628ad4077695f67f95ce8db240ea2826cd55dd16238267be51e759",
+      "adapter_config_sha256": "6d5e7c4d88180f6a229494baaabdf8df9df5c4303c3bab31aa584022e1312915",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "6c398e18886332ece31e1d0a054123e19c9151b33c431363398a72a0d03ceffa",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 2,
+            "target_sha256": "14b5b9f3af4f46b547056326f7cbbaff3d0732706dfbc995f39c659dde0507a0",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 3,
+            "target_sha256": "58394fda1093878a3aa28361ca3b84c046a0dd44a53c59b62220d834615f9817",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 4,
+            "target_sha256": "d8828c59cd2375543c2a50edec29de2799fc9e15ff67624b39dc6bc55e0abdb1",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    },
+    "S2": {
+      "adapter_sha256": "3a68cb8f1a3804df60eb6a2b4f3e3eeba95698f66cf5ae9bf4a1638a3727c08d",
+      "adapter_config_sha256": "e139016092917f1b1d2f8cc1013aa05e003b55d1384d4311c280316fe56bf124",
+      "canonical_config_sha256": "cc4906cebedc46fc13fa0e76982a26edc2d5ad375eabf4691bfc819114fb4b45",
+      "all_saved_tensors_finite": true,
+      "LoRA_B_numerically_nonzero": true,
+      "visual_LoRA_unchanged": true,
+      "serialized_tensors": 48,
+      "realized_training_schedule_sha256": "16dc81fb0a63750bd7199c7e993e2faf0e513cd1a602f0016bcf7b9775d1963b",
+      "training_schedule": {
+        "steps": [
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 1,
+            "target_sha256": "6ee84d57c10f59fe495e5b15fb66e880530d1dac4e713f8fb635ce9f232c43da",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 1,
+            "target_sha256": "dfd88fc7f45c6e2c1ac4c1ff0f13a2389ed74829db9a14f9f6583d12bc07fec9",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 1,
+            "target_sha256": "6384c1e3908a41e051e15734d08f2e39c884f1c803abb631c87c253507fd6528",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 1,
+            "target_sha256": "2abdfacf544039a4225da9764e33d23cacaccb5afffe4815dbe783a58e304b85",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 2,
+            "target_sha256": "35220dd4210211627f25a8fc9e6f6262c337e2550dbc7219ddf7a2c480c50c89",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 2,
+            "target_sha256": "6ecca084a9cab38adc840e6207a066baaeccf242a3e0e53f47f9a66d2c21c7ad",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 2,
+            "target_sha256": "4579275593abadb929ef1c4fce82aaabb72399cd1e21e73df3acf6e30f76ef3d",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 2,
+            "target_sha256": "14b5b9f3af4f46b547056326f7cbbaff3d0732706dfbc995f39c659dde0507a0",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 2,
+            "target_sha256": "645e298ea598c34a00a15fd34b48933da745334cfe504fd274b7cfc4a12022e0",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 2,
+            "target_sha256": "46dfcb1b4e5cf35aed953dc56d4239f6207b5851e5fa0d8825ad4d09d5c2b5c8",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 3,
+            "target_sha256": "c64b742c9f2e3b163e006478b5629fdf610f684854960174a6aad4e9c52bf54a",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 3,
+            "target_sha256": "ac33dcbca490f3898c5bb704e08ab6abc1dac32ebb830825056fd72b380e1bd1",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 1,
+            "target_sha256": "7b36d27f6798e49e5bb6fe5f64a0f2f4892816970a6bc9ec872c1f7181ed6906",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 3,
+            "target_sha256": "58394fda1093878a3aa28361ca3b84c046a0dd44a53c59b62220d834615f9817",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 3,
+            "target_sha256": "f910e74c4597587fd48a7025f65185017264b5d1a178f6f4a65610fa8bd8b625",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 1,
+            "target_sha256": "aaab6cc48dee7e3adc3626fa265a92dac392a583d5ae0b9df35c963e57a5ec1a",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102001,
+            "teacher_ordinal": 4,
+            "target_sha256": "eac9bf9ccd7d419008244ab92578f1172239ffec408e0be03542db4e689620ec",
+            "old_indices": [
+              0,
+              1
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102006,
+            "teacher_ordinal": 4,
+            "target_sha256": "23b6318ee10bfef96c680cfd14225455f7e563cfbbf7bc69cc7f42e76a7d4dda",
+            "old_indices": [
+              2,
+              3
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102008,
+            "teacher_ordinal": 2,
+            "target_sha256": "4579275593abadb929ef1c4fce82aaabb72399cd1e21e73df3acf6e30f76ef3d",
+            "old_indices": [
+              4,
+              5
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102007,
+            "teacher_ordinal": 4,
+            "target_sha256": "d8828c59cd2375543c2a50edec29de2799fc9e15ff67624b39dc6bc55e0abdb1",
+            "old_indices": [
+              6,
+              7
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102009,
+            "teacher_ordinal": 4,
+            "target_sha256": "9bfe84917412d5b6f57240071ce1bdc6cbd5f137cbd94b6d8a3daa076d171ceb",
+            "old_indices": [
+              8,
+              9
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          },
+          {
+            "parent": 4062102022,
+            "teacher_ordinal": 2,
+            "target_sha256": "46dfcb1b4e5cf35aed953dc56d4239f6207b5851e5fa0d8825ad4d09d5c2b5c8",
+            "old_indices": [
+              10,
+              11
+            ],
+            "source_roles": [
+              "new",
+              "old",
+              "old"
+            ]
+          }
+        ],
+        "base_checkpoint": "artifact://piper_sft_20261018_v1/checkpoints/v1-20261017-170512/checkpoint-99",
+        "replay_targets": [
+          {
+            "parent_id": "7ebc0d4f06c31e87591fbed7a6313e09a6b67226ebd64cd5f83546358dffd554",
+            "target_index": 14
+          },
+          {
+            "parent_id": "302f683d6ab7f0da060b237ec73b6148ceb3adb54e7184e279ec322fe48ed4e0",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7011300ef907f13beef0479d8920b0b3978d6c6fc242fc599ec04d622fd9114f",
+            "target_index": 22
+          },
+          {
+            "parent_id": "f74ea964d3cbf8aa1bdd3c232840a6974bb81f80f56cf7e801e2db88f14af2ce",
+            "target_index": 18
+          },
+          {
+            "parent_id": "0da7b757b33daaf4b69a38ad5fbd21883ddf37872ac7e0e36340b34fe73ba504",
+            "target_index": 14
+          },
+          {
+            "parent_id": "2029fc494b07ffa03da1acba8e150e13458cee01612637b982d02584bb06331a",
+            "target_index": 14
+          },
+          {
+            "parent_id": "9c4cffee4f49420c4ed92348a0e28610c5beedd6c120ddfeb514e4186de8709b",
+            "target_index": 2
+          },
+          {
+            "parent_id": "c44f8365eb01ed20a7d5c3bc8063e13e205e55078e4eee97914ec35ce652d956",
+            "target_index": 22
+          },
+          {
+            "parent_id": "7cbfd7a6dba32e509353e88927c667b20b24ccec7c0c4fb5fac9d65432436e51",
+            "target_index": 8
+          },
+          {
+            "parent_id": "273d7e9622e9d260103c3316532719b55053a93a12c459218439c43b3154a561",
+            "target_index": 16
+          },
+          {
+            "parent_id": "6a733de809f092a737cd49f1c60698f6779d36b935ad24413d4d87b1e31b5ed2",
+            "target_index": 2
+          },
+          {
+            "parent_id": "7d8931e5e4fb366119904203a729004199941f759c41c3e7f2ac3e28e979793f",
+            "target_index": 32
+          }
+        ],
+        "replay_source_sha256": "a50831cadb601d05ea23411bf84a71021f26a8e57b75758a9b8740cd22cbe36d",
+        "training_seed": 42,
+        "lr": 0.0001,
+        "lora": {
+          "r": 8,
+          "alpha": 16,
+          "target_modules": [
+            "q_proj",
+            "v_proj",
+            "o_proj"
+          ]
+        },
+        "prefix_files_sha256": {
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+          "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+        }
+      }
+    }
+  },
+  "V_S1": {
+    "same_realized_prefix_and_handoff_decisions": true,
+    "same_realized_training_targets_order_replay_and_hyperparameters": true,
+    "same_weight_bytes": false,
+    "same_canonical_adapter_config": true,
+    "consequence": "No demonstrated value-based selection advantage on these six parents; numerical/execution differences alone cannot establish an exit-selection effect."
+  },
+  "selection_sha256": "9a77a499fdd1e197984dc6c1d104f50b66d26c68cf1a124ae4af57482998292c",
+  "not_a_new_scene_performance_result": true,
+  "no_new_training_or_teacher_or_simulator_actions": true,
+  "no_retuning_or_extra_samples": true,
+  "numerical_weight_evidence_is_additional_to_actual_gradient_logs": true
+}

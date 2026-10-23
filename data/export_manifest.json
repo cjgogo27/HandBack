@@ -1,0 +1,1373 @@
+{
+  "release": "0.1.0",
+  "original_artifacts_modified": false,
+  "path_substitution": "artifact:// is an identifier, not a download URL",
+  "records": [
+    {
+      "source_artifact": "final_stage_A_outcomes_v3.csv",
+      "source_sha256": "0d8a6f3ed19a3cd98cb7e6b4e8c95e5bacca781a2e60acf2d62dfc1cf4990f2f",
+      "public_file": "data/stage_a.csv",
+      "public_sha256": "0d8a6f3ed19a3cd98cb7e6b4e8c95e5bacca781a2e60acf2d62dfc1cf4990f2f",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_artifact": "original_first_attempt_bounds.csv",
+      "source_sha256": "27685377102191e9ebb82fdecf475c2b149538256c9834d8b228614e34aeec41",
+      "public_file": "data/first_attempt_bounds.csv",
+      "public_sha256": "27685377102191e9ebb82fdecf475c2b149538256c9834d8b228614e34aeec41",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_artifact": "evidence__stage_A_result_v3.json",
+      "source_sha256": "573a23ea0901411c5549292c44adf20023404f9be22c11b6847e78a5a33e7ec4",
+      "public_file": "data/recorded_stage_a.json",
+      "public_sha256": "173de2d5bc0d5c6935671988fdae612cbc7a8d1c8662dead0fcac3adda55bb22",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__selection.json",
+      "source_sha256": "9a77a499fdd1e197984dc6c1d104f50b66d26c68cf1a124ae4af57482998292c",
+      "public_file": "data/selection.json",
+      "public_sha256": "f49bf33f9d086abbe8e811e3fdbc953666e01fc3247fd0a5c6f64d02e6fbed8a",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__selected_returnability_audit.json",
+      "source_sha256": "bced2e76fb73b41474debacac5da56fbbb3108c3096f854695bed6a90a6e97ee",
+      "public_file": "data/returnability.json",
+      "public_sha256": "1b8d7cd2c574da6bada6a55202176bd96e0cdd5cebd577840a8780afdf89f6fb",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__support_v2__thresholds.json",
+      "source_sha256": "a62664bb99fad0522a9db74967a15fc68c3ad8ac875f33abaec211218fda0d70",
+      "public_file": "data/support_thresholds.json",
+      "public_sha256": "da459751443cc752899b6e8ac42abe3f9854093331f14fbc0a830443f6de880c",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__resumption_v3__first_attempt_sensitivity_result.json",
+      "source_sha256": "8074f40078f0f433b46616aacdffc987c07423a44d4345f051b295c6d57d95c5",
+      "public_file": "data/interruption_audit.json",
+      "public_sha256": "78c13f98fbc3866e7be820c44c6430f846cf11b4d9b0350bed172b9eaf99e453",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__independent_adapter_mechanism_audit.json",
+      "source_sha256": "fa98eeed307b425903d69e2450aac8c34de6bbef3d8d5f361129534a68071d63",
+      "public_file": "data/mechanism_audit.json",
+      "public_sha256": "c59d4a9a62353ed692a9010768e4b49c9ffd77c37167757f9d412208254d61f9",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__S1_V_tensor_content_comparison.json",
+      "source_sha256": "759b861cb7111d084a949d61d6b5f88dda9f9f1a2124e5dc6b69e9dae77a308e",
+      "public_file": "data/tensor_comparison.json",
+      "public_sha256": "4b9234e3f3fc2c2f9ff76604908d66262f5cfd490fcf008e16ff6b4d1df0f395",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "signed_cad_audit_v1.json",
+      "source_sha256": "0ef8b7763b196a54ee4e1bb0e8d90234c46731f7cd7dfaad49e55ac4d6d68bef",
+      "public_file": "data/geometry_deep.json",
+      "public_sha256": "0ef8b7763b196a54ee4e1bb0e8d90234c46731f7cd7dfaad49e55ac4d6d68bef",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "signed_cad_negative_controls_v3.json",
+      "source_sha256": "0bb01ce3b011d35f6725c39a3feb4e80edbb73f64b886043d79712a3356aca87",
+      "public_file": "data/geometry_controls.json",
+      "public_sha256": "951b04eac2d5f409965b243133e45137d31390ad33d99fbe810186064192e290",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "compiled_model_pairing_final.json",
+      "source_sha256": "05f1879ed60d9b487c495e4130ba8e7835e149e0c54d2f235fb379196c7d3be3",
+      "public_file": "data/model_pairing.json",
+      "public_sha256": "1de4ff0698d18fe29c595b3639a8fab3e6316b3039a9b635b2d4f5187223b811",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__completion_verification_v1.json",
+      "source_sha256": "31d71abc0d9ed8df0b6e8356663cf10c33ed1570f1319310be893305d2aedf11",
+      "public_file": "data/closure_verification.json",
+      "public_sha256": "79d8381a0583857accfc2bd3969ceae322ebbb0ba54ee3fcbe7f0aa6fabac957",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "evidence__final_cost_snapshot_v3.json",
+      "source_sha256": "2c98b06b274154086acfb88f9aefb6f6d3c1fd4dafe00239f4ea005211cb06db",
+      "public_file": "data/costs.json",
+      "public_sha256": "d4b9e3f8c26c694726feaaf0aee2a49ed56b3459b961c242e68245a7f4a20a63",
+      "transformation": "selection/projection plus private storage path substitution; no outcome changes"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104001.json",
+      "source_sha256": "7ac36dadc9f1c9b591341062c17baa17fb4b822c83bbd1d83f1b8e023a2cfeb5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104002.json",
+      "source_sha256": "61a644bbfe513a3c4b905a5649aa28ed642d053995776a805e2ab34c1c34b740",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104003.json",
+      "source_sha256": "0b83cf2698c93a9773a3c18c215de380fca5fb32c3d89d6047d891587a200a38",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104004.json",
+      "source_sha256": "094602875ee8452b2c2a652c9c000db785cc891904f4426b25447453f526dca9",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104005.json",
+      "source_sha256": "655e3c9efe8dee696609446ce72b6d91847addd28ddd8064db651ef2d1e9f6c5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104006.json",
+      "source_sha256": "929b0f0102443f4252424fd072f2b86fdf517533e9383dda73b180e93453516a",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104007.json",
+      "source_sha256": "8b27546e486d21d55796e959486c1a004a175c1982b76a6b9256885613685b09",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104008.json",
+      "source_sha256": "f04b8852a6fd0674c8c909d221ddcb4ee1a41836ba35f6f5a8194007c0bd0cc7",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104009.json",
+      "source_sha256": "5dd30cb84b22a591eeb3afdf7051b2f6153dbc109f4e4452b67b49c8cc3d514f",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104010.json",
+      "source_sha256": "e0f4fb7745c7592558dbfff79f08dcf087f112c4861e3012cae424e02422c7ce",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104011.json",
+      "source_sha256": "c2b45dcb0a70924cdd7bbbe43eec750524bc1840d294a4591c8fbb9bf1f74b36",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/B_4062104012.json",
+      "source_sha256": "ac1d29bae7ba9f7216ca0ef0da9b3cfc5a3a59164851db3b5b4aee1bbd6c2295",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "B_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104001.json",
+      "source_sha256": "3f4051e456fbd0ecc5e80c1b3deba5d56dbe41acd2ba5aefed616e62e6056a1e",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104002.json",
+      "source_sha256": "c0f2926c63a2a0444dbb635f113f60f1d173e6d85764177c018b7b442acef391",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104003.json",
+      "source_sha256": "fb8a195d6e0836f0288c6083110635560d586a28f33144dbf6c2aed53a78e849",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104004.json",
+      "source_sha256": "1d7bbbec910787dfa929cc3e1f5ccf4360a789c495faa9a10939f58e5629a8ce",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104005.json",
+      "source_sha256": "e0415e2229e1d9db403132a3c982356680ff73dad30d5a8f538b30fbc7051e9b",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104006.json",
+      "source_sha256": "36e8d7a9f36b4a3ebccf906af75359a9a26641825e22e831ebac8f4d1d16c25b",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104007.json",
+      "source_sha256": "9298554424826b9772fbe1d3ba07ae98621fdb30ad93339f5c1445304b8f5566",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104008.json",
+      "source_sha256": "c173b3617af482b4e14dbfc5d8b97c450b7e606f467bb0a6c9ae3ab19b7587c6",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104009.json",
+      "source_sha256": "63dd2cadb0fbdbf0ad7c24bdb5b04cc0c7ed249bf2f53d28ea72443b4e65183f",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104010.json",
+      "source_sha256": "b5bf36f1334009568c394c177a1e398bddfcaa07385fc3964a0f3240fafc23da",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104011.json",
+      "source_sha256": "b133a9de49b5ee8f777e56808f52fad477cc814dae225f291db15baca2873af8",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/F4_4062104012.json",
+      "source_sha256": "9d1b70f7cd38a0c210f1bdbd86a5fedf30b3f2d85c3ec6c756b940f2eed461a5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "F4_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104001.json",
+      "source_sha256": "43eb86248bc89a27b6c0cb00a664fd494032c51bac66d91bdff48607caae0f0d",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104002.json",
+      "source_sha256": "ff7af04fed4d5e922859cec0d0ac2613d20c4cdb7c45208e0a9e16db8681ee77",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104003.json",
+      "source_sha256": "50cd02a1e2d59721fbd04627bc5ad4d0f42955f90b260c900a01ea2bebc0741b",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104004.json",
+      "source_sha256": "e92a3f68e5ca2e12ddfdeeaaa929e1757fa1047b763984a2bc4cf9937a634aae",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104005.json",
+      "source_sha256": "d458602f190b16e6c1c1f1e7725008a0ae95b2f4b517530f74e5daaf14d82d80",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104006.json",
+      "source_sha256": "b64d63fa4d429373e69c584a026e01fe4ce4d5b3ccd36536643f8886f8721cbb",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104007.json",
+      "source_sha256": "2d468cf73a2569e604eb5e04f066598532127a68bd01f34489b3be4a1988af64",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104008.json",
+      "source_sha256": "56e40d69a824daffcfe76b09bff0b6f1ae378cc5d248294272d1da4056277556",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104009.json",
+      "source_sha256": "d68423b2d665b63e27d7841510999c3b08761097cf9d3de71f5446d84934beba",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104010.json",
+      "source_sha256": "a0591aa97ede00fa91a42e6cf792de3505f1e0e0d0ae5576626704cb7e996d34",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104011.json",
+      "source_sha256": "1dcdfd9d3b1deb9c243bff981fd78d14b9cc1a1ccdd5c8274d1afcab5ddd102d",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/Fbest_4062104012.json",
+      "source_sha256": "19141c620fb3bb0e642cfdff0483122a01154d413f96300d27511b4faf70b864",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "Fbest_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104001.json",
+      "source_sha256": "cfdc81ad8064f85a22270851a38fca3adbabbe6559fe0223f842d15ff1ca49de",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104002.json",
+      "source_sha256": "30df70d92be171515804a3bcd21212b702cc04636bb8b99cb017cd83bb05d706",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104003.json",
+      "source_sha256": "4166d4c26d030db45fdf1f931711c641d96cc86f1d87dbd019db18957b97a679",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104004.json",
+      "source_sha256": "5c16a4dc41efcf5b53200c61fa6c70843fb2f3e1802eea496177a06ded9d04d2",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104005.json",
+      "source_sha256": "dc1b24ff84250d5fa5d0e01c3a659080bc48c4db8e10479af0574cde7bed6ca4",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104006.json",
+      "source_sha256": "e9c2bd9086906dfd674eb7bfa41fa095267d59e8fa110fe46f508f1101ab3946",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104007.json",
+      "source_sha256": "7cb5f1714925d3cdb0516d2b3617c5913d70930b2607faefe239fa487b57edd0",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104008.json",
+      "source_sha256": "4cc683bd4dd6e777f80822da6b5c281e8d46f69db075c5ec99c25d168a1d5f00",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104009.json",
+      "source_sha256": "1da0d23923d36a2630ba4b1921b9aeed4ce0e77fdd9c0482736fdbdba988b859",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104010.json",
+      "source_sha256": "2a7a79e755d9d8bd13a28f3a48faea1d0696e0cefad9ec82408922aa60d6b29f",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104011.json",
+      "source_sha256": "ec00ec0d7a7ad23209cf2d28bef335c27824264111186fad5178287f674750f5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S1_4062104012.json",
+      "source_sha256": "564ed74b588562b061f54fe61f896ccf5d2e98f1aff4ad6de27cbc1a45dbff5c",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S1_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104001.json",
+      "source_sha256": "124d4405ecbf9baa13dc7e683a2cf9641420c149b30cddf9f23e7b40647cf9a9",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104002.json",
+      "source_sha256": "cc9fa1fa641d3b4e0b245ab731cfc2d474662fa48fc881da2ae6048990058ef1",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104003.json",
+      "source_sha256": "c41325a38ec02ec5a67d7fb35f20c93ef46a8d4809548f38be434f81cf1c9276",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104004.json",
+      "source_sha256": "31a2bd04596afb1ef6710b2450b9175d5ee4dead6707f5991660f534dd7bdc4a",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104005.json",
+      "source_sha256": "8474fddef742886f054a6bd65adb7f0e9fe778f43b83bed831a32540132527b8",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104006.json",
+      "source_sha256": "95f174b03645e372116e666c81b9b0dffb5e7096af3f169289c9f910213e09f5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104007.json",
+      "source_sha256": "b5128c04b824f2ffcea8356f01597380d3a803d8f191b45f4f0cab23486c32c5",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104008.json",
+      "source_sha256": "f57990ee9c8db295a9ed9dec04f1dcafef70b10422899b56837231527b2ae859",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104009.json",
+      "source_sha256": "eb0971c9e688157b5f2a2053993d8e0a22d66132054b93ec768b95d796df9ef6",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104010.json",
+      "source_sha256": "a0ed9408f11484fca5dff4ebfdd155365126c1aaadd74f7eb86743b368245f51",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104011.json",
+      "source_sha256": "adaf5a29d2b23a233b618a717b03236afd2e9367d4792a0ef8dd70625cbc3f15",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/S2_4062104012.json",
+      "source_sha256": "ca9a2fb48077276db275f1f92fba33b434f5ce5b0d1d4739acd822d99b931704",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "S2_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104001.json",
+      "source_sha256": "15429f019bef7478ec4986bd534c3a935bf6514d08a4a1b8a7d836808503fc7e",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104002.json",
+      "source_sha256": "9ebc2ea861c1461662530f4f3d19ae2ba2d6ef0727b32a34040ddf1f873b6824",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104003.json",
+      "source_sha256": "7b010e635c301e98e94f776c6ad7399e1c2fedff0a70ee418c873a76d91a964d",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104004.json",
+      "source_sha256": "b09ae630f8b32742ac648cd0bd7a01fc25f3cf2a598082b14c6da5028dc27976",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104005.json",
+      "source_sha256": "5f3bcbd54f559b8828b8d891734864a023ef0b24ca339247a18de5b6d9a071e1",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104006.json",
+      "source_sha256": "ab2c0db5135b62945fa87a27ecbf2cf2c2ef1016031e1359d93e3b5ed44e8a2c",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104007.json",
+      "source_sha256": "b5e82ce58ff21c7e14110fd71ed2aa440bf732d57dc2a977e3bb8be496a7bb29",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104008.json",
+      "source_sha256": "a93c4e71b96bb4a2d096747ad012e152e60c6de01f0e1b3d63a20c0e60e07fcd",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104009.json",
+      "source_sha256": "d938afd63eb648503c236f43bb7d4268ad8d3845a93daefe939421191f19942a",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104010.json",
+      "source_sha256": "6f0ec1863db91e2a0486177308385dd580f86fa5e475fdb95f8bf9f39166fe1e",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104011.json",
+      "source_sha256": "90bf8d7254b1f8267b3168fdba521cd7f2eb9888e60defc494f28ed5c33b591c",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/U_4062104012.json",
+      "source_sha256": "2af7449d735c25d58521c10da2a006bf4961a687b9d1c55c0b08c0bf63447e03",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "U_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104001.json",
+      "source_sha256": "78585cbe2db429f5c130c764ad412be6edd52bd485de1b0b3557e48fd6a11bbf",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104002.json",
+      "source_sha256": "226b35e801321540d26efde4dc02beab6f0131c88e4bb6691289c8ffadda2ef8",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104003.json",
+      "source_sha256": "53155bda5690389464b6f9cc309447dd26b809e8b270885e5fe3fd8c97878960",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104004.json",
+      "source_sha256": "7cf9f9b7c592e42c93d9aba924822fdce231c57e773c9724eb87b650f69878e0",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104005.json",
+      "source_sha256": "dc80b083db9a6bd46ef0f407bc85d089461c2cd6ac469b713f8bbc0121a56a33",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104006.json",
+      "source_sha256": "1f79938167133c5376c13d0e8f62b6083d8740fed99ab20a8c429b4cee5b11d1",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104007.json",
+      "source_sha256": "43c663277c3c54a3c934a19012534d6936ef8b2f44b95c89244478e4cb3e4c88",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104008.json",
+      "source_sha256": "986f8c1602e2c50a23729f99d917c4d0911a6ac97f09817e2ad02123e1ede540",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104009.json",
+      "source_sha256": "e705b89e22ae6c50b967c3b0bfcdc219bc4ed41ae7e78a97e23fa2cddbde9b3b",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104010.json",
+      "source_sha256": "fed9bcd4d3efad35e61fb1aa6d75e906625904c1e38b1521365fd36992144cfe",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104011.json",
+      "source_sha256": "8c22ce5699b7d231faf3551cece0c1eb9b2fa7a602077175b13a8130ba9f6438",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_raw_audits_v3/V_4062104012.json",
+      "source_sha256": "669b4da9640a6e9ef37e6860ad6a974a7c07353ee8187404f047791842bc5c0d",
+      "public_file": "data/contact_audits.jsonl",
+      "public_record_id": "V_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104001.json",
+      "source_sha256": "8b8f6b70d99aee3ab670aaca807c014caf924fb1a72d504d218e929d1ad10de1",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104002.json",
+      "source_sha256": "c305d0c5977dd48938ccf981d67759371738a7ea1c32f56a37172f3594cf0d1f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104003.json",
+      "source_sha256": "404824a8a0213f10070040347d158959730b361c48dc41f6a923a38134d11f1a",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104004.json",
+      "source_sha256": "976a825c30928c572c269135ad0a718f944c689742e97780101985c8d0f082c4",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104005.json",
+      "source_sha256": "f2369baa7dba9451790e95a8ceff4ef85854fbc473143a9e4e3280283dc01165",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104006.json",
+      "source_sha256": "b79707079056e170d3419337e5680042c8f276618cfdd902b85be9fa253672bc",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104007.json",
+      "source_sha256": "4ef53121ef242c9c95d0c5e44ca8ef02112b367dcd67fafe7a62034f5b317159",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104008.json",
+      "source_sha256": "abd176670349ce5851993fe5a49843853a2753838ac66704d3da7af1aeb42f3d",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104009.json",
+      "source_sha256": "b8bc69d9b0166ea6b8af28b8092cdec0fe81f93d6559965f40f87f578ae43296",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104010.json",
+      "source_sha256": "4a942e78c417bb22d0ac4c8818cad76b193e9ac15230371ed41ac512fb6edc45",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104011.json",
+      "source_sha256": "f8c3d5b3bde0d27a22e4ac39840b2bb5f63a4448d138e6e596a9ea4b668c9672",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/B_4062104012.json",
+      "source_sha256": "a6fda21183dd77ca66a2134d5fdb6d688b0f0dfd17ffd46a2d39bb057bfc6401",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "B_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104001.json",
+      "source_sha256": "4300aec2fc1bab57a0774319bbf9d583ee305a48aacbfbac4ac3448e36abe15b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104002.json",
+      "source_sha256": "0cb360d10d00026ef444eb94a8a0e66596a2c9a887bbaba667fe709ee6d511c5",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104003.json",
+      "source_sha256": "b8d844bb43bd297a8c52494e643f3b5f9281e885d3eefaf23d90eab7b5bd21b2",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104004.json",
+      "source_sha256": "dc38143962eee6960826da535cc8128823abae8c21d77b93febd9d94b41e65e6",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104005.json",
+      "source_sha256": "189e622bad893324e819a17f4f495b8a413480cadd21709957e42af884901d6f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104006.json",
+      "source_sha256": "115271a876a5280c835c8ddc578b4dd7f5fc94fb2a108760fce95832e63c843a",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104007.json",
+      "source_sha256": "6e04b04fec97412ccf8241ade0be42dd5fe9b549eed3c4841a9431a28e9f7ed1",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104008.json",
+      "source_sha256": "e84cd01c6fafd421487211cbe953640c27b3735f55c1bc9c73c99e9fab6b139b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104009.json",
+      "source_sha256": "5d18d6095a06168d6da46335ef4faeea7079a69c0b4b1d17a4e5e6a68092d561",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104010.json",
+      "source_sha256": "67e407fd33d10e20a29191a0bcce1277b4504d9b05cf3b5d607c2a06e843bedb",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104011.json",
+      "source_sha256": "4aac95cb8024047e3077e48ea6749484157802e5ff7ef6279112bd2bdb97f5bd",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/F4_4062104012.json",
+      "source_sha256": "11e4ad5c972566aa25aa135cf406c7e12dc96f7cce751673d75a6c164a6b8cb0",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "F4_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104001.json",
+      "source_sha256": "ab99be24021bada4156b1181cca907ee401d50c456b96f61cc0656d50935732a",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104002.json",
+      "source_sha256": "baf3b3acf84c241b0b2380ac8176f980fa106ed0e6830c672f1f475a3de4f091",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104003.json",
+      "source_sha256": "cc5502eede2a25952d965a7405d4b8b00cd7b3853df0bd57aa0ec63ef0060b56",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104004.json",
+      "source_sha256": "19114d85b8c1deab192c927669d3a2403193fbf4f0d3e7964a75eaa9f70f7a09",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104005.json",
+      "source_sha256": "49e5c2a792a8c425c70cba1832c7bf8dda8cb2ada76e7e22308f10400806007b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104006.json",
+      "source_sha256": "5414b845bbdc65549e6ea86501526cb91d47777e37b500276f1a15c5481efe73",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104007.json",
+      "source_sha256": "9d04127e66db50f182ba9eb7e5d2c4e65b60fdee44caa5a7de93ff59b7a39457",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104008.json",
+      "source_sha256": "f9b85b656d5713c656c184d6ef4e040796cecdf6ed6c361f09a9cfb950bc4340",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104009.json",
+      "source_sha256": "97dbbf0d42c53735222867d3b224887ad44087c234449f21cc06a049dbaf528f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104010.json",
+      "source_sha256": "d64f21ca91068b163600c7d4dd07b7f2cc0d5693dc973116f30f86adb4108c9b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104011.json",
+      "source_sha256": "665ac502ff95c2b1fd2de60f2ba44d3f6330fcf27f4f0c15aee3d436413be288",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/Fbest_4062104012.json",
+      "source_sha256": "558870d7b29d3af3d1c2d7d35912c7b0b90a557520a5da792e0c850cb20eb29f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "Fbest_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104001.json",
+      "source_sha256": "1eef5e6122147ff346110b5d5192f95849fb8e25e6008b569f5c5472555b4a06",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104002.json",
+      "source_sha256": "54164c346df38595654320b612f60ae0a7f2acfd0c57f1ee10314e9186967d83",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104003.json",
+      "source_sha256": "a1b11bf8ed0791e5defc2392b736447c041811d6c2c3e4372dc19693bdccd84d",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104004.json",
+      "source_sha256": "60e1efe0d3e37f1c9c738d5837561c98a48c7395f9e349b5d550ba93e661b0ef",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104005.json",
+      "source_sha256": "b2651958aa5d4b063867e5f0411d4a422800804e0737333d40fcce21b40ae02b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104006.json",
+      "source_sha256": "047bede15dd83b0810ca800a273f371cc0e5a5caec1752de60f8e3f9ff41aef7",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104007.json",
+      "source_sha256": "921976758a2d01a348de372e6036ad09d134a707b9c0a4f606c57cbce409c1bc",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104008.json",
+      "source_sha256": "aacbe3ae280bf56c07fa818164654f76645c366abf9e799f6ffe705c127a76a2",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104009.json",
+      "source_sha256": "8ec6727fe25d71679ac2918e95aafb1e9edf1a3ade67c6abb47cb06d59b60fec",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104010.json",
+      "source_sha256": "bbdffc2969b44576cf7e77b7456a3d9d1d2869d45592753824545a2bcad789f1",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104011.json",
+      "source_sha256": "42b3ee3a477bd759ec42e5985fc36403511d0969960ce78fade6be3d7fa9d099",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S1_4062104012.json",
+      "source_sha256": "5e33ac6e61736048192952e33b387f1fb178d726ed4185b408c5e77fd93faa53",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S1_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104001.json",
+      "source_sha256": "9caef7b1b3ee940fb653479ae7600f500d20952dc0ec8dae96b1b98bd2faa4f3",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104002.json",
+      "source_sha256": "fa6c56eed0057e9e63e259fe9089d7819e5ab503f8ca5b4c87970499757ced7f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104003.json",
+      "source_sha256": "6a7dc8ea2081fb1a2968d0abdc94344915d3f377f57b9f07451a893c559c9b1b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104004.json",
+      "source_sha256": "9cc09ce468ed6bc8e9b0bd4e7758377225fd9499b7ede8a2b9e077d7d2f05aad",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104005.json",
+      "source_sha256": "8b7e7357a8fd46ae9b74d5a4a5844acb78bcf5e2c1ba31dfbd55f5eb926ae55c",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104006.json",
+      "source_sha256": "4ce8f040c22bc84e1d373bf48448a2d84071cc9148cfb85860217155ee910bdf",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104007.json",
+      "source_sha256": "f5c093b5d4d0d26220394dcad59c32d7eabe5e6d6e1e16a66dbd46893d0e1dbb",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104008.json",
+      "source_sha256": "944e65982ba185af2f412a7a38675d4584cb78d38c938378d0cff191fc130ae5",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104009.json",
+      "source_sha256": "447d73364eb39384801ec8a8cb53ab391bcd5769e820d7690109287fbc5a91b4",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104010.json",
+      "source_sha256": "4c7fb49f06b3a0aeeaef15569072f74e948cfca7e8160643f17ff2c6e3beb810",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104011.json",
+      "source_sha256": "0d6fd83a52dad6cf3ca8959f3dd69d883d17e166e28f0a7c32e2da2193720b6b",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/S2_4062104012.json",
+      "source_sha256": "14b8af62622ddb3920a66faea724b0ebbfc27c6432620dfa4fe63efa7ae6756a",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "S2_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104001.json",
+      "source_sha256": "1d7ecf9c70381bafc8df3eff728422c1b892f232e18cacbca0c0105c01d2a924",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104002.json",
+      "source_sha256": "0d189626f21238f5bf9cce82164f7fffce36746870e4a3085584e2a57b707a53",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104003.json",
+      "source_sha256": "2c8cc0e8e767f9140b7b8f30d4401437b4c3792eafbe6014d4fcfa489f8cff3e",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104004.json",
+      "source_sha256": "7108bfe3b832a4e54dd86f44e612e8c633d4689655fc32c62880cd7cfc3e9407",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104005.json",
+      "source_sha256": "0d29fb99c92155c617e41108d8ad84e9f0a56d18093cb56784f48b8cfcf8ff55",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104006.json",
+      "source_sha256": "6a1ee9cfd4db5059a21da4da3112ea59b523955d85e1ad4c2a61ed21505d7031",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104007.json",
+      "source_sha256": "f3df2ca9394585b3b93bc8feb85915489e8496973cc693fc0185d2ef9b584a64",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104008.json",
+      "source_sha256": "c779ce4b46ddf092384b2cef3be3ab1bd6d691eff29aadca570f2cf34082a63c",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104009.json",
+      "source_sha256": "5009475b52d4f4c9a73415e85be073bbef67678cd198b312cda96ab0c46ba4cc",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104010.json",
+      "source_sha256": "5c54d399048bb19106bf6aeaf05440f8e97f340b664ae0a5c0e9ee9d9941eb3f",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104011.json",
+      "source_sha256": "dbbecba40ef90ae4f5260b831d0d4d0edfd0d922be8b7739649e3f645695088a",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/U_4062104012.json",
+      "source_sha256": "84945b26788bbef3faf63e66dd15981eabd241d637f84abe0f11a3e14bcc0586",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "U_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104001.json",
+      "source_sha256": "43253e0442098f571f5228b1b1516c97a0124da9ef200fc270d7046a50d14433",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104001",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104002.json",
+      "source_sha256": "c734bc9f0d05b579311ee2aefa2dbd1f62979ddb740ca1dd95438f029d325591",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104002",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104003.json",
+      "source_sha256": "4d4fb1aa6b61799fbe51528ff46bee396a80ccbdb0dd8155f0ccedb3facbc380",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104003",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104004.json",
+      "source_sha256": "694a023a94d7c08916b5bee9b1e2fd57be4cec3c012c5882c498f4bcc37f37a5",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104004",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104005.json",
+      "source_sha256": "a90b4dc635c768ec0d549a9b8e5ddf3f75cfb897777b2aa9a77d8f54a3f164eb",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104005",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104006.json",
+      "source_sha256": "d4d6ecfcf2dab9014df349c5af8a67eff80fe8373a18b519973b0ef785f002f3",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104006",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104007.json",
+      "source_sha256": "f88c56488d8bc6ecfd07f34dd9d5ffae8375440a1b99af5d77d8114a23e59dfa",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104007",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104008.json",
+      "source_sha256": "a222316699377f4aeb43e77569ea5299df1e3674b0e47aca3c9a52ee42aead24",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104008",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104009.json",
+      "source_sha256": "a1b503f96aea422b84d80ef4325dc94b50837ed00649dd0f920d9f6c2344e80d",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104009",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104010.json",
+      "source_sha256": "5d45cc8fde57d610e4648c05dc71fabf897e276ba9bfa11f8f8fe5fac1b25405",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104010",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104011.json",
+      "source_sha256": "dbe5ef66e1e3a864a028b67e25f7b2775a87ed2738ab5d89580e659ed74389da",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104011",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "stage_A_independent_predicates_v3/V_4062104012.json",
+      "source_sha256": "93f14d2ba39f59b9a2c78507e220a1291078ddb1545be43b74c1732da9b54536",
+      "public_file": "data/predicate_audits.jsonl",
+      "public_record_id": "V_4062104012",
+      "transformation": "path substitution and explicit record ID only"
+    },
+    {
+      "source_artifact": "07_prospective_validation_protocol.md",
+      "source_sha256": "e1ce3b278e63d65cb8e9e7e3fe7988f4efb0cb0b71bb7158639d55cd534905f8",
+      "public_file": "docs/protocol/07_prospective_validation_protocol.md",
+      "public_sha256": "e1ce3b278e63d65cb8e9e7e3fe7988f4efb0cb0b71bb7158639d55cd534905f8",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_artifact": "08_identification_amendment.md",
+      "source_sha256": "8181277ac08b7679eb507a2a565ca89c688ac3bc860160fab41ed85870eabdd4",
+      "public_file": "docs/protocol/08_identification_amendment.md",
+      "public_sha256": "8181277ac08b7679eb507a2a565ca89c688ac3bc860160fab41ed85870eabdd4",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_artifact": "11_infrastructure_resumption_v3.md",
+      "source_sha256": "8897a42e093d364f7ce8607b2998def7e40645f7cb63c166549c58025aae5c5f",
+      "public_file": "docs/protocol/11_infrastructure_resumption_v3.md",
+      "public_sha256": "8897a42e093d364f7ce8607b2998def7e40645f7cb63c166549c58025aae5c5f",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_artifact": "causal_exit_gate_v1.py",
+      "source_sha256": "0cfe942f64555ff25874fd58a47632ab639d019822ee911e5e80862ce219e61f",
+      "public_file": "src/handback/features.py",
+      "public_sha256": "0cfe942f64555ff25874fd58a47632ab639d019822ee911e5e80862ce219e61f",
+      "transformation": "UTF-8/LF packaging only"
+    },
+    {
+      "source_artifact": "prospective_exit_v1.py",
+      "source_sha256": "fc5be64fb30f07818a6fe5850da2cce8f125d5bcd93522eb0dacbef2dc2bab12",
+      "public_file": "src/handback/selector.py",
+      "public_sha256": "6799938218685424d6a5ebdc6c04aae8be7b11d163c007aca1b83435488d8352",
+      "transformation": "relative package import only"
+    },
+    {
+      "source_artifact": "visual_action_support_v2.py",
+      "source_sha256": "ff13dfe1fb69257c6e691f2059ce1e12b93dcbe618408de2b4633b2c0626f8a4",
+      "public_file": "src/handback/support.py",
+      "public_sha256": "ff13dfe1fb69257c6e691f2059ce1e12b93dcbe618408de2b4633b2c0626f8a4",
+      "transformation": "UTF-8/LF packaging only"
+    },
+    {
+      "source_artifact": "development_raw_audit_v2.py",
+      "source_sha256": "1b6bd2c3d4a7275c708a6f17c22d0555f6981aae3f5eb30c7fa82feb08b2c70c",
+      "public_file": "src/handback/contacts.py",
+      "public_sha256": "383947423d483c3ee92174e13280b542e088fa5164b1ef26d95dd116c9e9e471",
+      "transformation": "exact raw_peaks function; private artifact I/O omitted"
+    },
+    {
+      "source_artifact": "prospective_train_v1.py",
+      "source_sha256": "c0ea6321d259512ef9103ed0017dd1d978f9685459f97476d786df017d59d7f1",
+      "public_file": "reference_pipeline/prospective_train_v1.py",
+      "public_sha256": "82b8821ebe39ba164aa8e72793119bfc7461ed70e515a3a05b344cd552aa0f0b",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    },
+    {
+      "source_artifact": "prospective_eval_v1.py",
+      "source_sha256": "14305a461f5e581bc7a189b43c41ee0878512ec028d35fd1ff96edbc95c0c516",
+      "public_file": "reference_pipeline/prospective_eval_v1.py",
+      "public_sha256": "14305a461f5e581bc7a189b43c41ee0878512ec028d35fd1ff96edbc95c0c516",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    },
+    {
+      "source_artifact": "prospective_worker_v1.py",
+      "source_sha256": "3b0c3c39260a5d5fc5adb1198b5dc45e26c9fe1d455607ccd9ebe438c5362180",
+      "public_file": "reference_pipeline/prospective_worker_v1.py",
+      "public_sha256": "3b0c3c39260a5d5fc5adb1198b5dc45e26c9fe1d455607ccd9ebe438c5362180",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    },
+    {
+      "source_artifact": "development_raw_audit_v2.py",
+      "source_sha256": "1b6bd2c3d4a7275c708a6f17c22d0555f6981aae3f5eb30c7fa82feb08b2c70c",
+      "public_file": "reference_pipeline/development_raw_audit_v2.py",
+      "public_sha256": "1b6bd2c3d4a7275c708a6f17c22d0555f6981aae3f5eb30c7fa82feb08b2c70c",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    },
+    {
+      "source_artifact": "red_predicate_audit_v1.py",
+      "source_sha256": "297ed6837e3e31add2f4d023562034f2baa4bb43d1e8c8950d9cdf2236367dec",
+      "public_file": "reference_pipeline/red_predicate_audit_v1.py",
+      "public_sha256": "e433c7c0b2bb4c6f9a758a046db7890be126d6e21536a1004c997e5fc93b0020",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    },
+    {
+      "source_artifact": "raw_pose_render_audit_v1.py",
+      "source_sha256": "dd6bb0182779950473e50b679506b29693381b83f7dc95dc6758b256066b9b9d",
+      "public_file": "reference_pipeline/raw_pose_render_audit_v1.py",
+      "public_sha256": "dd6bb0182779950473e50b679506b29693381b83f7dc95dc6758b256066b9b9d",
+      "transformation": "private storage roots replaced with non-resolving artifact identifiers; reference only"
+    }
+  ],
+  "scope": "derived results and audit evidence; not the raw trajectory or training dataset"
+}

@@ -1,0 +1,714 @@
+{
+  "at": 1792699305.7021542,
+  "reused_same_state_handback_probes": {
+    "unique_completed_rollouts": 18,
+    "logical_rows": 18,
+    "sum_episode_wall_seconds": 9439.93062877655,
+    "sum_client_call_seconds": 1167.5073890686035,
+    "sum_prompt_tokens": 2633944,
+    "sum_completion_tokens": 10833,
+    "calls": 204,
+    "episode_and_request_are_nested_do_not_add": true,
+    "sum_episode_wall_is_not_parallel_elapsed": true,
+    "service_startup_or_idle_gpu_time_not_measured_here": true
+  },
+  "all_18_handback_probe_costs_charged_not_only_selected_6": true,
+  "teacher_acquisition_shared_once": {
+    "acquired_scene_attempts": 24,
+    "selected_update_parents": 6,
+    "all_teacher_calls_charged_not_only_retained_targets": true,
+    "teacher_full_client_wrapper": {
+      "calls": 85,
+      "sum_seconds": 1293.1288287639618,
+      "mean_seconds": 15.213280338399551,
+      "median_seconds": 14.120261192321777,
+      "prompt_tokens": 1355793,
+      "completion_tokens": 5599,
+      "serial_sum_not_parallel_elapsed": true
+    },
+    "teacher_inner_provider_request": {
+      "calls": 85,
+      "sum_seconds": 1113.8288922309875,
+      "mean_seconds": 13.10386932036456,
+      "median_seconds": 12.333399534225464,
+      "prompt_tokens": 1355793,
+      "completion_tokens": 5599,
+      "serial_sum_not_parallel_elapsed": true
+    },
+    "student_full_client_wrapper": {
+      "calls": 309,
+      "sum_seconds": 1644.50856924057,
+      "mean_seconds": 5.322034204662039,
+      "median_seconds": 4.538863182067871,
+      "prompt_tokens": 2409426,
+      "completion_tokens": 15630,
+      "serial_sum_not_parallel_elapsed": true
+    },
+    "nonresponse_wrapper_exits": {
+      "count": 19,
+      "error_types": [
+        "PrefixCollectionFinished",
+        "RuntimeError"
+      ],
+      "seconds": 115.1168122291565,
+      "not_counted_as_teacher_network_responses": true
+    },
+    "measured_request_span_seconds": 4355.36177277565,
+    "source_sha256": {
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/api_usage.jsonl": "e0baff1033618159c67dde92d8d0498cec37089de841aab88fcf116fa7e8e8d3",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/queries.json": "52b0539c69a542d9518e25032f9f318fc0d2b3a494d11784461acc15a3459acf",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_1/api_usage.jsonl": "382b1f2005fdbcb82dd9de12f77e53944542c1e949113af20f0ee609a0f89c15",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_1/handoff/queries.json": "b5ddb2267ca7d4b2b6da8e27f4ae6229f5f8f65485ad83d0451068e1646fae8f",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_2/api_usage.jsonl": "6d0350540cd09c3c71c9edc11ff6f878fdccfc6234fb35ef5aeb46acf866d165",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_2/handoff/queries.json": "8035b326e6543bdc07eb863d711d9fff0ecec634d6b56f7d37a0807119dd4f7c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_3/api_usage.jsonl": "da28cb5ab8eef6165e06abd400b1067300acaa4bc873db6b76fbe06c1a370a3f",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_3/handoff/queries.json": "b987f3c8e2ed8e727b53c72bd2f20853cbc7d5832b77401b3e4e4acded3dccfd",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/api_usage.jsonl": "c89e657c89cbf11dbf8403ffb14508ccab6fc48eaec54cef006008a5aa80c8d4",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/queries.json": "0e5dbc2ac328bb13d71423651d637e8c4fa2806df1f54e33c5514733386a6721",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/api_usage.jsonl": "84597f0412d04513e5d482e4c4efe4dfbed2bc0cabbe1de5dd2178442edcde09",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/queries.json": "84252e7c22136b9cea0bb5da4675615d41d3d8c62a14e15eb2da4911b937316c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_4/api_usage.jsonl": "ead467a25e5cc078201267ef1ee30d59272719da09109778cdf95ea45c693140",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_4/handoff/queries.json": "9492bf74efcfbe6be1e68baadab0d483cb09fdfe4a319d2774cf85eddebd65ec",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/api_usage.jsonl": "acd3f51e1443106041ad5654f968e00b70b64ab87ea4a17ac2757bf4e7615bc7",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/queries.json": "3e7c8a2ee4ef0937af2d378383c4d9bfe1f3bcd466209818a1a5b9ee5987215f",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/api_usage.jsonl": "47337f9fc4968c93a9704e17d859a48ca42c198b9883c289c502cf8d24b1b2b2",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/queries.json": "30c06151245467bb2f691a032eed163be09aca3b38abf21a7531e7f5ac356e8c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_9/api_usage.jsonl": "8cd95feddb057ff2adb9aa682f5fe363f11e3e683ee5247b978c6c80b1c4cffc",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_9/handoff/queries.json": "adf43ffd6bf267fb05d72c06712c8b7a24ce16f8df497968707300e0164f65e2",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_10/api_usage.jsonl": "3853ba08301319d4dda6fa3a42d750a2f43d11b51217896356e9ea9785aeac9c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_10/handoff/queries.json": "9e6af69870426701e543d7649662627cc8b52e6c91645e17467c4fb9dc1e8198",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_11/api_usage.jsonl": "a3b1632cba3c5965fce6a1dc6d7d55f5f6c4a71932b3ff006c7846d0ef8d95ad",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_11/handoff/queries.json": "dd249fdec34506932a9b5a57b35b9a1cc42ccea25ec47d4175675b5316d7048c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_12/api_usage.jsonl": "df1dd119ad5e878fe5e4b77f759931cc53f9fed7cd76ee21de4cadee38d1a7f5",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_12/handoff/queries.json": "c078d675ef7547b9c44854c658755d6b5d82d84b77b6174dc3b56f0876f5723f",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_13/api_usage.jsonl": "565e6a66a83b6c87b7a99061a3dccebb738ce337381706f8ee2609a4183c97f7",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_13/handoff/queries.json": "1c06da2f816ffd6cc805d31327881dc90f1f79dc3dfe65b4d33990575d063852",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_14/api_usage.jsonl": "480c36879d2a9c6a817963da126a3a3c2dca9cb8ab30239bc9a1c26fdb1d9597",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_14/handoff/queries.json": "b453f3bd16f85aa35a87e836111bc8e37273e48b1fb2ccc83aefdedee95ad34c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_15/api_usage.jsonl": "a16092f19d2134a2320e757e31fc361067d73c193edcfb1676ca195f6a21328d",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_15/handoff/queries.json": "409a042109d993f3aad12230308e407403beb9aab840475e338964bccbca1132",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_16/api_usage.jsonl": "fb1cb41eadc8caffd723846203d52d46dfaf2f88f7c3df3884f75e3c516a3771",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_16/handoff/queries.json": "394c79068201c01ceb0d49e87b9d566f46d67756e0ebe6379df743cb17cf1e98",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_17/api_usage.jsonl": "1c40b1352909b92429e98dd34340aafda1a13e62d9d30920a0311c3a4c7a6dd1",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_17/handoff/queries.json": "34ed885426746d3da7ecba93e0459a7a992e52e533c5f5c7754bd0bb7f25f22e",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_18/api_usage.jsonl": "0a33825b0175a9b9b2bec15014d1174259e4dcf2b9859b395b9ccf9b47c32bf0",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_18/handoff/queries.json": "4c1e7c86284ce734e50f894e96649bc6cd91da8eb1bc70e6bcba0784e340c8f4",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_20/api_usage.jsonl": "6b6bfd1410b3e48585a61f3cca17563c1ff9b50b8b0687f65b279fe0c68c3ebc",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_20/handoff/queries.json": "0f9a85ada6f9e0b5572b673037e210ea463141d4937a542c19a434374a5f243c",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_19/api_usage.jsonl": "a80592818736301e006d40519a4ce36327b868ac6675718b85508ca43618b06d",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_19/handoff/queries.json": "0974f8df549152d0bec28e88669fd7d0de92e0c8b8a5ec9a11ceafa3b9bf3732",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_23/api_usage.jsonl": "553a1871a20181c5666e6cfb64efd5bd4a9413c97f258b8adfe4bf308a16bd70",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_23/handoff/queries.json": "a8620457ba84fd63a0798194d202f742f69c3876655245628d0adae110a49861",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/api_usage.jsonl": "685c481e21f74f70bf48b558e87fcc8f0ca8374c1dc2ddd4f7b41544f414d508",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/queries.json": "6c6bfa78a5def4f8b0a290ab0aad94c7112acbed06588f456b62f56fa03243c4",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_22/api_usage.jsonl": "18e0089ab18d3b39deb4952a5e167bf98cb467d1244037c5f10053336aef50ad",
+      "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_22/handoff/queries.json": "72ac79df6a217a04388e42cba27a6072d05f6c1c6be1119edd524001baf40af8"
+    },
+    "client_and_inner_are_nested_do_not_add_together": true,
+    "no_online_early_exit_saving_measured": true
+  },
+  "actual_value_estimation_and_replay_control_training": [
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/replay_only",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "0",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 271.64412569999695,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 3724,
+          "new_teacher_supervised_tokens": 0,
+          "replay_examples": 72,
+          "max_parameter_delta": 0.002477717585861683,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "0fee0bdead205ab30fe36f7d3fb91c84fb093d4d92b4767a19d7424be62ccf60",
+      "status_sha256": "297fa1c0b617b1cba8cae1e677caefc3f0442e2fc7fe339ff324fed89c2d9fe2"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102007_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 113.62281227111816,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 643,
+          "new_teacher_supervised_tokens": 229,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011671699117869,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "2119125b59cf82fef3b420a1644cfc143caaae74b1fe115db583ca0a25a71162",
+      "status_sha256": "c72c89aa61e6c368922e65379551249907617caf3ca81ad0699d6ed06d8582c3"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102008_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 82.81835126876831,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 600,
+          "new_teacher_supervised_tokens": 186,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040116586023941636,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "d589118fd9901c9bc8c97d67f4ec251b508cb44305d6bf3df8e1571a83b1d935",
+      "status_sha256": "cf01ddb534acb544e20d9d8f1beafb390625817cc423b8c45379d0c735746623"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102001_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 75.69318842887878,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 598,
+          "new_teacher_supervised_tokens": 184,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040116539457812905,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "22308ca25702413372066f1f9a55e9ef51540848e2a9e3ff83a5963bd8a08d11",
+      "status_sha256": "7bbc6904cd0912f5ba32b4f5ce96e57258187c132eadc6ff1965975bada235d8"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102009_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 96.26769614219666,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 620,
+          "new_teacher_supervised_tokens": 206,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.000401157361920923,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "d420b9fc5e1b54b91ec71919a43501fae0b0eea35068947c096e2a28b8a8a558",
+      "status_sha256": "ebae578e71a3e6de76cd67a6aa4b187f6527895ec559f592bf0e4af5221ec4da"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102022_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 106.99398303031921,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 718,
+          "new_teacher_supervised_tokens": 304,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040116882883012295,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "7159755515469f1dde65c5706c2ffe1442923c77e36a1037567aa5adc176796d",
+      "status_sha256": "b54e5c6446bc1b50f228e885354c96ec1e92232fb1caa9b8c9e33ee2d29f1198"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102022_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 113.0518274307251,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 640,
+          "new_teacher_supervised_tokens": 226,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011466808151454,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "d99f616dc9f8be8e6d7efaf8818a79ef5a3f423525450c8925d4b819ed68135c",
+      "status_sha256": "ea8dc5f8fb50de5e40e0da42ce25cbba60f797a24a9d9b969b41cba2354799f3"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102001_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 93.74766564369202,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 652,
+          "new_teacher_supervised_tokens": 238,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040114816511049867,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "c0469f6e12dd95578f10bcf4969b7572ef8185cdd1db24072cc79e9d0bf9e6e0",
+      "status_sha256": "5feebb2a0e82359fdbe868e79a5bb2d6435e8a519a60faa836d40221f24118ff"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102001_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 81.80717539787292,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 646,
+          "new_teacher_supervised_tokens": 232,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011569544672966,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "f56a8cbc8abfce17aef24d7e1a7248a7c241b9b7f3ddee3b2aedd1ecd07790ee",
+      "status_sha256": "274bedd40ce420d2f0a213fd55fac323f820a802095fd4a7cbd0dec616b89243"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102006_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 66.52615690231323,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 582,
+          "new_teacher_supervised_tokens": 168,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040117005119100213,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "a462878038436901248e804e2c6d71fb9c6b263730c723bead140c1e97b53089",
+      "status_sha256": "21cb101ddc4d6da5cdfd6069935af9a2a1f4816684de97b118641a821c50e18c"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102008_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 94.98402285575867,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 621,
+          "new_teacher_supervised_tokens": 207,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011532000731677,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "cba4cc21fc58394db79c0e18e50d3b4c07c13c942ffa801b2f9c2fa028ac41ab",
+      "status_sha256": "19ea3839c5b24278aae6cfc8c6f51c786bc154ce02c98a3a97d12345fbaa9ffc"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102009_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 79.61239671707153,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 582,
+          "new_teacher_supervised_tokens": 168,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011626006104052,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "998c9ae550c47b046fb485293134e7c0cbed815e56a687a7eb150e5a415278f6",
+      "status_sha256": "7032ede7de27b9d0f966f5e03911c696fc8f56d34f806b59a74a820fea0aaed6"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102008_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 78.9766788482666,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 582,
+          "new_teacher_supervised_tokens": 168,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011646087747067,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "9a536437d87ff053679c3ad7afd1f750568e92d31899ca89509ce003e4f53498",
+      "status_sha256": "a45554ad4a949f861b7ee14e53c5aa28b737722535a05aebd69e8bd9276b7ba2"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102006_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 81.44922113418579,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 611,
+          "new_teacher_supervised_tokens": 197,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011316050309688,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "6bf9394ff71b3d9ab246fbaf4c4e61a5ba2a10f376aacb70d8392c920e853a8e",
+      "status_sha256": "146ab013d8acd0935a23a1412157cb700e20a77e68835f09dfa0a32d9b3cee0d"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102009_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 84.68512606620789,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 598,
+          "new_teacher_supervised_tokens": 184,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011676646769047,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "43bdf0a4442db4ddf949b6f01c26cd83a168fc5c96fdcee8fb8221053aa5fd98",
+      "status_sha256": "ba55001867a7c244675a05a7922e471d71a9b736cf211f5cb92cde39de2f6c5d"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102007_k1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "1",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 96.47257685661316,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 698,
+          "new_teacher_supervised_tokens": 284,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.0004011663550045341,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "1bdcfa4c1c530b229b82565c3a283d7ae2ec84faa96db9732318f5a7ac1680c2",
+      "status_sha256": "3694d45c0c763460ef02708af429c54d874d7d9d29cda4ca8986870178d0f032"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102007_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 101.78751468658447,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 660,
+          "new_teacher_supervised_tokens": 246,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040116021409630775,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "ecce040b2fcf3299fd274b7fb67cfad99f33bccbda734acd4446200208358333",
+      "status_sha256": "a615b1a54a386b8bba26de1613b438751239cea53174eba6b1a7dddbf0fdd615"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102006_k2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "2",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 71.36419439315796,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 604,
+          "new_teacher_supervised_tokens": 190,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040116222226060927,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "e613384d4196fce3ffff8cab1000b320a3b1e1f3e7a15b7526c86a477db59413",
+      "status_sha256": "413ba21e2bab231ac5a966b3b91d2b6b77ee59fc4fc9af9597161f7b9130e985"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/p4062102022_k4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 124.78013372421265,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 626,
+          "new_teacher_supervised_tokens": 212,
+          "replay_examples": 8,
+          "max_parameter_delta": 0.00040115261799655855,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "c9d0a8f40432cfcf40960d4b24748de006653547b85d3be72fe9bf65223358cd",
+      "status_sha256": "c26cdf5fdd78781c4f91eb44307c01ae912a5c1e773736e239ddb00cbcdeae6d"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/training/replay4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "0",
+          "optimizer_steps": 4,
+          "training_stage_seconds_including_initial_scoring_and_save": 67.4049801826477,
+          "model_loading_seconds_if_recorded": null,
+          "process_seconds_including_loading_if_recorded": null,
+          "supervised_tokens": 618,
+          "new_teacher_supervised_tokens": 0,
+          "replay_examples": 12,
+          "max_parameter_delta": 0.00040115221054293215,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "49341190c27bdf2cd9ddeae1c0459669d9ff8d2b4559e277acad838574834233",
+      "status_sha256": "1e6f1ccdb08d9d1e392fa77321750ada54e47e54ed4c992eb172a9a0aa046128"
+    }
+  ],
+  "development_execution": {
+    "unique_completed_rollouts": 88,
+    "logical_rows": 88,
+    "sum_episode_wall_seconds": 76673.58540701866,
+    "sum_client_call_seconds": 9012.781946182251,
+    "sum_prompt_tokens": 19087772,
+    "sum_completion_tokens": 97274,
+    "calls": 1923,
+    "episode_and_request_are_nested_do_not_add": true,
+    "sum_episode_wall_is_not_parallel_elapsed": true,
+    "service_startup_or_idle_gpu_time_not_measured_here": true
+  },
+  "development_execution_complete": true,
+  "strong_support": {
+    "full_calibration_wall_seconds": 207.94199800491333,
+    "background_proposals": {
+      "calls": 46,
+      "sum_seconds": 186.92212390899658,
+      "mean_seconds": 4.0635244328042734,
+      "median_seconds": 3.6756253242492676,
+      "prompt_tokens": 522202,
+      "completion_tokens": 2535,
+      "serial_sum_not_parallel_elapsed": true
+    },
+    "teacher_network_calls": 0,
+    "reference_entries": 225,
+    "source_sha256": {
+      "artifact://piper_handoff_validation_20261022_v2/support_v2/status.json": "816398c6d3f59f884df408c1c3827b209146b4d5e4341428b87d9a4a46dadd4e",
+      "artifact://piper_handoff_validation_20261022_v2/support_v2/generations.json": "2358abaaadc22e8409c4bb9ffe1101882b047c890b2c9c42096a4a4765b685bf"
+    }
+  },
+  "method_specific_pooled_training": [
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_B",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "0",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 274.97764348983765,
+          "model_loading_seconds_if_recorded": 20.29861855506897,
+          "process_seconds_including_loading_if_recorded": 314.18124651908875,
+          "supervised_tokens": 3724,
+          "new_teacher_supervised_tokens": 0,
+          "replay_examples": 72,
+          "max_parameter_delta": 0.0024713464081287384,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "91a7b7f532d1b29f9748f9dbf632478a5856172c749e67dd368db037940b2cd5",
+      "status_sha256": "c6954fe2298eaf97de98befc9e3ad759ac2b7dbc223a78a606b9a32d9d0eba38"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_S1",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 426.07475543022156,
+          "model_loading_seconds_if_recorded": 18.603256940841675,
+          "process_seconds_including_loading_if_recorded": 466.4567725658417,
+          "supervised_tokens": 3677,
+          "new_teacher_supervised_tokens": 1221,
+          "replay_examples": 48,
+          "max_parameter_delta": 0.002416386501863599,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "f2662b30009ec1d0f7a828347358949a429de56f7416997ff61b55f91791d886",
+      "status_sha256": "f07056eb0ba3fee8cb277433e44de3eecfdd84c99233d79b2afd61d37cac36d7"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_F4",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 514.835107088089,
+          "model_loading_seconds_if_recorded": 18.511987924575806,
+          "process_seconds_including_loading_if_recorded": 560.4044635295868,
+          "supervised_tokens": 3745,
+          "new_teacher_supervised_tokens": 1289,
+          "replay_examples": 48,
+          "max_parameter_delta": 0.002410481683909893,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "a5573773b47c3da44c155f75cf106a5c18c14474b579eca99bd64c2de2589dca",
+      "status_sha256": "4b51ea1aa6cf1ae8b5e3d686129a8d3ab4e712cd74d478a5b889dfbfce8b4504"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_Fbest",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 409.0720624923706,
+          "model_loading_seconds_if_recorded": 18.6490478515625,
+          "process_seconds_including_loading_if_recorded": 447.21516370773315,
+          "supervised_tokens": 3732,
+          "new_teacher_supervised_tokens": 1276,
+          "replay_examples": 48,
+          "max_parameter_delta": 0.0024803681299090385,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "a0c2130c8651a34f4a15a6fe109eed5ebe5cd269051e6a9ee45915347c7c93cf",
+      "status_sha256": "a79597e645664cb7559037a8bf146fd4c110f82d5dd2092742c0367fadfd5eb9"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_V",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 421.57609152793884,
+          "model_loading_seconds_if_recorded": 18.720125675201416,
+          "process_seconds_including_loading_if_recorded": 461.0936632156372,
+          "supervised_tokens": 3677,
+          "new_teacher_supervised_tokens": 1221,
+          "replay_examples": 48,
+          "max_parameter_delta": 0.0024254200980067253,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "08a1cdbb1f543f703c75b588d1571982ad6c13cd2c0177bddf576d845b6b8c54",
+      "status_sha256": "f9ae4bfebefb2a037d1fa98233a4093789a82c90d4340318c0bd082fa43fd139"
+    },
+    {
+      "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/training/seed42_S2",
+      "training_seed": 42,
+      "arms": [
+        {
+          "arm": "4",
+          "optimizer_steps": 24,
+          "training_stage_seconds_including_initial_scoring_and_save": 503.02770256996155,
+          "model_loading_seconds_if_recorded": 18.32384943962097,
+          "process_seconds_including_loading_if_recorded": 544.8763058185577,
+          "supervised_tokens": 3738,
+          "new_teacher_supervised_tokens": 1282,
+          "replay_examples": 48,
+          "max_parameter_delta": 0.0023321828339248896,
+          "stage_is_wall_seconds_not_device_utilization_integral": true
+        }
+      ],
+      "manifest_sha256": "48be06b0ec78d90b2a09942f0054327db24e0c7a4f359d5df81ea94e63e912e7",
+      "status_sha256": "2cc96939b4e492e6ef96c60ad60af746123352bd93c8b4953f76585e6494ebe9"
+    }
+  ],
+  "future_execution": {
+    "unique_completed_rollouts": 84,
+    "logical_rows": 84,
+    "sum_episode_wall_seconds": 87651.2561109066,
+    "sum_client_call_seconds": 9273.931409835815,
+    "sum_prompt_tokens": 18019329,
+    "sum_completion_tokens": 91441,
+    "calls": 1821,
+    "episode_and_request_are_nested_do_not_add": true,
+    "sum_episode_wall_is_not_parallel_elapsed": true,
+    "service_startup_or_idle_gpu_time_not_measured_here": true
+  },
+  "not_a_dollar_cost_or_energy_estimate": true,
+  "not_a_claim_of_online_teacher_query_saving": true,
+  "unmeasured_items": [
+    "old stage train model-loading wall time was not separately recorded",
+    "GPU utilization integral / energy / provider billing",
+    "service startup and idle GPU occupancy not added to request seconds",
+    "one-off engineering, geometry diagnostics and prior failed implementation cost excluded from method comparison and disclosed separately"
+  ],
+  "development_cost_sharing": {
+    "V_and_Fbest_use_same_18_actual_single_parent_updates_and_72_dev_rollouts": true,
+    "S1_S2_V_share_strong_support_calibration": true,
+    "common_acquisition_charged_once_in_experiment_not_seven_times": true,
+    "component_accounting_not_fake_equal_total_cost": true
+  },
+  "future_execution_complete": true,
+  "future_partial_or_pending_rows": [],
+  "logical_fixed_units": 84,
+  "not_all_first_attempts": true,
+  "original_attempts_not_erased_or_counted_as_independent": true,
+  "original_interrupted_attempts_cost": {
+    "attempts": 3,
+    "completed_client_calls": 64,
+    "sum_client_call_seconds": 466.7971975803375,
+    "sum_prompt_tokens": 627467,
+    "sum_completion_tokens": 3113,
+    "episode_wall_not_inferred_from_file_mtime": true,
+    "unfinished_control_execution_not_treated_as_free": true,
+    "exact_full_control_wall_missing": true
+  },
+  "future_actual_completed_and_original_partial_calls": 1885,
+  "future_actual_completed_and_original_partial_client_seconds": 9740.728607416153,
+  "new_retry_process_and_loading_cost_included_where_measured": true,
+  "cost_source_sha256": {
+    "artifact://piper_handoff_validation_20261022_v2/prospective_v1/evaluation_v2_status.json": "29c6d519e1b91bb7915f036497a8ac61f3a87cd86b1803e9884fef271e333b77",
+    "artifact://piper_handoff_validation_20261022_v2/prospective_v1/evaluation_v3_status.json": "043cea8d3648c9c4a940ecbbccbf0e71a5c6b7170fe81baca97127c72ca4c5f0",
+    "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/repair_manifest.json": "9cefc209e5e034302e6c214bc72d48b04fe0c9921abdd69f010fbc15abbd8ac6"
+  }
+}

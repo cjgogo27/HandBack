@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="HandBack: paired Piper manipulation results, original camera observations, failure cases and a reproducible bounded study.">
+<title>HandBack — when to return control</title>
+<style>
+:root{--ink:#152b39;--sub:#506779;--line:#dce5eb;--blue:#126881;--light:#edf5f8;--green:#2e6655;--red:#9b4539;--sand:#fff6e8;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--blue);text-underline-offset:3px}nav{border-bottom:1px solid var(--line);padding:16px max(24px,calc((100vw - 1120px)/2));display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+nav .brand{margin-right:auto;font-weight:800;font-size:21px;letter-spacing:-.04em;color:var(--ink);text-decoration:none}nav a{font-size:14px;text-decoration:none}
+main{max-width:1120px;margin:auto;padding:42px 24px 80px}.eyebrow{color:var(--blue);font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:.13em}
+h1{font-size:clamp(35px,5.4vw,60px);line-height:1.1;letter-spacing:-.045em;margin:14px 0 20px;max-width:900px}h2{font-size:27px;line-height:1.25;letter-spacing:-.025em;margin:0 0 16px}h3{font-size:18px;margin:0 0 10px}
+.lead{font-size:20px;color:var(--sub);max-width:850px}.links{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.button{display:inline-block;border:1px solid var(--line);border-radius:5px;padding:9px 15px;font-size:14px;text-decoration:none}.button.primary{background:var(--ink);color:white;border-color:var(--ink)}
+.finding{border-left:4px solid var(--blue);background:var(--light);padding:18px 22px;margin:30px 0}.finding p{margin:5px 0}.quiet{font-size:13px;color:var(--sub)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:28px 0}.stat{border-top:1px solid var(--line);padding:15px 0}.stat strong{font-size:29px;display:block;letter-spacing:-.03em}.stat span{font-size:13px;color:var(--sub)}
+section{padding-top:46px;margin-top:28px;border-top:1px solid var(--line);scroll-margin-top:20px}.sectionhead{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}.sectionhead p{margin-top:0;color:var(--sub)}
+figure{margin:20px 0}img{max-width:100%;height:auto;display:block}figcaption{font-size:13px;color:var(--sub);margin-top:9px}.chart{width:100%;border:1px solid var(--line);border-radius:6px;padding:12px}
+select,button{font:inherit}label{font-size:14px;font-weight:600}select{border:1px solid #b5c7d2;border-radius:4px;background:white;padding:8px 30px 8px 10px;color:var(--ink);margin:0 12px 0 8px}
+.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:20px 0}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:7px;overflow:hidden;background:#fff}.card .content{padding:13px}.card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#e8edf0}.card h3{font-size:15px;margin:0 0 8px}.card p{font-size:12px;margin:5px 0;color:var(--sub)}
+.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{font-size:11px;border:1px solid var(--line);padding:2px 6px;border-radius:3px;white-space:nowrap}.tag.pass{background:#edf6f1;color:var(--green);border-color:#c6dfd1}.tag.fail{background:#fff0ed;color:var(--red);border-color:#e9cbc4}
+.replays{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.replay video{width:100%;height:auto;display:block;background:#102938;border-radius:5px}.replay h3{font-size:16px;margin-top:12px}.replay p{font-size:13px;color:var(--sub)}
+.notice{background:var(--sand);border:1px solid #e7d9bd;padding:13px 17px;font-size:14px;border-radius:5px}.peaks{display:grid;grid-template-columns:1fr 1fr;gap:18px}.peaks img{border-radius:4px}.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;max-height:500px}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{position:sticky;top:0;background:#edf4f7;font-weight:650}td.num{font-variant-numeric:tabular-nums}.mechanism{width:100%;border-collapse:collapse}.mechanism td,.mechanism th{white-space:normal}.same{background:#edf5f8}.code{background:#eef3f6;border-radius:5px;padding:16px;overflow:auto;font-size:13px}.references{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}footer{margin-top:44px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--sub)}
+@media(max-width:780px){main{padding:28px 18px 50px}nav{gap:14px;padding:14px 18px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.replays{grid-template-columns:1fr}.peaks{grid-template-columns:1fr}.stats{gap:12px;grid-template-columns:repeat(2,1fr)}.lead{font-size:18px}.finding{padding:14px 16px}}
+@media(max-width:440px){.gallery{grid-template-columns:1fr}nav .brand{width:100%}select{margin-left:0}h1{font-size:38px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<nav aria-label="Project navigation"><a class="brand" href="#">HandBack</a><a href="#results">Results</a><a href="#gallery">Images</a><a href="#replays">Replays</a><a href="report.html">Report</a><a href="https://github.com/cjgogo27/HandBack">GitHub ↗</a></nav>
+<main>
+<header><div class="eyebrow">Piper manipulation · bounded feasibility study</div><h1>When should a teacher<br>hand control back?</h1>
+<p class="lead">We tested whether learning value helps choose the end of a correction, beyond checking if the student is ready to resume.</p>
+<div class="links"><a class="button primary" href="report.html">Read the technical report</a><a class="button" href="https://github.com/cjgogo27/HandBack">Code &amp; evidence</a><a class="button" href="https://github.com/cjgogo27/HandBack/blob/main/docs/reproduction.md">Recompute the results</a></div>
+<div class="finding"><p><strong>Result: the current candidate did not pass the expansion gates.</strong></p><p>Learning-value exit scored 6/12 versus 5/12 for each support baseline, but selected exactly the same training treatment as first support. That difference does not establish a selection-mechanism benefit.</p><p class="quiet" lang="zh">当前版本未通过扩展门槛；“6/12 对 5/12”不能归因于新机制。保留失败与中断记录。</p></div>
+<div class="stats"><div class="stat"><strong>7</strong><span>Methods, common starting student</span></div><div class="stat"><strong>12</strong><span>Paired scene units per method</span></div><div class="stat"><strong>84</strong><span>Completed logical units · 3 retries</span></div><div class="stat"><strong>6</strong><span>Teacher parents · one training seed</span></div></div></header>
+
+<section id="results"><div class="sectionhead"><h2>Aggregate results first</h2><a href="https://github.com/cjgogo27/HandBack/blob/main/data/stage_a.csv">84-row CSV ↗</a></div>
+<p>Joint success requires task completion, ten registered holds and external robot contact depth ≤2mm. Depth &gt;5mm is counted across every trajectory. These are simulation screens, not real-robot safety certificates.</p>
+<figure><img class="chart" src="assets/outcomes.svg" alt="Seven-method counts: learning-value exit has six joint successes; first support, two supports and replay have five. Learning-value has four deep-contact trajectories versus two for replay and fixed-one."><figcaption>U: no further update; B: replay only; F4: fixed four; Fbest: development-selected fixed one; S1/S2: support rules; V: learning-value exit. All start from the existing SFT checkpoint, not untrained Qwen.</figcaption></figure>
+</section>
+
+<section id="gallery"><div class="sectionhead"><h2>Compare the same starting scene</h2><span class="quiet">All 12 scenes × all 7 methods</span></div>
+<p>The cards show the last saved native camera observation, displayed from archived review panels. Labels come from logs, not visual guesses. Gripper occlusion can hide the final object state.</p>
+<div class="toolbar"><label for="scene">Scene</label><select id="scene" aria-label="Choose paired scene"></select><span class="quiet" id="scene-note"></span></div>
+<div class="gallery" id="cards"></div><noscript><p>Enable JavaScript for scene selection. All numerical outcomes remain available in the CSV and report.</p></noscript>
+<p class="quiet">Display crops preserve the archived image region. <a href="https://github.com/cjgogo27/HandBack/blob/main/data/media_manifest.json">Source hashes and transformations ↗</a>. Final camera images are not post-hold safety certificates.</p>
+</section>
+
+<section id="replays"><h2>Three outcomes, shown without interpolation</h2>
+<div class="notice"><strong>Discrete observation replays, not continuous motion video.</strong> The original evaluations did not record continuous video. Each clip displays saved camera observations in order at one image/second, with no invented intermediate frames. Playback duration is neither simulation time nor wall time.</div>
+<div class="replays" id="clips"></div><p class="quiet">Cases were chosen after analysis to illustrate joint success, task failure, and completion with a failed contact screen. They are not extra trials or a representative success-rate sample.</p>
+</section>
+
+<section id="mechanism"><h2>Why the numerical lead is not a mechanism result</h2>
+<table class="mechanism"><thead><tr><th>Selector</th><th>Retained steps across the six parents</th><th>Handoffs</th></tr></thead><tbody><tr class="same"><td>S1 · first support</td><td>1, 1, 1, 4, 1, 1</td><td>5</td></tr><tr class="same"><td>V · learning value</td><td>1, 1, 1, 4, 1, 1</td><td>5</td></tr><tr><td>S2 · two scheduled supports</td><td>4, 4, 2, 4, 4, 2</td><td>2</td></tr></tbody></table>
+<p>V and S1 used the same targets, order, replay and hyperparameters. Their saved weights differ numerically, for an unresolved reason. More evaluation scenes alone would not establish a new selection mechanism.</p>
+<p class="quiet">On scene 4062104002, all 16 saved V/S1 observation-image hashes are also identical. This is a single-scene record comparison, not proof the two policies are globally identical.</p>
+</section>
+
+<section id="contacts"><h2>Contact diagnostics have limits</h2><div class="peaks" id="peak-images"></div>
+<p class="quiet">These views were reconstructed from logged body poses, not captured at the contact peak. Their initial-frame registration was imperfect; they cannot prove precise visible overlap or hardware safety. Independent geometry checks found overlap evidence in four saved deep-contact states; one open link7 mesh could not support signed-volume certification.</p>
+</section>
+
+<section id="all-records"><div class="sectionhead"><h2>Inspect every evaluated unit</h2><span id="row-count" class="quiet"></span></div>
+<div class="toolbar"><label for="method">Method</label><select id="method"><option value="all">All methods</option><option>U</option><option>B</option><option>F4</option><option>Fbest</option><option>S1</option><option>S2</option><option>V</option></select><label for="outcome">Outcome</label><select id="outcome"><option value="all">All</option><option value="joint">Joint success</option><option value="failure">Joint failure</option><option value="retry">Infrastructure re-execution</option></select></div>
+<div class="tablewrap"><table><thead><tr><th>Method</th><th>Scene</th><th>Task predicate</th><th>Complete + held</th><th>Joint ≤2mm</th><th>Peak depth</th><th>Retry</th></tr></thead><tbody id="records"></tbody></table></div>
+<p class="quiet">84 scene×method units are not 84 independent training runs. Three original partial attempts remain preserved. Without retry substitution, V joint success is bounded at 5/12, S1 at 4–5/12 and S2 at 5/12: the expansion gates still fail.</p>
+</section>
+
+<section id="reproduce"><h2>Small enough to audit locally</h2><pre class="code">python -m pip install -e .
+python -m handback.analysis --output reports/reproduced
+python -m unittest discover -s tests -v</pre>
+<p>No GPU or API is needed after installation. This reproduces the public analysis and selector choices; it does not regenerate the original training or simulator runs.</p>
+<div class="links"><a class="button" href="https://github.com/cjgogo27/HandBack/releases/tag/v0.1.0">Versioned release &amp; media sources</a><a class="button" href="https://github.com/cjgogo27/HandBack/blob/main/docs/media.md">Media provenance</a></div>
+<p class="quiet">Presentation study: <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/robotics_showcases.md">five robotics open-source showcases</a> and <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/reference_study.md">ten original technical studies</a>.</p>
+<div class="references"><a href="https://github.com/huggingface/lerobot">LeRobot</a><a href="https://github.com/openvla/openvla">OpenVLA</a><a href="https://github.com/tonyzhaozh/act">ACT</a><a href="https://github.com/real-stanford/diffusion_policy">Diffusion Policy</a><a href="https://github.com/ARISE-Initiative/robomimic">robomimic</a></div>
+</section>
+<footer>HandBack v0.1.0 · Exploratory technical report, not a peer-reviewed publication. No broader effectiveness or safety claim.<br>Code: MIT. Report and derived results: CC BY 4.0; third-party simulation assets are not relicensed. <a href="https://github.com/cjgogo27/HandBack/blob/main/THIRD_PARTY.md">Attribution</a> · <a href="mailto:cj3332740@outlook.com">Contact</a>.</footer>
+</main>
+<script id="study-data" type="application/json">__STUDY_DATA__</script>
+<script>
+const study=JSON.parse(document.getElementById('study-data').textContent);
+const names={U:'No further update',B:'Replay only',F4:'Fixed four',Fbest:'Dev-selected fixed one',S1:'First support',S2:'Two scheduled supports',V:'Learning-value exit'};
+const methods=Object.keys(names),scene=document.getElementById('scene');
+for(let i=4062104001;i<=4062104012;i++){let o=document.createElement('option');o.value=i;o.textContent=i;scene.append(o)}scene.value='4062104002';
+function tags(r){return ['Task','Held','Joint'].map((label,i)=>{let ok=Number(r[['original_predicate','complete_and_held','joint_2mm'][i]]);return `<span class="tag ${ok?'pass':'fail'}">${label}: ${ok?'yes':'no'}</span>`}).join('')}
+function renderGallery(){const seed=Number(scene.value);document.getElementById('cards').innerHTML=methods.map(m=>{const r=study.rows.find(x=>x.method===m&&Number(x.seed)===seed),im=study.media.gallery.find(x=>x.method===m&&x.seed===seed);return `<article class="card"><img src="assets/media/${im.file}" width="480" height="360" loading="lazy" alt="Last saved camera observation for ${m}, scene ${seed}; outcome labels are logged separately"><div class="content"><h3>${m} · ${names[m]}</h3><div class="tags">${tags(r)}</div><p>Peak external depth: ${Number(r.external_depth_mm).toFixed(3)}mm${Number(r.infrastructure_retry)?' · infrastructure retry':''}</p></div></article>`}).join('');document.getElementById('scene-note').textContent=seed===4062104002?'V/S1: identical saved image sequence in this scene.':'Same initial state; separate method execution.'}
+scene.addEventListener('change',renderGallery);renderGallery();
+document.getElementById('clips').innerHTML=study.media.replays.map(v=>{const r=study.rows.find(x=>x.method===v.method&&Number(x.seed)===v.seed),im=study.media.gallery.find(x=>x.method===v.method&&x.seed===v.seed);return `<article class="replay"><video controls preload="none" playsinline poster="assets/media/${im.file}" aria-label="Discrete camera observation replay for ${v.method} scene ${v.seed}"><source src="assets/media/${v.file}" type="video/mp4">Your browser does not support this video. <a href="assets/media/${v.file}">Download replay</a>.</video><h3>${v.title}</h3><div class="tags">${tags(r)}</div><p>${v.method} · ${v.seed} · ${v.frames} saved observations · peak ${Number(r.external_depth_mm).toFixed(3)}mm</p></article>`}).join('');
+document.getElementById('peak-images').innerHTML=study.media.derived_peaks.map(v=>`<figure><img src="assets/media/${v.file}" loading="lazy" alt="Derived pose reconstruction at logged contact peak for ${v.method}; not a native camera frame"><figcaption>${v.method} · scene ${v.seed} · <strong>derived pose view</strong></figcaption></figure>`).join('');
+function records(){let m=document.getElementById('method').value,o=document.getElementById('outcome').value;let rr=study.rows.filter(r=>(m==='all'||r.method===m)&&(o==='all'||o==='joint'&&Number(r.joint_2mm)||o==='failure'&&!Number(r.joint_2mm)||o==='retry'&&Number(r.infrastructure_retry)));document.getElementById('records').innerHTML=rr.map(r=>`<tr><td>${r.method}</td><td class="num">${r.seed}</td><td>${Number(r.original_predicate)?'yes':'no'}</td><td>${Number(r.complete_and_held)?'yes':'no'}</td><td>${Number(r.joint_2mm)?'yes':'no'}</td><td class="num">${Number(r.external_depth_mm).toFixed(3)}mm</td><td>${Number(r.infrastructure_retry)?'yes':'no'}</td></tr>`).join('');document.getElementById('row-count').textContent=`${rr.length} / 84 units`}
+document.getElementById('method').addEventListener('change',records);document.getElementById('outcome').addEventListener('change',records);records();
+</script></body></html>

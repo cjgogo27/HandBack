@@ -1,0 +1,684 @@
+{
+  "at": 1792701338.3302808,
+  "process": {
+    "pid": 2182198,
+    "exists": false
+  },
+  "completion_verification_v1_status.json": {
+    "state": "completed_current_state_evidence_verification",
+    "at": 1792700949.2256982
+  },
+  "completion_verification_v1.json": {
+    "state": "completed_current_state_evidence_verification",
+    "at": 1792700949.2237134,
+    "elapsed_seconds": 11.577507257461548,
+    "logical_units": 84,
+    "unique_completed_outputs": 84,
+    "total_physical_attempt_directories_including_original_partials": 87,
+    "original_partial_files_unchanged": 3,
+    "three_retry_units_not_additional_independent_samples": true,
+    "first_attempt_missing_bounds_fail_gain_and_depth_gates": true,
+    "frozen_source_assets_verified": 3679,
+    "source_differences": [],
+    "source_and_worker_and_new_frozen_scripts_unchanged": true,
+    "initial_qpos_and_first_model_input_matched_across_all_7_methods_each_scene": true,
+    "native_and_raw_artifact_hashes_checked": 2432,
+    "native_images_hash_checked": 1844,
+    "all_native_assistant_loss_masks_false": true,
+    "official_25_decisions_3_retries_2048_max_tokens_and_30_tools_unchanged": true,
+    "by_method": {
+      "U": {
+        "n": 12,
+        "original_predicate": 9,
+        "raw_complete_and_held": 5,
+        "joint_2mm": 2
+      },
+      "B": {
+        "n": 12,
+        "original_predicate": 10,
+        "raw_complete_and_held": 9,
+        "joint_2mm": 5
+      },
+      "F4": {
+        "n": 12,
+        "original_predicate": 10,
+        "raw_complete_and_held": 7,
+        "joint_2mm": 4
+      },
+      "Fbest": {
+        "n": 12,
+        "original_predicate": 8,
+        "raw_complete_and_held": 5,
+        "joint_2mm": 3
+      },
+      "S1": {
+        "n": 12,
+        "original_predicate": 11,
+        "raw_complete_and_held": 8,
+        "joint_2mm": 5
+      },
+      "S2": {
+        "n": 12,
+        "original_predicate": 10,
+        "raw_complete_and_held": 8,
+        "joint_2mm": 5
+      },
+      "V": {
+        "n": 12,
+        "original_predicate": 10,
+        "raw_complete_and_held": 8,
+        "joint_2mm": 6
+      }
+    },
+    "independent_raw_task_predicates_match": 84,
+    "original_geometry_states_audited": 6,
+    "geometry_states_with_unclosed_visual_CAD": 1,
+    "geometric_zero_overlap_or_hardware_safety_not_certified": true,
+    "visual_inspection_complete_with_uncertainty": true,
+    "stage_B_consumed_episode_directories": [],
+    "owned_live_algorithm_processes": [],
+    "owned_service_ports_listening": {
+      "29354": false,
+      "29361": false,
+      "29362": false,
+      "29363": false
+    },
+    "pooled_adapter_hashes_unchanged": 6,
+    "no_new_training_or_model_or_simulator_actions_in_verifier": true,
+    "no_new_teacher_calls": true,
+    "hypothesis_validated": false,
+    "large_experiment_started": false,
+    "verification_code_sha256": "0614537fc2722f838c441b09fec1f3acdf1d441a33c07abd73adc186310f3399",
+    "episode_evidence": [
+      {
+        "method": "U",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104008",
+        "raw_audit_sha256": "64dddef8a8b8109476eb2d31830bec36394da0ebb5b4294f4a1f296f63eaf164",
+        "predicate_audit_sha256": "c779ce4b46ddf092384b2cef3be3ab1bd6d691eff29aadca570f2cf34082a63c"
+      },
+      {
+        "method": "U",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104012",
+        "raw_audit_sha256": "673ec3ae1ba164009a4bf4b65320ac864082f359e3b778c464e43016c9a74095",
+        "predicate_audit_sha256": "84945b26788bbef3faf63e66dd15981eabd241d637f84abe0f11a3e14bcc0586"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104007",
+        "raw_audit_sha256": "00b15f127e6c08b14a4617dc3619a9bc5e59d78f021549d1f8c65bd9bf689f09",
+        "predicate_audit_sha256": "6e04b04fec97412ccf8241ade0be42dd5fe9b549eed3c4841a9431a28e9f7ed1"
+      },
+      {
+        "method": "U",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104001",
+        "raw_audit_sha256": "8f12bccc393af4614dcef9d4e9728cf62ff74d81f11cff7ef82770657681cec7",
+        "predicate_audit_sha256": "1d7ecf9c70381bafc8df3eff728422c1b892f232e18cacbca0c0105c01d2a924"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104009",
+        "raw_audit_sha256": "100a9a1a383cfd313c0bd9c28137b0d34589bfbb64c48843481f496e5e127198",
+        "predicate_audit_sha256": "447d73364eb39384801ec8a8cb53ab391bcd5769e820d7690109287fbc5a91b4"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104009",
+        "raw_audit_sha256": "470cc5cf9b26f4276157c0629458517fcbc04a07cbc507b08a4d7f5571c7b98a",
+        "predicate_audit_sha256": "5d18d6095a06168d6da46335ef4faeea7079a69c0b4b1d17a4e5e6a68092d561"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104008",
+        "raw_audit_sha256": "50b93d2ae3538110e4afa3846833067044f28a1849acca9f981703b98a24ec0f",
+        "predicate_audit_sha256": "e84cd01c6fafd421487211cbe953640c27b3735f55c1bc9c73c99e9fab6b139b"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104008",
+        "raw_audit_sha256": "da1561d2e63f68b87de201b1be6afde7e6780941d923b8f39853c234c6f4fb19",
+        "predicate_audit_sha256": "944e65982ba185af2f412a7a38675d4584cb78d38c938378d0cff191fc130ae5"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104012",
+        "raw_audit_sha256": "822757c9a545af39896a8fa4855da537abc70bdb9d55efc15dc765f2a5543391",
+        "predicate_audit_sha256": "11e4ad5c972566aa25aa135cf406c7e12dc96f7cce751673d75a6c164a6b8cb0"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104005",
+        "raw_audit_sha256": "560d0d3be7c3c31bb33e50fa97f8f73ece8c737d6750424632567be5c2997c58",
+        "predicate_audit_sha256": "189e622bad893324e819a17f4f495b8a413480cadd21709957e42af884901d6f"
+      },
+      {
+        "method": "U",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104009",
+        "raw_audit_sha256": "3203c9af6f501dafa548b209fde33eeadb4f11d8a4027b9e870f4ac5692c44e5",
+        "predicate_audit_sha256": "5009475b52d4f4c9a73415e85be073bbef67678cd198b312cda96ab0c46ba4cc"
+      },
+      {
+        "method": "U",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104006",
+        "raw_audit_sha256": "db96eb91b14888c34d9668141138dc089b294a6d531a29744457174ce7a949a7",
+        "predicate_audit_sha256": "6a1ee9cfd4db5059a21da4da3112ea59b523955d85e1ad4c2a61ed21505d7031"
+      },
+      {
+        "method": "U",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104004",
+        "raw_audit_sha256": "1d2b644bc455a52120a5f575a076b9d7ab14edcdb65b41bfd89dd99df8d0d70f",
+        "predicate_audit_sha256": "7108bfe3b832a4e54dd86f44e612e8c633d4689655fc32c62880cd7cfc3e9407"
+      },
+      {
+        "method": "U",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104005",
+        "raw_audit_sha256": "78bff126e8c5f28b4524205aa1c8bdd8c57d2be4580cb88c94c12b93848c8ff4",
+        "predicate_audit_sha256": "0d29fb99c92155c617e41108d8ad84e9f0a56d18093cb56784f48b8cfcf8ff55"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104003",
+        "raw_audit_sha256": "e2e29fe006d9be01ede55ad61d8c4367d986f1426488f5243238d0d0515dbc41",
+        "predicate_audit_sha256": "b8d844bb43bd297a8c52494e643f3b5f9281e885d3eefaf23d90eab7b5bd21b2"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104011",
+        "raw_audit_sha256": "7e19c3128d1ee1ceb1b576ceea671d6e207817b2695190ba7fd98e32e448287b",
+        "predicate_audit_sha256": "4aac95cb8024047e3077e48ea6749484157802e5ff7ef6279112bd2bdb97f5bd"
+      },
+      {
+        "method": "U",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104010",
+        "raw_audit_sha256": "9dab90663e0f24b558090f45d2fb620484e8d9533ee672de503f6e11a57a03d6",
+        "predicate_audit_sha256": "5c54d399048bb19106bf6aeaf05440f8e97f340b664ae0a5c0e9ee9d9941eb3f"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104004",
+        "raw_audit_sha256": "4581bc493631a6497b56c55402cb79aff821a36adfc14157e1872502340f3c4d",
+        "predicate_audit_sha256": "9cc09ce468ed6bc8e9b0bd4e7758377225fd9499b7ede8a2b9e077d7d2f05aad"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104012",
+        "raw_audit_sha256": "5872a4fd21fe4c7aae505d64fe01320b72fe7246fbc4c8bf50f2cdc11ecd4b8a",
+        "predicate_audit_sha256": "14b8af62622ddb3920a66faea724b0ebbfc27c6432620dfa4fe63efa7ae6756a"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104005",
+        "raw_audit_sha256": "c0ef588a8ef115afdbce5039be634e0b434c869a9b5845320f80704c72d0aca5",
+        "predicate_audit_sha256": "8b7e7357a8fd46ae9b74d5a4a5844acb78bcf5e2c1ba31dfbd55f5eb926ae55c"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104006",
+        "raw_audit_sha256": "e3b65dd32d6f0c572406728e98052e9bc885c3e9b436aa93d173f3fc57461ec1",
+        "predicate_audit_sha256": "115271a876a5280c835c8ddc578b4dd7f5fc94fb2a108760fce95832e63c843a"
+      },
+      {
+        "method": "U",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104002",
+        "raw_audit_sha256": "0871cc7940d2e0ae7af32870e6dcefb8e2e6f37cc477a45cce29cd7b08b6acf7",
+        "predicate_audit_sha256": "0d189626f21238f5bf9cce82164f7fffce36746870e4a3085584e2a57b707a53"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104010",
+        "raw_audit_sha256": "0119579da325bd4891487a5678bbbe0991be7202d74bcdc22b596b4a4083cbd0",
+        "predicate_audit_sha256": "4c7fb49f06b3a0aeeaef15569072f74e948cfca7e8160643f17ff2c6e3beb810"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104006",
+        "raw_audit_sha256": "b87ada633ce463825100536886e619471f08dcc1ac5f4f04077b4a39a9b8dc75",
+        "predicate_audit_sha256": "4ce8f040c22bc84e1d373bf48448a2d84071cc9148cfb85860217155ee910bdf"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104011",
+        "raw_audit_sha256": "c2b84802208d8d2812981abb8f49a9e6dcc3945b9854d8e6f0ec28585cd493af",
+        "predicate_audit_sha256": "0d6fd83a52dad6cf3ca8959f3dd69d883d17e166e28f0a7c32e2da2193720b6b"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104001",
+        "raw_audit_sha256": "2457b445049fb22be57343b90e20b243f802d69b9fe9b69df646cb224d315bf8",
+        "predicate_audit_sha256": "9caef7b1b3ee940fb653479ae7600f500d20952dc0ec8dae96b1b98bd2faa4f3"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104007",
+        "raw_audit_sha256": "67435a03f24fbdbe0c584ca5f2b5a437afc33bb572dd0fae3fcfb3c8b668cfb6",
+        "predicate_audit_sha256": "f5c093b5d4d0d26220394dcad59c32d7eabe5e6d6e1e16a66dbd46893d0e1dbb"
+      },
+      {
+        "method": "U",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104003",
+        "raw_audit_sha256": "b5f61d30ae195cdbfa39e501897cad5e6a0339ec7aeef19249c835d7860a1c39",
+        "predicate_audit_sha256": "2c8cc0e8e767f9140b7b8f30d4401437b4c3792eafbe6014d4fcfa489f8cff3e"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104002",
+        "raw_audit_sha256": "58bef2094c33659f1d87f261a8873a309f52212f6ba1bbaa83584665de0dd13a",
+        "predicate_audit_sha256": "0cb360d10d00026ef444eb94a8a0e66596a2c9a887bbaba667fe709ee6d511c5"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104001",
+        "raw_audit_sha256": "d4a770871b290a7c1c0d60b9207ee209693fa7ef21c174b7077b6b9010581ef4",
+        "predicate_audit_sha256": "4300aec2fc1bab57a0774319bbf9d583ee305a48aacbfbac4ac3448e36abe15b"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104002",
+        "raw_audit_sha256": "e6d839ea0828266f80faf1dbf4d42820eac5bd546a363e4dc9fc5b21ddaa5976",
+        "predicate_audit_sha256": "fa6c56eed0057e9e63e259fe9089d7819e5ab503f8ca5b4c87970499757ced7f"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104004",
+        "raw_audit_sha256": "c18a43b445f8f50d05eb233672b0e8fec779b3f1791089b5df4b45dbf2daf70c",
+        "predicate_audit_sha256": "dc38143962eee6960826da535cc8128823abae8c21d77b93febd9d94b41e65e6"
+      },
+      {
+        "method": "U",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104007",
+        "raw_audit_sha256": "5ae5bd4f69ef2a51cb7b43f9863c7b2743f88c5a49ea63990731179931ea784e",
+        "predicate_audit_sha256": "f3df2ca9394585b3b93bc8feb85915489e8496973cc693fc0185d2ef9b584a64"
+      },
+      {
+        "method": "U",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/U_4062104011",
+        "raw_audit_sha256": "24484adc05adc9635e048813ee2efc2324af782772d485e9abfd14009c12a2f0",
+        "predicate_audit_sha256": "dbbecba40ef90ae4f5260b831d0d4d0edfd0d922be8b7739649e3f645695088a"
+      },
+      {
+        "method": "S2",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S2_4062104003",
+        "raw_audit_sha256": "aaf7f40b490cc2724b04e8ef3737b081e5204b41e536cdf438ca9cd0fb815060",
+        "predicate_audit_sha256": "6a7dc8ea2081fb1a2968d0abdc94344915d3f377f57b9f07451a893c559c9b1b"
+      },
+      {
+        "method": "F4",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/F4_4062104010",
+        "raw_audit_sha256": "e814a7890fa43ccfae267572c15e122270eebe6ba42f0373053ed7d28178a925",
+        "predicate_audit_sha256": "67e407fd33d10e20a29191a0bcce1277b4504d9b05cf3b5d607c2a06e843bedb"
+      },
+      {
+        "method": "B",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104010",
+        "raw_audit_sha256": "34b2ead854ef9796d30b8a52063bd9378ca5218e23dba66779a0ae42c0f5c5a6",
+        "predicate_audit_sha256": "4a942e78c417bb22d0ac4c8818cad76b193e9ac15230371ed41ac512fb6edc45"
+      },
+      {
+        "method": "V",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104002",
+        "raw_audit_sha256": "53602c91a78db7637697d412eabd29dd8d2b8edb220b21229747fecb6dad2ef1",
+        "predicate_audit_sha256": "c734bc9f0d05b579311ee2aefa2dbd1f62979ddb740ca1dd95438f029d325591"
+      },
+      {
+        "method": "V",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104001",
+        "raw_audit_sha256": "95a4c3a146805aa60b3b7112579acf7826d3606bb7a13a5ea67efa386f969b83",
+        "predicate_audit_sha256": "43253e0442098f571f5228b1b1516c97a0124da9ef200fc270d7046a50d14433"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104005",
+        "raw_audit_sha256": "35e1a7ea46a8371320983f20d86f5a93a639815af8717acf94c0f385ca169f28",
+        "predicate_audit_sha256": "b2651958aa5d4b063867e5f0411d4a422800804e0737333d40fcce21b40ae02b"
+      },
+      {
+        "method": "V",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104010",
+        "raw_audit_sha256": "54ee83749800245739dd743102652ddc7902f7396a92d81bf37736ca42bcfa84",
+        "predicate_audit_sha256": "5d45cc8fde57d610e4648c05dc71fabf897e276ba9bfa11f8f8fe5fac1b25405"
+      },
+      {
+        "method": "B",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104006",
+        "raw_audit_sha256": "97703ada6f231b30542df239e74bfdaa25ce49063eb33f25f17b4108476dff1a",
+        "predicate_audit_sha256": "b79707079056e170d3419337e5680042c8f276618cfdd902b85be9fa253672bc"
+      },
+      {
+        "method": "V",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104006",
+        "raw_audit_sha256": "4d7e8fe16bcc5a6e09493159f35eef73c714b5f77e88cc5c6acb7e6147a82148",
+        "predicate_audit_sha256": "d4d6ecfcf2dab9014df349c5af8a67eff80fe8373a18b519973b0ef785f002f3"
+      },
+      {
+        "method": "B",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104005",
+        "raw_audit_sha256": "cf62480d19f38a22d8287db5c6342d1182c655c3c58d1cc912557cb46c9b354b",
+        "predicate_audit_sha256": "f2369baa7dba9451790e95a8ceff4ef85854fbc473143a9e4e3280283dc01165"
+      },
+      {
+        "method": "B",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104002",
+        "raw_audit_sha256": "49144766a8eaf0cb8fdf37aaae17272b97be33facb18addf2a0b09f800ebef6d",
+        "predicate_audit_sha256": "c305d0c5977dd48938ccf981d67759371738a7ea1c32f56a37172f3594cf0d1f"
+      },
+      {
+        "method": "B",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104012",
+        "raw_audit_sha256": "ec81e34901a311a9d85639b372912e43e0f72b1170505b4ddf314e08817045b6",
+        "predicate_audit_sha256": "a6fda21183dd77ca66a2134d5fdb6d688b0f0dfd17ffd46a2d39bb057bfc6401"
+      },
+      {
+        "method": "V",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104012",
+        "raw_audit_sha256": "5798a81182a4b3602d845a86d8fea666be18f334c72c4297eaf7663745bf2e8e",
+        "predicate_audit_sha256": "93f14d2ba39f59b9a2c78507e220a1291078ddb1545be43b74c1732da9b54536"
+      },
+      {
+        "method": "B",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104003",
+        "raw_audit_sha256": "8aa191497a02e1bec687574ca60068139e92a1f50c0abe83e7be19f75396a997",
+        "predicate_audit_sha256": "404824a8a0213f10070040347d158959730b361c48dc41f6a923a38134d11f1a"
+      },
+      {
+        "method": "B",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104008",
+        "raw_audit_sha256": "70a2a61b768ca6af1096b33eb91282f4db9a77496610291e235e7d50802e0565",
+        "predicate_audit_sha256": "abd176670349ce5851993fe5a49843853a2753838ac66704d3da7af1aeb42f3d"
+      },
+      {
+        "method": "B",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104009",
+        "raw_audit_sha256": "d966a85f597abdfd02912dd4b958bb0a99d8b39ac67a1724105e023a935e70e7",
+        "predicate_audit_sha256": "b8bc69d9b0166ea6b8af28b8092cdec0fe81f93d6559965f40f87f578ae43296"
+      },
+      {
+        "method": "V",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104008",
+        "raw_audit_sha256": "5d305cba7c2e221a9f41965957632af07c8c895a2e3a8b6500824113122e7c4b",
+        "predicate_audit_sha256": "a222316699377f4aeb43e77569ea5299df1e3674b0e47aca3c9a52ee42aead24"
+      },
+      {
+        "method": "V",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104011",
+        "raw_audit_sha256": "148601c9bfebeb199f72d913413b7615abd8c1b62d2347241e0a46f89032a69b",
+        "predicate_audit_sha256": "dbe5ef66e1e3a864a028b67e25f7b2775a87ed2738ab5d89580e659ed74389da"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104010",
+        "raw_audit_sha256": "e9de70e983213133299515c07dabe6a300e99127b09a532aaffae1abf1f7ed81",
+        "predicate_audit_sha256": "bbdffc2969b44576cf7e77b7456a3d9d1d2869d45592753824545a2bcad789f1"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104003",
+        "raw_audit_sha256": "ede0cb3e9bd807d9d07a7e3e669e9f68fc01ae64ab212d68ec3ebe01a55b3a8e",
+        "predicate_audit_sha256": "a1b11bf8ed0791e5defc2392b736447c041811d6c2c3e4372dc19693bdccd84d"
+      },
+      {
+        "method": "B",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104001",
+        "raw_audit_sha256": "0ec98b2d5f8ccc809e3e898d1e56e648ea9bcc82c7c1e14322503bbc7dc1efbe",
+        "predicate_audit_sha256": "8b8f6b70d99aee3ab670aaca807c014caf924fb1a72d504d218e929d1ad10de1"
+      },
+      {
+        "method": "V",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104009",
+        "raw_audit_sha256": "f09c081b9dd700fd84e316665a947c797549874e5e9314a34b455694c4541310",
+        "predicate_audit_sha256": "a1b503f96aea422b84d80ef4325dc94b50837ed00649dd0f920d9f6c2344e80d"
+      },
+      {
+        "method": "V",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104005",
+        "raw_audit_sha256": "9e922f411643559e4adb41afd64828ccb7628d557826718fddb8bb376b5f7520",
+        "predicate_audit_sha256": "a90b4dc635c768ec0d549a9b8e5ddf3f75cfb897777b2aa9a77d8f54a3f164eb"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104004",
+        "raw_audit_sha256": "84383a43eceaf6860a905551da2545e84117ac82f34436553b61479fca834e8c",
+        "predicate_audit_sha256": "60e1efe0d3e37f1c9c738d5837561c98a48c7395f9e349b5d550ba93e661b0ef"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104001",
+        "raw_audit_sha256": "4c0e5e96874521c8be78ef34dd7e42e188f4834e0f89be5ac8c1a6f184084667",
+        "predicate_audit_sha256": "1eef5e6122147ff346110b5d5192f95849fb8e25e6008b569f5c5472555b4a06"
+      },
+      {
+        "method": "V",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104007",
+        "raw_audit_sha256": "e06293c8c345315e656d535fe3082bd951b4c83e14811b1741d493d3891f432d",
+        "predicate_audit_sha256": "f88c56488d8bc6ecfd07f34dd9d5ffae8375440a1b99af5d77d8114a23e59dfa"
+      },
+      {
+        "method": "V",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104003",
+        "raw_audit_sha256": "ab68650e060012609e95fa8d1d7c465d573dcd0e860c6b321ce9ca626abe28c5",
+        "predicate_audit_sha256": "4d4fb1aa6b61799fbe51528ff46bee396a80ccbdb0dd8155f0ccedb3facbc380"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104008",
+        "raw_audit_sha256": "040ff36f28eb9bb2c16804474d9f15c9ef8551d4ada645cfa0bbda17af93e67b",
+        "predicate_audit_sha256": "aacbe3ae280bf56c07fa818164654f76645c366abf9e799f6ffe705c127a76a2"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104012",
+        "raw_audit_sha256": "769bdee511970b97206bf0d0310fc176762991955d70ad24253921572ab233c2",
+        "predicate_audit_sha256": "5e33ac6e61736048192952e33b387f1fb178d726ed4185b408c5e77fd93faa53"
+      },
+      {
+        "method": "B",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104004",
+        "raw_audit_sha256": "d49c2ebf08254b9b18daae57d95b182c1ccfd02e7db79eb0733fc1ee0a9e7dbf",
+        "predicate_audit_sha256": "976a825c30928c572c269135ad0a718f944c689742e97780101985c8d0f082c4"
+      },
+      {
+        "method": "B",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104007",
+        "raw_audit_sha256": "92484aab0bb83c2a698099f8e45f81b4d6798c833712a0c7083cda63f995cc0b",
+        "predicate_audit_sha256": "4ef53121ef242c9c95d0c5e44ca8ef02112b367dcd67fafe7a62034f5b317159"
+      },
+      {
+        "method": "B",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/B_4062104011",
+        "raw_audit_sha256": "82f8de84026163f540c9986b91eed59eb90480c1e074aa54349c575ae8d6b8e3",
+        "predicate_audit_sha256": "f8c3d5b3bde0d27a22e4ac39840b2bb5f63a4448d138e6e596a9ea4b668c9672"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104009",
+        "raw_audit_sha256": "7670b2b724f9b31560e8ae8ff91b8598f443ab44752f09275768adc98f2e3155",
+        "predicate_audit_sha256": "8ec6727fe25d71679ac2918e95aafb1e9edf1a3ade67c6abb47cb06d59b60fec"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104002",
+        "raw_audit_sha256": "0f361e0ed3bb48514e118a53cbe95c1a7ca088e3f2fe768d314537de2cb5a77e",
+        "predicate_audit_sha256": "54164c346df38595654320b612f60ae0a7f2acfd0c57f1ee10314e9186967d83"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104006",
+        "raw_audit_sha256": "3c1f62dfdd99e1d9a1ddbc15e8b65f3a99fffc443a99348b2e1a002b1403c968",
+        "predicate_audit_sha256": "047bede15dd83b0810ca800a273f371cc0e5a5caec1752de60f8e3f9ff41aef7"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/S1_4062104007",
+        "raw_audit_sha256": "627737e97f2d28c80905ca5af9bba9e54f78d6ea529997e3af3baa799072f49d",
+        "predicate_audit_sha256": "921976758a2d01a348de372e6036ad09d134a707b9c0a4f606c57cbce409c1bc"
+      },
+      {
+        "method": "V",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/V_4062104004",
+        "raw_audit_sha256": "a1edca306b373fc7cf5f4e2a0fc191c6874c1efaa507c3745346e04ee2ce8a30",
+        "predicate_audit_sha256": "694a023a94d7c08916b5bee9b1e2fd57be4cec3c012c5882c498f4bcc37f37a5"
+      },
+      {
+        "method": "S1",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/S1_4062104011",
+        "raw_audit_sha256": "7950fbc42dc2b4dc860e222d77ddf841f53ce57437a2fff2e94e0e48ed5e6723",
+        "predicate_audit_sha256": "42b3ee3a477bd759ec42e5985fc36403511d0969960ce78fade6be3d7fa9d099"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104006,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104006",
+        "raw_audit_sha256": "cfb59d57172cc1dc63633248acedc1b97f295fb544d4b1c103646d999cb2c838",
+        "predicate_audit_sha256": "5414b845bbdc65549e6ea86501526cb91d47777e37b500276f1a15c5481efe73"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104008,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104008",
+        "raw_audit_sha256": "4568884469dfd37a1781e967cbaac21eae2e28bd3afbdd57f53e6c4a702774d8",
+        "predicate_audit_sha256": "f9b85b656d5713c656c184d6ef4e040796cecdf6ed6c361f09a9cfb950bc4340"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104010,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104010",
+        "raw_audit_sha256": "a7e9bfd42694462a6e21088a923c690199097938549d652b0aab2f91eb67ad34",
+        "predicate_audit_sha256": "d64f21ca91068b163600c7d4dd07b7f2cc0d5693dc973116f30f86adb4108c9b"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104011,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104011",
+        "raw_audit_sha256": "7283fe75bc1f1f52efa71b4480705f7ed44a09ef88d293095de74dc029dc458e",
+        "predicate_audit_sha256": "665ac502ff95c2b1fd2de60f2ba44d3f6330fcf27f4f0c15aee3d436413be288"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104001,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104001",
+        "raw_audit_sha256": "80618b48a241e60a38e6c3848df0a46c97db708fce7a603201956e141e9ca52d",
+        "predicate_audit_sha256": "ab99be24021bada4156b1181cca907ee401d50c456b96f61cc0656d50935732a"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104007,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104007",
+        "raw_audit_sha256": "ca3dcdca667d38cb58ed6d82d09b450e494a287b8d1a39ba99464f502dbce4da",
+        "predicate_audit_sha256": "9d04127e66db50f182ba9eb7e5d2c4e65b60fdee44caa5a7de93ff59b7a39457"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104002,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104002",
+        "raw_audit_sha256": "17ea411333dc536c85f5869527eb6fa6a0496d460f554812f9e9ac1bd9286af7",
+        "predicate_audit_sha256": "baf3b3acf84c241b0b2380ac8176f980fa106ed0e6830c672f1f475a3de4f091"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104012,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104012",
+        "raw_audit_sha256": "fa76d01cec493873a4422012bbebf7da76096fa56c78e3fbbe1642164812ce60",
+        "predicate_audit_sha256": "558870d7b29d3af3d1c2d7d35912c7b0b90a557520a5da792e0c850cb20eb29f"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104003,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104003",
+        "raw_audit_sha256": "c80b2bd8d058bb0fad192de6ba433b822d008b4718a3bde10bee80ac30c45516",
+        "predicate_audit_sha256": "cc5502eede2a25952d965a7405d4b8b00cd7b3853df0bd57aa0ec63ef0060b56"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104005,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104005",
+        "raw_audit_sha256": "753e87fed7cc264006ff8b5e4832ba98264bc2a1e0211fb3da3545939764c43a",
+        "predicate_audit_sha256": "49e5c2a792a8c425c70cba1832c7bf8dda8cb2ada76e7e22308f10400806007b"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104009,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104009",
+        "raw_audit_sha256": "ebe58f0fe47967b07cd9311b0331b0d264a8b4ab8e2a6f418622b48124a407c7",
+        "predicate_audit_sha256": "97dbbf0d42c53735222867d3b224887ad44087c234449f21cc06a049dbaf528f"
+      },
+      {
+        "method": "Fbest",
+        "seed": 4062104004,
+        "output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/Fbest_4062104004",
+        "raw_audit_sha256": "a1956c711bdeb94f39eccd43b8e85ac664bace5239bccd682bff09d172c3d400",
+        "predicate_audit_sha256": "19114d85b8c1deab192c927669d3a2403193fbf4f0d3e7964a75eaa9f70f7a09"
+      }
+    ]
+  },
+  "log_tail": ""
+}

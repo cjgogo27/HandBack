@@ -1,0 +1,1969 @@
+{
+  "state": "completed_causal_prefix_selection",
+  "at": 1792678199.9733334,
+  "parent_order": [
+    4062102001,
+    4062102006,
+    4062102008,
+    4062102007,
+    4062102009,
+    4062102022
+  ],
+  "methods": {
+    "F4": [
+      {
+        "parent": 4062102001,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102006,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102008,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102007,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102009,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102022,
+        "retained_k": 4,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      }
+    ],
+    "Fbest": [
+      {
+        "parent": 4062102001,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102006,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102008,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102007,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102009,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      },
+      {
+        "parent": 4062102022,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [],
+        "read_prefixes": []
+      }
+    ],
+    "S1": [
+      {
+        "parent": 4062102001,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102006,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102008,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102007,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102009,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102022,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      }
+    ],
+    "S2": [
+      {
+        "parent": 4062102001,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102006,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102008,
+        "retained_k": 2,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 2,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2
+        ]
+      },
+      {
+        "parent": 4062102007,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102009,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102022,
+        "retained_k": 2,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 2,
+            "stop_value": null,
+            "continue_value": null,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2
+        ]
+      }
+    ],
+    "V": [
+      {
+        "parent": 4062102001,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": 0.026400380946270587,
+            "continue_value": 0.0,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102006,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": 0.07775064079934746,
+            "continue_value": 0.0,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102008,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": 0.0,
+            "continue_value": 0.0,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102007,
+        "retained_k": 4,
+        "handoff": false,
+        "trace": [
+          {
+            "k": 1,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": -0.007658851239382598,
+            "continue_value": 0.0,
+            "return_now": false
+          },
+          {
+            "k": 2,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": -0.06352386896085875,
+            "continue_value": 0.0,
+            "return_now": false
+          },
+          {
+            "k": 4,
+            "supported": false,
+            "consecutive_scheduled_checkpoints": 0,
+            "stop_value": -0.11404487736211256,
+            "continue_value": null,
+            "return_now": false
+          }
+        ],
+        "read_prefixes": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "parent": 4062102009,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": 0.005787783909943195,
+            "continue_value": 0.0,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      },
+      {
+        "parent": 4062102022,
+        "retained_k": 1,
+        "handoff": true,
+        "trace": [
+          {
+            "k": 1,
+            "supported": true,
+            "consecutive_scheduled_checkpoints": 1,
+            "stop_value": 0.001249009861736882,
+            "continue_value": 0.0,
+            "return_now": true
+          }
+        ],
+        "read_prefixes": [
+          1
+        ]
+      }
+    ]
+  },
+  "best_constant_k": 1,
+  "fixed_development_values": {
+    "1": 0.041666666666666664,
+    "2": 0.0,
+    "4": 0.0
+  },
+  "development_values": {
+    "4062102001_1": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102001_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102001_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102006_1": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102006_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102006_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102008_1": {
+      "joint_success": 2,
+      "n": 4,
+      "control_subtracted_value": 0.25,
+      "proxy_cost_subtracted": false
+    },
+    "4062102008_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102008_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102007_1": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102007_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102007_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102009_1": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102009_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102009_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102022_1": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102022_2": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    },
+    "4062102022_4": {
+      "joint_success": 1,
+      "n": 4,
+      "control_subtracted_value": 0.0,
+      "proxy_cost_subtracted": false
+    }
+  },
+  "OOF_models": {
+    "folds": [
+      {
+        "parent": 4062102001,
+        "training_parents": [
+          4062102006,
+          4062102008,
+          4062102007,
+          4062102009,
+          4062102022
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.5146666666666667,
+              1.0,
+              0.03333333333333333,
+              0.810853419204553,
+              0.797805247704188,
+              0.3333333333333333,
+              0.0,
+              0.13333333333333333,
+              0.06666666666666667
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.20752081555566634,
+              1.0,
+              0.12472191289246473,
+              0.17269975827611114,
+              0.3042381987949866,
+              0.47140452079103173,
+              1.0,
+              0.33993463423951903,
+              0.24944382578492943
+            ],
+            "coef": [
+              0.016666666655555554,
+              -0.014650058711473542,
+              0.027746711841242725,
+              0.0,
+              0.019989911749860385,
+              -0.014515644725063746,
+              0.009105430732998448,
+              0.01241548402951397,
+              0.0,
+              0.043621113158582865,
+              0.019192005464330347
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.548,
+              1.0,
+              0.0,
+              0.8066957086324692,
+              0.8184102594852447,
+              0.2,
+              0.0,
+              0.2,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.2024252948620799,
+              1.0,
+              1.0,
+              0.15114031652554663,
+              0.2642806988028221,
+              0.4000000000000001,
+              1.0,
+              0.4000000000000001,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 1,
+          "handoff": true,
+          "trace": [
+            {
+              "k": 1,
+              "supported": true,
+              "consecutive_scheduled_checkpoints": 1,
+              "stop_value": 0.026400380946270587,
+              "continue_value": 0.0,
+              "return_now": true
+            }
+          ],
+          "read_prefixes": [
+            1
+          ]
+        }
+      },
+      {
+        "parent": 4062102006,
+        "training_parents": [
+          4062102001,
+          4062102008,
+          4062102007,
+          4062102009,
+          4062102022
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.4906666666666667,
+              1.0,
+              0.03333333333333333,
+              0.7607097059488297,
+              0.7270340045293172,
+              0.4,
+              0.06666666666666667,
+              0.13333333333333333,
+              0.06666666666666667
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.17975786182776235,
+              1.0,
+              0.12472191289246473,
+              0.17692867964583742,
+              0.2858701980546264,
+              0.48989794855663565,
+              0.2494438257849295,
+              0.33993463423951903,
+              0.24944382578492943
+            ],
+            "coef": [
+              0.016666666655555547,
+              -0.011729940654947662,
+              0.03929111444559242,
+              0.0,
+              0.01252347708576145,
+              -0.015328318396074604,
+              0.0260950666238357,
+              0.00954104720593948,
+              -0.012107846021332804,
+              0.04406245103489327,
+              0.021233659158559952
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.524,
+              1.0,
+              0.0,
+              0.7587965220212937,
+              0.7209629237651825,
+              0.3,
+              0.1,
+              0.2,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.17385051049680586,
+              1.0,
+              1.0,
+              0.1381070508502056,
+              0.2180083817465286,
+              0.45825756949558394,
+              0.30000000000000004,
+              0.4000000000000001,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 1,
+          "handoff": true,
+          "trace": [
+            {
+              "k": 1,
+              "supported": true,
+              "consecutive_scheduled_checkpoints": 1,
+              "stop_value": 0.07775064079934746,
+              "continue_value": 0.0,
+              "return_now": true
+            }
+          ],
+          "read_prefixes": [
+            1
+          ]
+        }
+      },
+      {
+        "parent": 4062102008,
+        "training_parents": [
+          4062102001,
+          4062102006,
+          4062102007,
+          4062102009,
+          4062102022
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.5226666666666667,
+              1.0,
+              0.03333333333333333,
+              0.8202229122320811,
+              0.7919049779574077,
+              0.4,
+              0.06666666666666667,
+              0.06666666666666667,
+              0.06666666666666667
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.21239794935189202,
+              1.0,
+              0.12472191289246473,
+              0.16568118374818172,
+              0.3202245342005608,
+              0.48989794855663565,
+              0.2494438257849295,
+              0.24944382578492943,
+              0.24944382578492943
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.5559999999999999,
+              1.0,
+              0.0,
+              0.8208276882767678,
+              0.8206370741128921,
+              0.3,
+              0.1,
+              0.1,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.20742227459942678,
+              1.0,
+              1.0,
+              0.1388854303281582,
+              0.2733976466792496,
+              0.45825756949558394,
+              0.30000000000000004,
+              0.30000000000000004,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 1,
+          "handoff": true,
+          "trace": [
+            {
+              "k": 1,
+              "supported": true,
+              "consecutive_scheduled_checkpoints": 1,
+              "stop_value": 0.0,
+              "continue_value": 0.0,
+              "return_now": true
+            }
+          ],
+          "read_prefixes": [
+            1
+          ]
+        }
+      },
+      {
+        "parent": 4062102007,
+        "training_parents": [
+          4062102001,
+          4062102006,
+          4062102008,
+          4062102009,
+          4062102022
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.5786666666666666,
+              1.0,
+              0.0,
+              0.7353772073984146,
+              0.6700180967648824,
+              0.4,
+              0.06666666666666667,
+              0.13333333333333333,
+              0.06666666666666667
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.19479447858932986,
+              1.0,
+              1.0,
+              0.1442295360978304,
+              0.2714522080182454,
+              0.48989794855663565,
+              0.2494438257849295,
+              0.33993463423951903,
+              0.24944382578492943
+            ],
+            "coef": [
+              0.01666666665555553,
+              -0.015375298426042298,
+              0.031982790298981545,
+              0.0,
+              0.0,
+              -0.013353703153739883,
+              0.006754075219303532,
+              0.014920519647885194,
+              -0.004561721820548479,
+              0.04814174707722261,
+              0.0254078146663169
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.612,
+              1.0,
+              0.0,
+              0.7581509083509446,
+              0.7360927760601044,
+              0.2,
+              0.1,
+              0.2,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.189356806056714,
+              1.0,
+              1.0,
+              0.15006644751976256,
+              0.26670020192338617,
+              0.4000000000000001,
+              0.30000000000000004,
+              0.4000000000000001,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 4,
+          "handoff": false,
+          "trace": [
+            {
+              "k": 1,
+              "supported": false,
+              "consecutive_scheduled_checkpoints": 0,
+              "stop_value": -0.007658851239382598,
+              "continue_value": 0.0,
+              "return_now": false
+            },
+            {
+              "k": 2,
+              "supported": false,
+              "consecutive_scheduled_checkpoints": 0,
+              "stop_value": -0.06352386896085875,
+              "continue_value": 0.0,
+              "return_now": false
+            },
+            {
+              "k": 4,
+              "supported": false,
+              "consecutive_scheduled_checkpoints": 0,
+              "stop_value": -0.11404487736211256,
+              "continue_value": null,
+              "return_now": false
+            }
+          ],
+          "read_prefixes": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "parent": 4062102009,
+        "training_parents": [
+          4062102001,
+          4062102006,
+          4062102008,
+          4062102007,
+          4062102022
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.5306666666666666,
+              1.0,
+              0.03333333333333333,
+              0.772474023203055,
+              0.7467938721179962,
+              0.4,
+              0.06666666666666667,
+              0.13333333333333333,
+              0.06666666666666667
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.21539008540062582,
+              1.0,
+              0.12472191289246472,
+              0.18598476206962614,
+              0.33142816969665173,
+              0.48989794855663565,
+              0.2494438257849295,
+              0.33993463423951903,
+              0.24944382578492943
+            ],
+            "coef": [
+              0.016666666655555544,
+              -0.013897604079687466,
+              0.02656585403168944,
+              0.0,
+              0.01756863803771078,
+              -0.011254049126812491,
+              0.008557573299503084,
+              0.009258013209452893,
+              -0.0053539628350289924,
+              0.04426081836385195,
+              0.018270531732565244
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.5640000000000002,
+              1.0,
+              0.0,
+              0.7708549186587333,
+              0.7879175037145615,
+              0.3,
+              0.1,
+              0.2,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.2104851538707659,
+              1.0,
+              1.0,
+              0.15421657769563032,
+              0.2728001668203889,
+              0.45825756949558394,
+              0.30000000000000004,
+              0.4000000000000001,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 1,
+          "handoff": true,
+          "trace": [
+            {
+              "k": 1,
+              "supported": true,
+              "consecutive_scheduled_checkpoints": 1,
+              "stop_value": 0.005787783909943195,
+              "continue_value": 0.0,
+              "return_now": true
+            }
+          ],
+          "read_prefixes": [
+            1
+          ]
+        }
+      },
+      {
+        "parent": 4062102022,
+        "training_parents": [
+          4062102001,
+          4062102006,
+          4062102008,
+          4062102007,
+          4062102009
+        ],
+        "models": {
+          "stop": {
+            "mean": [
+              0.5833333333333334,
+              0.6026666666666666,
+              1.0,
+              0.03333333333333333,
+              0.7830873568852742,
+              0.7370059410730998,
+              0.4,
+              0.06666666666666667,
+              0.06666666666666667,
+              0.0
+            ],
+            "scale": [
+              0.3118047822311618,
+              0.15281652034020696,
+              1.0,
+              0.12472191289246472,
+              0.19264396824620658,
+              0.34081866896921664,
+              0.48989794855663565,
+              0.2494438257849295,
+              0.24944382578492946,
+              1.0
+            ],
+            "coef": [
+              0.01666666665555555,
+              -0.0013089924188482037,
+              0.000133376806817375,
+              0.0,
+              0.0009009314560965688,
+              -0.0021844315675030655,
+              0.00036580596798686175,
+              -0.0010134569590155335,
+              -0.0009135030335670078,
+              0.05748886183178661,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          },
+          "continue": {
+            "mean": [
+              0.375,
+              0.636,
+              1.0,
+              0.0,
+              0.7883771508932114,
+              0.7854411900043488,
+              0.2,
+              0.1,
+              0.1,
+              0.0
+            ],
+            "scale": [
+              0.125,
+              0.14582180906846548,
+              1.0,
+              1.0,
+              0.16575961576546155,
+              0.29291471923728346,
+              0.4000000000000001,
+              0.30000000000000004,
+              0.30000000000000004,
+              1.0
+            ],
+            "coef": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "logistic": false,
+            "feature_names": [
+              "teacher_fraction",
+              "remaining_fraction",
+              "last_tool_ok",
+              "public_failure_fraction",
+              "mean_past_teacher_nll",
+              "last_past_teacher_nll",
+              "last_move",
+              "last_grasp",
+              "last_release",
+              "last_perception"
+            ]
+          }
+        },
+        "decision": {
+          "retained_k": 1,
+          "handoff": true,
+          "trace": [
+            {
+              "k": 1,
+              "supported": true,
+              "consecutive_scheduled_checkpoints": 1,
+              "stop_value": 0.001249009861736882,
+              "continue_value": 0.0,
+              "return_now": true
+            }
+          ],
+          "read_prefixes": [
+            1
+          ]
+        }
+      }
+    ],
+    "deployment_models": {
+      "stop": {
+        "mean": [
+          0.5833333333333334,
+          0.5399999999999999,
+          1.0,
+          0.027777777777777776,
+          0.780454104145368,
+          0.7450936900244819,
+          0.3888888888888889,
+          0.05555555555555555,
+          0.1111111111111111,
+          0.05555555555555555
+        ],
+        "scale": [
+          0.3118047822311618,
+          0.19877402021167428,
+          1.0,
+          0.1145307118227128,
+          0.1761067234140537,
+          0.31292046548253927,
+          0.4874980215217846,
+          0.22906142364542562,
+          0.3142696805273545,
+          0.2290614236454256
+        ],
+        "coef": [
+          0.013888888881172824,
+          -0.01201933270933003,
+          0.02492489332006977,
+          0.0,
+          0.01565372229723265,
+          -0.011769332513112742,
+          0.0095667273434899,
+          0.009934917061650889,
+          -0.004752277175971039,
+          0.04146202203610132,
+          0.016318126413733373
+        ],
+        "logistic": false,
+        "feature_names": [
+          "teacher_fraction",
+          "remaining_fraction",
+          "last_tool_ok",
+          "public_failure_fraction",
+          "mean_past_teacher_nll",
+          "last_past_teacher_nll",
+          "last_move",
+          "last_grasp",
+          "last_release",
+          "last_perception"
+        ]
+      },
+      "continue": {
+        "mean": [
+          0.375,
+          0.5733333333333334,
+          1.0,
+          0.0,
+          0.78395048280557,
+          0.778243621190389,
+          0.25,
+          0.08333333333333333,
+          0.16666666666666666,
+          0.0
+        ],
+        "scale": [
+          0.125,
+          0.19344824171395877,
+          1.0,
+          1.0,
+          0.15185067216107911,
+          0.2683529708162691,
+          0.4330127018922193,
+          0.27638539919628324,
+          0.372677996249965,
+          1.0
+        ],
+        "coef": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "logistic": false,
+        "feature_names": [
+          "teacher_fraction",
+          "remaining_fraction",
+          "last_tool_ok",
+          "public_failure_fraction",
+          "mean_past_teacher_nll",
+          "last_past_teacher_nll",
+          "last_move",
+          "last_grasp",
+          "last_release",
+          "last_perception"
+        ]
+      }
+    },
+    "feature_names": [
+      "teacher_fraction",
+      "remaining_fraction",
+      "last_tool_ok",
+      "public_failure_fraction",
+      "mean_past_teacher_nll",
+      "last_past_teacher_nll",
+      "last_move",
+      "last_grasp",
+      "last_release",
+      "last_perception"
+    ],
+    "L2": 1.0,
+    "labels_use_only_other_parents_for_OOF": true,
+    "proxy_cost_subtracted": false
+  },
+  "features": [
+    {
+      "parent": 4062102001,
+      "features": {
+        "1": [
+          0.25,
+          0.72,
+          1.0,
+          0.0,
+          0.7630382776260376,
+          0.7630382776260376,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.68,
+          1.0,
+          0.0,
+          0.5774104297161102,
+          0.39178258180618286,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.6,
+          1.0,
+          0.0,
+          0.5449238792061806,
+          0.28978684544563293,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": true,
+        "2": false,
+        "4": true
+      }
+    },
+    {
+      "parent": 4062102006,
+      "features": {
+        "1": [
+          0.25,
+          0.84,
+          1.0,
+          0.0,
+          0.7547934651374817,
+          0.7547934651374817,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.8,
+          1.0,
+          0.0,
+          1.0646471083164215,
+          1.3745007514953613,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.72,
+          1.0,
+          0.0,
+          0.818087711930275,
+          0.3768821358680725,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": true,
+        "2": false,
+        "4": false
+      }
+    },
+    {
+      "parent": 4062102008,
+      "features": {
+        "1": [
+          0.25,
+          0.68,
+          1.0,
+          0.0,
+          0.6328525543212891,
+          0.6328525543212891,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.64,
+          1.0,
+          0.0,
+          0.5662763565778732,
+          0.4997001588344574,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.56,
+          1.0,
+          0.0,
+          0.5457012802362442,
+          0.40055903792381287,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "1": 0.25,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": true,
+        "2": true,
+        "4": true
+      }
+    },
+    {
+      "parent": 4062102007,
+      "features": {
+        "1": [
+          0.25,
+          0.4,
+          1.0,
+          0.0,
+          0.8368988633155823,
+          0.8368988633155823,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.36,
+          1.0,
+          0.0,
+          0.9889978468418121,
+          1.141096830368042,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.28,
+          1.0,
+          0.5,
+          1.1916190534830093,
+          1.3834192752838135,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": false,
+        "2": false,
+        "4": false
+      }
+    },
+    {
+      "parent": 4062102009,
+      "features": {
+        "1": [
+          0.25,
+          0.64,
+          1.0,
+          0.0,
+          0.9689823985099792,
+          0.9689823985099792,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.6,
+          1.0,
+          0.0,
+          0.7298742085695267,
+          0.4907660186290741,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.52,
+          1.0,
+          0.0,
+          0.762206919491291,
+          0.7500299215316772,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": true,
+        "2": false,
+        "4": false
+      }
+    },
+    {
+      "parent": 4062102022,
+      "features": {
+        "1": [
+          0.25,
+          0.28,
+          1.0,
+          0.0,
+          0.7813785076141357,
+          0.7813785076141357,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "2": [
+          0.5,
+          0.24,
+          1.0,
+          0.0,
+          0.7422557771205902,
+          0.7031330466270447,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "4": [
+          1.0,
+          0.16,
+          1.0,
+          0.0,
+          0.7782292366027832,
+          0.8720857501029968,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "values": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0
+      },
+      "supported": {
+        "1": true,
+        "2": true,
+        "4": false
+      }
+    }
+  ],
+  "source_prefix_sha256": {
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_1.pkl": "1ec21748a1dc0c8064680ee4564e4d0dde9bb26a2ed5b93fdaebb66980ebee7a",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_2.pkl": "00d2b9aa2ca65febe8245186566ca604557d9f11c0b511f503c5cd2991320fb5",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_0/handoff/prefix_4.pkl": "464a84d614124bc3e41b8bfae958acfd0de719c5287e283cb2fd60b29a2998e5",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_1.pkl": "d3deeadb2523103bbcd0cca64d1c55baf09986f8676fe702ee5366f9dbd18f72",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_2.pkl": "c42139a1e40f42f8eac51bb19dce047960b6c47651d93f7073278b5689e4f36f",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_5/handoff/prefix_4.pkl": "952f2cf58ec587197a857c30dce3c5bce612709bfcfb5a2858f05ab118f67a66",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_1.pkl": "041f9d008746511744fc498c40465c16be3072c37cd683efe258df14f2c2b3b9",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_2.pkl": "ed9ef988153a7e28c95bf6ed7d033789130c7b374df3a39c406a15c9f97adc0c",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_7/handoff/prefix_4.pkl": "7062491e1f3d9e5806945ab027715824ccff97fcce0510352c9263caf2ae15de",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_1.pkl": "20d6c74cf6f5dda4409babc5b76ea90fe127988e42ef8dbb3e9869256125a5c9",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_2.pkl": "c62ed4df3e052ca93bcefdfefb7af5724fedd8cf480dda5422c55caebc4e3bc4",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_6/handoff/prefix_4.pkl": "91e81d45fbda77e3a13e20ac958bc38e438e596ae0bb82a82f9fcf1cb4e916fa",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_1.pkl": "a576ac19fc52c4eaa98e5a8af293753b1cdcb49a135ca98f1ddbbd459e543685",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_2.pkl": "1c32f3a2623c8534026d754b5a295aeb47481ba7e047c08aa1c6f02428d4f925",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_8/handoff/prefix_4.pkl": "e2a6e244ceb8ddc5a47081fa6e1cdddbc0a8b5fe60b9e02a7385d8ad453424ed",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_1.pkl": "897e5a351f182edbcbcce34ae27847a9b99106a9eaae8b72f9019de1a83dc781",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_2.pkl": "ab2fc855c58169511dc2c879e0cf57511e5e43d1d9f7ca92a38298e7368243c9",
+    "artifact://piper_handoff_learning_20261021_v1/episodes/train_v3_21/handoff/prefix_4.pkl": "b0d3cc12fe89c353f9a27be5c9305aaca2847c8f3dddaa83f5bda1e6c8f73068"
+  },
+  "primitives_selftest": {
+    "early_stop_does_not_read_future": true,
+    "no_support_retains_all_four": true,
+    "unsupported_future_early_return_excluded": true,
+    "held_out_value_mutation_invariant": true,
+    "parent_ID_not_feature": true,
+    "S2_requires_two_scheduled_checks": true
+  },
+  "raw_audit_selftest": {
+    "extra_hold_separated": true,
+    "missing_control_sample_rejected": true
+  },
+  "source_sha256": {
+    "artifact://piper_handoff_validation_20261022_v2/07_prospective_validation_protocol.md": "e1ce3b278e63d65cb8e9e7e3fe7988f4efb0cb0b71bb7158639d55cd534905f8",
+    "artifact://piper_handoff_validation_20261022_v2/08_identification_amendment.md": "8181277ac08b7679eb507a2a565ca89c688ac3bc860160fab41ed85870eabdd4",
+    "artifact://piper_handoff_validation_20261022_v2/job/prospective_exit_v1.py": "fc5be64fb30f07818a6fe5850da2cce8f125d5bcd93522eb0dacbef2dc2bab12",
+    "artifact://piper_handoff_validation_20261022_v2/support_v2/candidate_support_scores.json": "87f6dd3878feaa455df0015e8172e05a4d76253304c6ea935823f74686a1f9e3",
+    "artifact://piper_handoff_validation_20261022_v2/support_v2/thresholds.json": "a62664bb99fad0522a9db74967a15fc68c3ad8ac875f33abaec211218fda0d70",
+    "artifact://piper_handoff_validation_20261022_v2/value_eval_status.json": "8a1490a36f8eb564beae29a45ccab479beaa2e064043d6ac7ee5489f940af357",
+    "artifact://piper_handoff_validation_20261022_v2/control4_status.json": "9f09eaacf9133e692444034a4bc5680fd5867e888916373581a27f3e826a449b"
+  },
+  "future_test_consumed": false,
+  "teacher_library_full_four_cost_charged": true,
+  "online_teacher_handoff_executed": false,
+  "semantic_hardware_safety_certified": false,
+  "hypothesis_validated": false
+}

@@ -1,0 +1,9 @@
+{
+  "visual_lower": 0.9942121505737305,
+  "risk_upper": 5.83041373638268,
+  "alpha_visual": 0.05,
+  "alpha_risk": 0.05,
+  "source_parents": 10,
+  "source_frames": 28,
+  "order_statistic_not_a_hardware_safety_certificate": true
+}

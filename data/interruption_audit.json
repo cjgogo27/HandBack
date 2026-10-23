@@ -1,0 +1,218 @@
+{
+  "state": "completed_first_attempt_censoring_sensitivity",
+  "at": 1792698483.904523,
+  "selftest": true,
+  "intervals": {
+    "U": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 12,
+      "interrupted_units": 0,
+      "known_joint_2mm_successes": 2,
+      "interrupted_joint_failure_already_observed": 0,
+      "joint_2mm_success_interval": [
+        2,
+        2
+      ],
+      "deep_over_5mm_count_interval": [
+        6,
+        6
+      ],
+      "repaired_table_joint_2mm": 2
+    },
+    "B": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 12,
+      "interrupted_units": 0,
+      "known_joint_2mm_successes": 5,
+      "interrupted_joint_failure_already_observed": 0,
+      "joint_2mm_success_interval": [
+        5,
+        5
+      ],
+      "deep_over_5mm_count_interval": [
+        2,
+        2
+      ],
+      "repaired_table_joint_2mm": 5
+    },
+    "F4": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 12,
+      "interrupted_units": 0,
+      "known_joint_2mm_successes": 4,
+      "interrupted_joint_failure_already_observed": 0,
+      "joint_2mm_success_interval": [
+        4,
+        4
+      ],
+      "deep_over_5mm_count_interval": [
+        5,
+        5
+      ],
+      "repaired_table_joint_2mm": 4
+    },
+    "Fbest": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 12,
+      "interrupted_units": 0,
+      "known_joint_2mm_successes": 3,
+      "interrupted_joint_failure_already_observed": 0,
+      "joint_2mm_success_interval": [
+        3,
+        3
+      ],
+      "deep_over_5mm_count_interval": [
+        2,
+        2
+      ],
+      "repaired_table_joint_2mm": 3
+    },
+    "S1": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 10,
+      "interrupted_units": 2,
+      "known_joint_2mm_successes": 4,
+      "interrupted_joint_failure_already_observed": 1,
+      "joint_2mm_success_interval": [
+        4,
+        5
+      ],
+      "deep_over_5mm_count_interval": [
+        4,
+        6
+      ],
+      "repaired_table_joint_2mm": 5
+    },
+    "S2": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 12,
+      "interrupted_units": 0,
+      "known_joint_2mm_successes": 5,
+      "interrupted_joint_failure_already_observed": 0,
+      "joint_2mm_success_interval": [
+        5,
+        5
+      ],
+      "deep_over_5mm_count_interval": [
+        3,
+        3
+      ],
+      "repaired_table_joint_2mm": 5
+    },
+    "V": {
+      "n_logical": 12,
+      "complete_noninterrupted_units": 11,
+      "interrupted_units": 1,
+      "known_joint_2mm_successes": 5,
+      "interrupted_joint_failure_already_observed": 1,
+      "joint_2mm_success_interval": [
+        5,
+        5
+      ],
+      "deep_over_5mm_count_interval": [
+        5,
+        5
+      ],
+      "repaired_table_joint_2mm": 6
+    }
+  },
+  "V_minus_baseline_joint_intervals": {
+    "Fbest": [
+      2,
+      2
+    ],
+    "S1": [
+      0,
+      1
+    ],
+    "S2": [
+      0,
+      0
+    ]
+  },
+  "original_missing_assignments_cannot_meet_gain_gate": true,
+  "gain_gate_guaranteed_under_all_missing_assignments": false,
+  "deep_gate_possible": false,
+  "deep_gate_guaranteed": false,
+  "interrupted_reexecution_comparisons": [
+    {
+      "name": "S1",
+      "seed": 4062104007,
+      "old_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104007",
+      "new_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/S1_4062104007",
+      "old_actions": 17,
+      "new_actions": 18,
+      "first_different_tool_or_arguments": null,
+      "first_different_saved_public_completion": null,
+      "old_initial_input_sha256": "9ce05c6bd84e835fdc36ce5c0b8b7ce12ded520215133f20289b0c3aa06d2409",
+      "new_initial_input_sha256": "9ce05c6bd84e835fdc36ce5c0b8b7ce12ded520215133f20289b0c3aa06d2409",
+      "no_exact_resume_claim": true,
+      "divergence_cause_not_proven": true,
+      "original_partial_contact": {
+        "observed_external_depth_lower_bound_m": 0.0010531932107627783,
+        "control_rows_read": 3479,
+        "last_logged_step": 3479,
+        "gzip_end_marker_present": false,
+        "incomplete_last_line_excluded": true,
+        "not_the_missing_full_trajectory_peak": true,
+        "physical_log_sha256": "fa21427d2da819ab11340de1af4f10a5a81f26af5d6fadba90512f3abb035069"
+      }
+    },
+    {
+      "name": "S1",
+      "seed": 4062104011,
+      "old_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/S1_4062104011",
+      "new_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/S1_4062104011",
+      "old_actions": 21,
+      "new_actions": 25,
+      "first_different_tool_or_arguments": 13,
+      "first_different_saved_public_completion": 13,
+      "old_initial_input_sha256": "866f7ade0d5692237cbd14d81fa86a2d852525dfdb540e2eaa4a9fac3a593fc1",
+      "new_initial_input_sha256": "866f7ade0d5692237cbd14d81fa86a2d852525dfdb540e2eaa4a9fac3a593fc1",
+      "no_exact_resume_claim": true,
+      "divergence_cause_not_proven": true,
+      "original_partial_contact": {
+        "observed_external_depth_lower_bound_m": 0.0033727961659630436,
+        "control_rows_read": 4208,
+        "last_logged_step": 4208,
+        "gzip_end_marker_present": false,
+        "incomplete_last_line_excluded": true,
+        "not_the_missing_full_trajectory_peak": true,
+        "physical_log_sha256": "6b4e2793fa570d07ebdd18ee10cdefe1c5d4f859a7fd56c49f28d07d5416d007"
+      }
+    },
+    {
+      "name": "V",
+      "seed": 4062104004,
+      "old_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/episodes/V_4062104004",
+      "new_output": "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/episodes/V_4062104004",
+      "old_actions": 23,
+      "new_actions": 20,
+      "first_different_tool_or_arguments": 13,
+      "first_different_saved_public_completion": 5,
+      "old_initial_input_sha256": "d0f7a5f5b5cd65ee9257014c85e7b7c26479367132c23923bf66644707639d2b",
+      "new_initial_input_sha256": "d0f7a5f5b5cd65ee9257014c85e7b7c26479367132c23923bf66644707639d2b",
+      "no_exact_resume_claim": true,
+      "divergence_cause_not_proven": true,
+      "original_partial_contact": {
+        "observed_external_depth_lower_bound_m": 0.010715257863045323,
+        "control_rows_read": 4935,
+        "last_logged_step": 4935,
+        "gzip_end_marker_present": false,
+        "incomplete_last_line_excluded": true,
+        "not_the_missing_full_trajectory_peak": true,
+        "physical_log_sha256": "b5ef9fb04b3d137ec1b58f34b02be71ef31b46e20ae40b8c285e5248d8b508fb"
+      }
+    }
+  ],
+  "no_missing_outcomes_imputed": true,
+  "no_pvalues_or_new_samples": true,
+  "monotone_depth_failure_not_reversed_by_missing_tail": true,
+  "does_not_resolve_V_S1_identical_training_treatment": true,
+  "not_all_first_attempts": true,
+  "source_sha256": {
+    "artifact://piper_handoff_validation_20261022_v2/prospective_v1/stage_A_result_v3.json": "573a23ea0901411c5549292c44adf20023404f9be22c11b6847e78a5a33e7ec4",
+    "artifact://piper_handoff_validation_20261022_v2/prospective_v1/resumption_v3/repair_manifest.json": "9cefc209e5e034302e6c214bc72d48b04fe0c9921abdd69f010fbc15abbd8ac6",
+    "artifact://piper_handoff_validation_20261022_v2/job/first_attempt_sensitivity_v1.py": "c7987affe4e3e8aa8b5a7836d609a8930013c76b4246d0dc38dd98438ec2d583"
+  }
+}

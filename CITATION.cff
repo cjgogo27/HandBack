@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use the analysis or evidence, cite this exploratory technical report."
+title: "HandBack: A Bounded Study of Learning-Value-Based Control Handback"
+type: software
+authors:
+  - name: "cjgogo27"
+    email: "cj3332740@outlook.com"
+repository-code: "https://github.com/cjgogo27/HandBack"
+url: "https://cjgogo27.github.io/HandBack/"
+version: "0.1.0"
+date-released: 2026-10-23
+license: MIT
+abstract: "Exploratory single-task Piper study with negative feasibility and unresolved mechanism identification; includes derived evidence and executable analysis."

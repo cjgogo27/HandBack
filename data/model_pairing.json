@@ -1,0 +1,79 @@
+{
+  "state": "completed_comparison_of_actual_mjb_hashes",
+  "all_12_initial_scenes_compiled_model_byte_identical_across_7_methods": true,
+  "by_seed": {
+    "4062104001": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "983e8e8cb3fdba6a07a5e3a2e9e27fc14163df584a7933dc3fa5ffb6e2ce3687"
+      ]
+    },
+    "4062104002": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "dd2ad7c021127fd5c14328584ed97aa8430d512afbd1121e3196b661df83c0d4"
+      ]
+    },
+    "4062104003": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "8ca04991397a3d0e1f7a4f22ea1ab757ff1fe5c42be444d69c4ca77140322441"
+      ]
+    },
+    "4062104004": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "944bed98ddb14ef15df4f9bdb824dbd8363643842efe3ef98741fe69d81dbd32"
+      ]
+    },
+    "4062104005": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "10fcae8b77c52e6b02002228a4a59d158823d0d35528b72f82acf0fc0938e78e"
+      ]
+    },
+    "4062104006": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "b400acca290d5dd6c9b92340dd2a0b843c95bdacdd0e551d82cdb489f02e41aa"
+      ]
+    },
+    "4062104007": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "035c7a0f5b9f502da4d39577ed337ed0a4645fd27c1050186f13c9a916a97e0e"
+      ]
+    },
+    "4062104008": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "ae81c901bac3e71092a9b67c1727f89187205a2d3b1b37c549b5b563e9431f5e"
+      ]
+    },
+    "4062104009": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "09e18de948b917b4ad887e3a804d01e1c90290e57c0f437edea070de447daa42"
+      ]
+    },
+    "4062104010": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "6e4bda7ac6f5570a11a01e5e422dcdc751116c1b3839101f9066f82f027c7b78"
+      ]
+    },
+    "4062104011": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "3e12a69df093212527818fd78c534aa412851a258b64e1d3a4630665ca6e79af"
+      ]
+    },
+    "4062104012": {
+      "methods": 7,
+      "unique_compiled_model_hashes": [
+        "8803a16ea7cc95b9fee8f14a3f9acd43bb1f4d0cd20773e37a2efaba7c1f020a"
+      ]
+    }
+  },
+  "actual_model_files_were_hashed_by_final_verifier": true
+}

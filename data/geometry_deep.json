@@ -1,0 +1,80 @@
+{
+  "state": "completed",
+  "rows": [
+    {
+      "case": 0,
+      "names": [
+        "gripper0_right_gripper_base_collision",
+        "can_g0"
+      ],
+      "mujoco_peak_mm": 7.041870553498589,
+      "welded_compiled_CAD_watertight": true,
+      "palm_components": 4,
+      "sampled_object_points_inside_palm_CAD": 29,
+      "sampled_palm_points_inside_object_collision": 110,
+      "sampled_bidirectional_interior_depth_lower_bound_mm": 6.792454900415547,
+      "contact_midpoint_inside_palm_CAD": false,
+      "contact_midpoint_unsigned_CAD_distance_mm": 9.43352089181212,
+      "not_a_proof_of_zero_overlap": true,
+      "object_collision_convex_hull_not_certified_object_hardware_CAD": true,
+      "compiled_model_sha256": "7520c6b289c4f3ae995a7dd41f582669353855f18b26c94735d2e8050f55a011"
+    },
+    {
+      "case": 1,
+      "names": [
+        "gripper0_right_gripper_base_collision",
+        "can_g0"
+      ],
+      "mujoco_peak_mm": 8.212887568456518,
+      "welded_compiled_CAD_watertight": true,
+      "palm_components": 4,
+      "sampled_object_points_inside_palm_CAD": 45,
+      "sampled_palm_points_inside_object_collision": 135,
+      "sampled_bidirectional_interior_depth_lower_bound_mm": 7.934167023410567,
+      "contact_midpoint_inside_palm_CAD": false,
+      "contact_midpoint_unsigned_CAD_distance_mm": 5.56335225442789,
+      "not_a_proof_of_zero_overlap": true,
+      "object_collision_convex_hull_not_certified_object_hardware_CAD": true,
+      "compiled_model_sha256": "5781b71b1b8b5f300c19676f94087873821d8dd41c766e4a067bb05cfc2ceb0c"
+    },
+    {
+      "case": 2,
+      "names": [
+        "gripper0_right_gripper_base_collision",
+        "tomato_g3"
+      ],
+      "mujoco_peak_mm": 8.502715495680482,
+      "welded_compiled_CAD_watertight": true,
+      "palm_components": 4,
+      "sampled_object_points_inside_palm_CAD": 161,
+      "sampled_palm_points_inside_object_collision": 49,
+      "sampled_bidirectional_interior_depth_lower_bound_mm": 5.601529261418106,
+      "contact_midpoint_inside_palm_CAD": false,
+      "contact_midpoint_unsigned_CAD_distance_mm": 8.748866518773408,
+      "not_a_proof_of_zero_overlap": true,
+      "object_collision_convex_hull_not_certified_object_hardware_CAD": true,
+      "compiled_model_sha256": "58741e0ea0e3d86b529fa541529475f1e0da9e4c8a7460a73769acf57ffac7d2"
+    },
+    {
+      "case": 3,
+      "names": [
+        "gripper0_right_gripper_base_collision",
+        "tomato_g3"
+      ],
+      "mujoco_peak_mm": 8.765356707065155,
+      "welded_compiled_CAD_watertight": true,
+      "palm_components": 4,
+      "sampled_object_points_inside_palm_CAD": 86,
+      "sampled_palm_points_inside_object_collision": 82,
+      "sampled_bidirectional_interior_depth_lower_bound_mm": 7.353364450402306,
+      "contact_midpoint_inside_palm_CAD": true,
+      "contact_midpoint_unsigned_CAD_distance_mm": 0.3843716495555343,
+      "not_a_proof_of_zero_overlap": true,
+      "object_collision_convex_hull_not_certified_object_hardware_CAD": true,
+      "compiled_model_sha256": "58741e0ea0e3d86b529fa541529475f1e0da9e4c8a7460a73769acf57ffac7d2"
+    }
+  ],
+  "not_policy_or_learning_validation": true,
+  "old_nonwatertight_claim_corrected_by_standard_vertex_welding": true,
+  "at": 1792664483.6921866
+}

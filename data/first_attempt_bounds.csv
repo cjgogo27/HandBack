@@ -1,0 +1,8 @@
+method,n_complete_noninterrupted,n_interrupted,joint_success_lower,joint_success_upper,deep_5mm_lower,deep_5mm_upper
+U,12,0,2,2,6,6
+B,12,0,5,5,2,2
+F4,12,0,4,4,5,5
+Fbest,12,0,3,3,2,2
+S1,10,2,4,5,4,6
+S2,12,0,5,5,3,3
+V,11,1,5,5,5,5

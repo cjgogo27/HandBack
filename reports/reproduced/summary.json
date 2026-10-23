@@ -1,0 +1,152 @@
+{
+  "counts": {
+    "U": {
+      "n": 12,
+      "original_predicate": 9,
+      "complete_and_held": 5,
+      "joint_1mm": 1,
+      "joint_2mm": 2,
+      "joint_5mm": 2,
+      "deep_over_5mm": 6
+    },
+    "B": {
+      "n": 12,
+      "original_predicate": 10,
+      "complete_and_held": 9,
+      "joint_1mm": 4,
+      "joint_2mm": 5,
+      "joint_5mm": 7,
+      "deep_over_5mm": 2
+    },
+    "F4": {
+      "n": 12,
+      "original_predicate": 10,
+      "complete_and_held": 7,
+      "joint_1mm": 2,
+      "joint_2mm": 4,
+      "joint_5mm": 5,
+      "deep_over_5mm": 5
+    },
+    "Fbest": {
+      "n": 12,
+      "original_predicate": 8,
+      "complete_and_held": 5,
+      "joint_1mm": 1,
+      "joint_2mm": 3,
+      "joint_5mm": 4,
+      "deep_over_5mm": 2
+    },
+    "S1": {
+      "n": 12,
+      "original_predicate": 11,
+      "complete_and_held": 8,
+      "joint_1mm": 0,
+      "joint_2mm": 5,
+      "joint_5mm": 5,
+      "deep_over_5mm": 4
+    },
+    "S2": {
+      "n": 12,
+      "original_predicate": 10,
+      "complete_and_held": 8,
+      "joint_1mm": 4,
+      "joint_2mm": 5,
+      "joint_5mm": 6,
+      "deep_over_5mm": 3
+    },
+    "V": {
+      "n": 12,
+      "original_predicate": 10,
+      "complete_and_held": 8,
+      "joint_1mm": 3,
+      "joint_2mm": 6,
+      "joint_5mm": 6,
+      "deep_over_5mm": 4
+    }
+  },
+  "V_minus_baselines": {
+    "Fbest": 3,
+    "S1": 1,
+    "S2": 1
+  },
+  "gain_gate": false,
+  "deep_contact_gate": false,
+  "stage_B_executed": false,
+  "selection_V_equals_S1": true,
+  "first_attempt_bounds": {
+    "U": {
+      "joint": [
+        2,
+        2
+      ],
+      "deep": [
+        6,
+        6
+      ]
+    },
+    "B": {
+      "joint": [
+        5,
+        5
+      ],
+      "deep": [
+        2,
+        2
+      ]
+    },
+    "F4": {
+      "joint": [
+        4,
+        4
+      ],
+      "deep": [
+        5,
+        5
+      ]
+    },
+    "Fbest": {
+      "joint": [
+        3,
+        3
+      ],
+      "deep": [
+        2,
+        2
+      ]
+    },
+    "S1": {
+      "joint": [
+        4,
+        5
+      ],
+      "deep": [
+        4,
+        6
+      ]
+    },
+    "S2": {
+      "joint": [
+        5,
+        5
+      ],
+      "deep": [
+        3,
+        3
+      ]
+    },
+    "V": {
+      "joint": [
+        5,
+        5
+      ],
+      "deep": [
+        5,
+        5
+      ]
+    }
+  },
+  "logical_units": 84,
+  "physical_attempts_including_original_partials": 87,
+  "infrastructure_retry_units": 3,
+  "verification_scope": "Recompute released tables and cross-check derived audit evidence; no raw-trajectory or training regeneration"
+}

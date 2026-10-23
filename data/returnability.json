@@ -1,0 +1,394 @@
+{
+  "at": 1792678205.8110135,
+  "methods": {
+    "F4": {
+      "parent_cases": 6,
+      "handoffs": 6,
+      "no_handoff": 0,
+      "raw_successful_handoffs": 3,
+      "joint_2mm_successful_handoffs": 2,
+      "rows": [
+        {
+          "parent": 4062102001,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102001_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0008390541964297884,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102006,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102006_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.002992879493614015,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102008,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102008_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0005798400736671458,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102007,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102007_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0023095684486433557,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102009,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102009_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0017178598009053453,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102022,
+          "retained_k": 4,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102022_4",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        }
+      ]
+    },
+    "Fbest": {
+      "parent_cases": 6,
+      "handoffs": 6,
+      "no_handoff": 0,
+      "raw_successful_handoffs": 2,
+      "joint_2mm_successful_handoffs": 1,
+      "rows": [
+        {
+          "parent": 4062102001,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102001_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.006598662886932956,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102006,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102006_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.002058865470977781,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102008,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102008_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0006156094355577257,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102007,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102007_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0005629631261048146,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102009,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102009_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0017261171838668572,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102022,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102022_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.00031098685494421906,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        }
+      ]
+    },
+    "S1": {
+      "parent_cases": 6,
+      "handoffs": 5,
+      "no_handoff": 1,
+      "raw_successful_handoffs": 2,
+      "joint_2mm_successful_handoffs": 1,
+      "rows": [
+        {
+          "parent": 4062102001,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102001_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.006598662886932956,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102006,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102006_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.002058865470977781,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102008,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102008_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0006156094355577257,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102007,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102009,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102009_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0017261171838668572,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102022,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102022_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.00031098685494421906,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        }
+      ]
+    },
+    "S2": {
+      "parent_cases": 6,
+      "handoffs": 2,
+      "no_handoff": 4,
+      "raw_successful_handoffs": 1,
+      "joint_2mm_successful_handoffs": 1,
+      "rows": [
+        {
+          "parent": 4062102001,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102006,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102008,
+          "retained_k": 2,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102008_2",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0005798400736671458,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102007,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102009,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102022,
+          "retained_k": 2,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102022_2",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        }
+      ]
+    },
+    "V": {
+      "parent_cases": 6,
+      "handoffs": 5,
+      "no_handoff": 1,
+      "raw_successful_handoffs": 2,
+      "joint_2mm_successful_handoffs": 1,
+      "rows": [
+        {
+          "parent": 4062102001,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102001_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.006598662886932956,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102006,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102006_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.002058865470977781,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102008,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102008_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.0006156094355577257,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102007,
+          "retained_k": 4,
+          "handoff": false,
+          "raw_complete_and_held": null,
+          "joint_2mm": null,
+          "reason": "no handoff declared; retained-four data still used for SGD"
+        },
+        {
+          "parent": 4062102009,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102009_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": true,
+          "maximum_external_robot_penetration_m": 0.0017261171838668572,
+          "joint_2mm": true,
+          "remaining_official_budget_unchanged": true
+        },
+        {
+          "parent": 4062102022,
+          "retained_k": 1,
+          "handoff": true,
+          "original_probe_output": "artifact://piper_handoff_learning_20261021_v1/episodes/counterfactual_v3_4062102022_1",
+          "reused_real_execution": true,
+          "new_execution": false,
+          "raw_complete_and_held": false,
+          "maximum_external_robot_penetration_m": 0.00031098685494421906,
+          "joint_2mm": false,
+          "remaining_official_budget_unchanged": true
+        }
+      ]
+    }
+  },
+  "source_sha256": "1cd229f395db64bf7b9f04e5f7ca48c36cece1709472a2c2a7dcc99a774c047a",
+  "selection_sha256": "9a77a499fdd1e197984dc6c1d104f50b66d26c68cf1a124ae4af57482998292c",
+  "old_same_state_executions_reused_not_new_R_evaluation": true,
+  "current_public_feature_decisions_frozen_before_this_report": true,
+  "not_a_new_learning_gain_measure": true,
+  "not_an_independent_training_seed_replication": true,
+  "no_new_teacher_or_simulator_execution": true,
+  "no_support_certificate_or_guaranteed_returnability": true
+}

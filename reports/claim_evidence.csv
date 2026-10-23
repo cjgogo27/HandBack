@@ -1,0 +1,15 @@
+claim_id,claim,evidence,locator,verification_scope
+C01,84 logical units and three retry units,data/stage_a.csv,unique method-seed pairs and infrastructure_retry,public recomputation
+C02,V joint success 6 of 12 and S1 S2 each 5 of 12,data/stage_a.csv,joint_2mm by method,public recomputation
+C03,Gain and deep-contact gates failed,data/recorded_stage_a.json,predeclared_gain_gate and predeclared_deep_contact_gate,public recomputation against frozen protocol
+C04,V and S1 selected identical prefixes,data/selection.json,methods.V and methods.S1,public OOF selector replay
+C05,V and S1 had identical training schedules,data/mechanism_audit.json,methods.V.training_schedule and methods.S1.training_schedule,public derived-schedule equality
+C06,V and S1 saved tensor values differ,data/tensor_comparison.json,all_tensor_values_identical,recorded tensor-content audit; weights not publicly distributed
+C07,Original V joint bound is exactly 5 of 12,data/interruption_audit.json,interrupted_reexecution_comparisons and intervals,public bound recomputation; original partial log not bundled
+C08,Immediate-return evidence is reused rather than new,data/returnability.json,old_same_state_executions_reused_not_new_R_evaluation,recorded execution lineage
+C09,3679 source assets and 2432 artifacts and 1844 native images checked,data/closure_verification.json,completion_verification_v1.json,recorded original closure audit; not a new public raw-file verification
+C10,100 development and 144 pooled optimizer steps,data/costs.json,actual_value_estimation_and_replay_control_training and method_specific_pooled_training,public sum of recorded training ledgers
+C11,1885 future student requests including partial attempts,data/costs.json,future_actual_completed_and_original_partial_calls,public recorded-cost check
+C12,Four deep CAD states have sampled interior overlap,data/geometry_deep.json,rows,recorded offline geometry analysis; no hardware certification
+C13,84 final crops and three discrete observation replays,data/media_manifest.json,gallery and replays,exported media hashes and source manifests
+C14,No Stage B was run,data/closure_verification.json,completion_verification_v1.json.stage_B_consumed_episode_directories,recorded closure check

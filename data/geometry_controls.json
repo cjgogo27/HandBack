@@ -1,0 +1,108 @@
+{
+  "state": "completed_with_explicit_geometry_limitations",
+  "rows": [
+    {
+      "case": 4,
+      "original_case": {
+        "episode": "artifact://piper_handoff_learning_20261021_v1/episodes/learning_eval_v2_base_4062103004",
+        "arm": "base",
+        "action_index": 14,
+        "max_mm": 0.35243843310431544,
+        "pair": [
+          "gripper0_right_link7_collision",
+          "can_g0"
+        ],
+        "clean_control": true
+      },
+      "robot_visual_geom": "gripper0_right_link7_visual",
+      "mujoco_peak_mm": 0.35243843310431544,
+      "welded_compiled_CAD_watertight": false,
+      "component_topology": [
+        {
+          "faces": 504,
+          "vertices": 252,
+          "watertight": true,
+          "euler_number": 0
+        },
+        {
+          "faces": 152,
+          "vertices": 80,
+          "watertight": false,
+          "euler_number": 1
+        },
+        {
+          "faces": 4,
+          "vertices": 6,
+          "watertight": false,
+          "euler_number": 1
+        },
+        {
+          "faces": 2,
+          "vertices": 4,
+          "watertight": false,
+          "euler_number": 1
+        },
+        {
+          "faces": 1422,
+          "vertices": 707,
+          "watertight": false,
+          "euler_number": -7
+        },
+        {
+          "faces": 4,
+          "vertices": 6,
+          "watertight": false,
+          "euler_number": 1
+        },
+        {
+          "faces": 2,
+          "vertices": 4,
+          "watertight": false,
+          "euler_number": 1
+        }
+      ],
+      "contact_midpoint_unsigned_CAD_distance_mm": 0.0015012187491328776,
+      "signed_overlap_result": "unverifiable_for_open_visual_CAD",
+      "no_mesh_repair_or_geometry_change": true,
+      "no_zero_overlap_certificate": true,
+      "compiled_model_sha256": "93cc6802faf19cf7046ec9e52485a8a0d9a05d7e0e66560db5a211b7013c6d65"
+    },
+    {
+      "case": 5,
+      "original_case": {
+        "episode": "artifact://piper_handoff_learning_20261021_v1/episodes/learning_eval_v2_k2_4062103007",
+        "arm": "k2",
+        "action_index": 21,
+        "max_mm": 0.884507369850568,
+        "pair": [
+          "gripper0_right_gripper_base_collision",
+          "can_g0"
+        ],
+        "clean_control": true
+      },
+      "robot_visual_geom": "gripper0_right_gripper_base_visual",
+      "clean_control_label_is_raw_metric_not_zero_overlap_certificate": true,
+      "names": [
+        "gripper0_right_gripper_base_collision",
+        "can_g0"
+      ],
+      "mujoco_peak_mm": 0.884507369850568,
+      "welded_compiled_CAD_watertight": true,
+      "robot_CAD_components": 4,
+      "sampled_object_points_inside_robot_CAD": 0,
+      "sampled_robot_CAD_points_inside_object_collision": 0,
+      "sampled_bidirectional_interior_depth_lower_bound_mm": 0,
+      "contact_midpoint_inside_robot_CAD": false,
+      "contact_midpoint_unsigned_CAD_distance_mm": 13.775300722029552,
+      "not_a_proof_of_zero_overlap": true,
+      "object_collision_convex_hull_not_certified_object_hardware_CAD": true,
+      "compiled_model_sha256": "43615217c6ad024a8403307a44c6ac48df062bdda5b1453e4f78aad3c4373a57"
+    }
+  ],
+  "not_policy_or_learning_validation": true,
+  "original_cases_4_and_5_only_no_repeat_of_completed_four": true,
+  "zero_new_simulator_steps": true,
+  "zero_teacher_calls": true,
+  "old_nonwatertight_claim_corrected_by_standard_vertex_welding": true,
+  "at": 1792700308.481568
+}

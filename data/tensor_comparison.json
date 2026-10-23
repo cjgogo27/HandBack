@@ -1,0 +1,398 @@
+{
+  "state": "completed_S1_V_tensor_content_comparison",
+  "file_bytes_identical": false,
+  "canonical_tensor_content_sha256": [
+    "f8ef105a82c953288ac6fdc31d0499fc6b5a7b99e2c7595b0a68c9a63b0a0593",
+    "650ae75ed42cc2968d0b1f7b10f675f60d2f8a9988b5d984d464930e88c25d4c"
+  ],
+  "all_tensor_values_identical": false,
+  "rows": [
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003048875369131565,
+      "RMS_difference": 3.237055352656171e-05,
+      "nonzero_differences": 32766,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003859980497509241,
+      "RMS_difference": 5.1600829465314746e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0005308231338858604,
+      "RMS_difference": 7.987090793903917e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.000620611070189625,
+      "RMS_difference": 6.848029443062842e-05,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00038893474265933037,
+      "RMS_difference": 4.610958058037795e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.11.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003793953510466963,
+      "RMS_difference": 4.741322482004762e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00025205034762620926,
+      "RMS_difference": 2.0620973373297602e-05,
+      "nonzero_differences": 32767,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002763417724054307,
+      "RMS_difference": 3.2844862289493904e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003129979595541954,
+      "RMS_difference": 4.129952867515385e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0004996889620088041,
+      "RMS_difference": 4.513444218900986e-05,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003175374586135149,
+      "RMS_difference": 2.9220109354355372e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.15.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00026951331528835,
+      "RMS_difference": 3.281881436123513e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00032048672437667847,
+      "RMS_difference": 2.4263697923743166e-05,
+      "nonzero_differences": 32768,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00025035825092345476,
+      "RMS_difference": 2.6811743737198412e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0004027951508760452,
+      "RMS_difference": 2.8029808163410053e-05,
+      "nonzero_differences": 20479,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00038778851740062237,
+      "RMS_difference": 3.458511127973907e-05,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0003086058422923088,
+      "RMS_difference": 2.806262273225002e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.19.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00022946519311517477,
+      "RMS_difference": 2.7228923499933444e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00039830803871154785,
+      "RMS_difference": 2.1769401428173296e-05,
+      "nonzero_differences": 32768,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00024024568847380579,
+      "RMS_difference": 2.2657288354821503e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00023754802532494068,
+      "RMS_difference": 2.4508839487680234e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0005027694278396666,
+      "RMS_difference": 3.120351902907714e-05,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002803131937980652,
+      "RMS_difference": 2.082716309814714e-05,
+      "nonzero_differences": 20479,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.23.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002497344103176147,
+      "RMS_difference": 2.5567267584847286e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0004788534715771675,
+      "RMS_difference": 2.6277723009116016e-05,
+      "nonzero_differences": 32767,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.000280611973721534,
+      "RMS_difference": 2.056739140243735e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00029838643968105316,
+      "RMS_difference": 2.1789248421555385e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.00035725493216887116,
+      "RMS_difference": 2.7505724574439228e-05,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0001896210014820099,
+      "RMS_difference": 1.4475144780590199e-05,
+      "nonzero_differences": 20478,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.27.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002777294139377773,
+      "RMS_difference": 2.1291791199473664e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0014836369082331657,
+      "RMS_difference": 0.00012520128802862018,
+      "nonzero_differences": 32768,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0011648585787042975,
+      "RMS_difference": 0.00019145355327054858,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0014769374392926693,
+      "RMS_difference": 0.00024903929443098605,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0013358246069401503,
+      "RMS_difference": 0.00020635662076529115,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.002159405965358019,
+      "RMS_difference": 0.00029162599821574986,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.3.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0009237723425030708,
+      "RMS_difference": 0.00018232862930744886,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002547436160966754,
+      "RMS_difference": 1.8680275388760492e-05,
+      "nonzero_differences": 32768,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0001615930232219398,
+      "RMS_difference": 1.5988269296940416e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0002442840486764908,
+      "RMS_difference": 1.9902665371773764e-05,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0004018790787085891,
+      "RMS_difference": 2.311941898369696e-05,
+      "nonzero_differences": 65535,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.000349218025803566,
+      "RMS_difference": 1.8424705558572896e-05,
+      "nonzero_differences": 20478,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.31.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0001751688978401944,
+      "RMS_difference": 1.803580016712658e-05,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.o_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0010203276760876179,
+      "RMS_difference": 9.479294385528192e-05,
+      "nonzero_differences": 32767,
+      "elements": 32768
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.o_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0007906885584816337,
+      "RMS_difference": 0.00012910047371406108,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.q_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.001150263473391533,
+      "RMS_difference": 0.00016504446102771908,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.q_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0009801839478313923,
+      "RMS_difference": 0.00014009674487169832,
+      "nonzero_differences": 65536,
+      "elements": 65536
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.v_proj.lora_A.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0009454432874917984,
+      "RMS_difference": 0.0001489609421696514,
+      "nonzero_differences": 20480,
+      "elements": 20480
+    },
+    {
+      "name": "base_model.model.model.language_model.layers.7.self_attn.v_proj.lora_B.weight",
+      "same_values": false,
+      "max_absolute_difference": 0.0007589215529151261,
+      "RMS_difference": 0.00013696268433704972,
+      "nonzero_differences": 8192,
+      "elements": 8192
+    }
+  ],
+  "same_realized_training_data_and_schedule": true,
+  "not_evidence_of_exit_selection_advantage": true,
+  "no_new_training_or_scenes": true
+}

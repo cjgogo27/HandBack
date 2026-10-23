@@ -1,0 +1,2317 @@
+{
+  "lerobot": {
+    "requested_url": "https://huggingface.co/lerobot",
+    "final_url": "https://huggingface.co/lerobot",
+    "html_bytes": 436100,
+    "counts": {
+      "video": 0,
+      "source": 0,
+      "iframe": 0,
+      "img": 55
+    },
+    "media_entries": [
+      {
+        "tag": "img",
+        "src": "/front/assets/huggingface_logo-noborder.svg",
+        "alt": "Hugging Face's logo"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/646dbbc8075bbcc48ddcecbf/V52Em-78O5F3QxRbRwG5O.jpeg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "/avatars/b1d74b7c01d93cdaa17e4de2024f783f.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "/avatars/8b3dc48901282b3fdb54eec0e840e995.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "/api/users/mishig/avatar",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "/api/users/pepijn223/avatar",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "/api/users/maximellerbach/avatar",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2510.12403.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857746553-5df7e9e5da6d0311fd3d53f9.jpeg",
+        "alt": "Thomas Wolf's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60a551a34ecc5d054c8ad93e/Z3GDwcXyTyiAXfoeO7tEt.jpeg",
+        "alt": "Mishig ᠮᠢᠰᠾᠢᠭ's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b124b081d4eae18b957606/QdQMOTzsHBkJIuXjk8O_h.png",
+        "alt": "Steven Palma's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65f9d37113336392bad1e49c/B0Fxwconnu7lvtjBz4Ruq.jpeg",
+        "alt": "Pepijn Kooijmans's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+        "alt": "Clem 🤗's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d7dea1786ddcb3af5a44b3/gEgXTH4oO91GIzjHR-yrb.png",
+        "alt": "Caroline Pascal's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631365ad289cf15634c6f600/bRndkmck1CZFKJr5U-p4A.png",
+        "alt": "Martino Russi's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61324ea4e24f4931e104df67/-9VVBX72zxiB2yTDeyJnn.jpeg",
+        "alt": "Khalil Meftah's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/68fa2ab88b9b8d06b46e8cfa/3Bu0LdKRwB40O12ezAf73.webp",
+        "alt": "Maxime Ellerbach's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/HTzeoAGZdlPRX2FcYeKtg.jpeg",
+        "alt": "Nicolas Rabault's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e48005437cb5b49818287a5/4uCXGGui-9QifAT4qelxU.png",
+        "alt": "Leandro von Werra's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67688d27a673180a30810215/KFGol0IdMKDUwGxgxhuOA.jpeg",
+        "alt": "Nikodem Bartnik's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64cb7fdb9e30a46f7b92aa45/TKaRtn_-R_W__QY8DsQv3.jpeg",
+        "alt": "frere thibaud's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64789feb79f2d49511ed7db4/IzaIwiVgnkTZHrcLDQk0C.jpeg",
+        "alt": "Pablo Montalvo's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a55fd9b97cfef62b06f8f28/6D2XmBisCzIBrjDzayQmK.jpeg",
+        "alt": "Etienne Chassaing's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Y6-UVObyxszeO16ojB1Rf.jpeg",
+        "alt": "Zibin Dong's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/QnnO_KOyZjFd-iXuPnHqR.png",
+        "alt": "HaomingSong's profile picture"
+      },
+      {
+        "tag": "img",
+        "src": "https://huggingface.co/spaces/lerobot/README/resolve/main/assets/lerobot-logo.png",
+        "alt": "LeRobot"
+      },
+      {
+        "tag": "img",
+        "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/robots_control_video.webp",
+        "alt": "Recording demonstrations by teleoperation"
+      },
+      {
+        "tag": "img",
+        "src": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/so100_video.webp",
+        "alt": "Leader and follower arms"
+      },
+      {
+        "tag": "img",
+        "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/unitree%20g1%20can%20example%20speed%202x.gif",
+        "alt": "The SO-101 arm"
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+        "alt": ""
+      }
+    ],
+    "check_scope": "HTML media elements and text; no media files downloaded or played"
+  },
+  "openvla": {
+    "requested_url": "https://openvla.github.io/",
+    "final_url": "https://openvla.github.io/",
+    "html_bytes": 50363,
+    "counts": {
+      "video": 51,
+      "source": 51,
+      "iframe": 0,
+      "img": 7
+    },
+    "media_entries": [
+      {
+        "tag": "img",
+        "src": "static/images/hf_icon.svg"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/openvla_teaser_video.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/openvla_teaser.jpg"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/bridge_pick_clutter_2.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/rt1_robot_coke_upright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/franka_pour_corn.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/wipe_ood_4x.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/bridge_pick_clutter.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/franka_cover.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/rt1_robot_orange_near_coke.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/wipe_ood_2_4x.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/bridge_stack.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/franka_flip_pot.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "poster": "",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/carousel/franka_knock.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/openvla_model.jpg"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/bridge_results.jpg"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/rt1_results.jpg"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/finetune_results.jpg"
+      },
+      {
+        "tag": "img",
+        "src": "static/images/lora_table.png"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/correct_target/openvla--put_eggplant_into_pot--clutter.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/correct_target/openvla--put_eggplant_into_pot--clutter--2.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/correct_target/openvla--put_corn_on_plate--clutter.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/correct_target/openvla--put_corn_on_plate--clutter--2.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_lang_cond/openvla--lift_red_chili_pepper.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_lang_cond/openvla--lift_cheese.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_lang_cond/openvla--put_pink_cup_on_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_lang_cond/openvla--put_blue_cup_on_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_orient/openvla--lift_AAA_battery.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/good_orient/openvla--put_corn_on_plate--motion.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/reattempt/openvla--put_blue_cup_on_plate--reattempt.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/qualitative_results/reattempt/openvla--put_eggplant_into_pot--clutter--reattempt.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/rt2x--pick_coke_can.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/openvla--pick_coke_can.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/rt2x--move_banana_near_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/openvla--move_banana_near_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/rt2x--place_banana_on_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/openvla--place_banana_on_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/rt2x--move_coke_can_near_taylor_swift.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/rt1_robot/openvla--move_coke_can_near_taylor_swift.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/dp--put_carrot.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/octo--put_carrot.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--put_carrot.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/dp--pour_corn.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/octo--pour_corn.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--pour_corn.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/dp--move_corn_onto_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/octo--move_corn_onto_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--move_corn_onto_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/dp--knock_brown_bear_over.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/octo--knock_brown_bear_over.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--knock_brown_bear_over.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/dp--cover_white_bowl_with_towel.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/octo--cover_white_bowl_with_towel.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--cover_white_bowl_with_towel.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/base_vlm--flip_pot_upright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--flip_pot_upright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/base_vlm--move_salt_shaker_onto_plate.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "static/videos/comparisons_with_baselines/franka_tabletop/openvla--move_salt_shaker_onto_plate.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "check_scope": "HTML media elements and text; no media files downloaded or played"
+  },
+  "act": {
+    "requested_url": "https://tonyzhaozh.github.io/aloha/",
+    "final_url": "https://tonyzhaozh.github.io/aloha/",
+    "html_bytes": 24358,
+    "counts": {
+      "video": 19,
+      "source": 19,
+      "iframe": 0,
+      "img": 1
+    },
+    "media_entries": [
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/teleop_all.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "resources/algo.png",
+        "alt": "SPARTN teaser figure"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/slot_battery.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/open_lid.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/prep_tape.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/put_on_shoe.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/reactive_cup.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/reactive_battery.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/reactive_cup_fail.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/reactive_cup_2.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/distractor_battery.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/distractor_tape.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/distractor_battery_fail.mov",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/ziploc_slide.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/obs_battery.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/open_cup.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/thread_velcro.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/prep_tape.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/robot_obs/put_on_shoe.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "resources/frog.mov",
+        "type": "video/mp4"
+      }
+    ],
+    "check_scope": "HTML media elements and text; no media files downloaded or played"
+  },
+  "diffusion_policy": {
+    "requested_url": "https://diffusion-policy.cs.columbia.edu/",
+    "final_url": "https://diffusion-policy.cs.columbia.edu/",
+    "html_bytes": 35723,
+    "counts": {
+      "video": 26,
+      "source": 26,
+      "iframe": 0,
+      "img": 21
+    },
+    "media_entries": [
+      {
+        "tag": "img",
+        "src": "images/columbia_engineering_logo.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/tri_logo_landscape.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/mit_logo.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/teaser.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/multimodal_sim.svg",
+        "alt": ""
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/highlight_pusht_process.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/highlight_mug.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/highlight_sauce.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/highlight_pusht.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/lift.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/can.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/square.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/tool_hang.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/transport.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/block_push.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/kitchen.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "images/github_logo.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/folder.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/colab_logo.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/colab_logo.svg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/cheng_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/zhenjia_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/siyuan_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/eric_thumbnail.png",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/yilun_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/benjamin_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/russ_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/shuran_thumbnail.jpg",
+        "alt": ""
+      },
+      {
+        "tag": "img",
+        "src": "images/pusht_ep6_overlay_diffusion.png",
+        "alt": ""
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht_ep6_diffusion.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "images/pusht_ep6_overlay_r3m.png",
+        "alt": ""
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht_ep6_r3m.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "images/pusht_ep6_overlay_bcrnn.png",
+        "alt": ""
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht_ep6_bcrnn.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "images/pusht_ep6_overlay_ibc.png",
+        "alt": ""
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht_ep6_ibc.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "autoplay": null,
+        "loop": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/all_pusht_wide_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pusht_robustness_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/mug_flipping_20_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/mug_hard_diffusion_video_wall_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/mug_hard_bcrnn_video_wall_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/sauce_pour_spread_web.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pour_diffusion_video_wall.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/spread_diffusion_video_wall.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/pour_bcrnn_video_wall.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": null,
+        "muted": null
+      },
+      {
+        "tag": "source",
+        "src": "videos/spread_bcrnn_video_wall.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "check_scope": "HTML media elements and text; no media files downloaded or played"
+  },
+  "robomimic_study": {
+    "requested_url": "https://robomimic.github.io/study/",
+    "final_url": "https://robomimic.github.io/study/",
+    "html_bytes": 35187,
+    "counts": {
+      "video": 53,
+      "source": 53,
+      "iframe": 1,
+      "img": 19
+    },
+    "media_entries": [
+      {
+        "tag": "iframe",
+        "src": "https://www.youtube.com/embed/qg_IVo4rB8k"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/overview.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/challenges.png"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_lift.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_can.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_tool_hang.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_square.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_lift_real.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_can_real.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_tool_hang_real.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/task_transport.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_lift.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_can.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_tool_hang.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_square.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_lift_real.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_can_real.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_tool_hang_real.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/videos/reset_transport.gif"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/dataset_overview.png"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_lift_rb_1.5k.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_can_rb_3.9k.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_lift_se.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_can_se.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_square_se.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_se_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_tool_hang_se_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_lift_mh_worse_1.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_lift_mh_okay_1.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_lift_mh_better_1.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_can_mh_worse_1_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_can_mh_okay_1_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_can_mh_better_1.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_square_mh_worse_1_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_square_mh_okay_1_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_square_mh_better_1_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_worse_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_okay_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_better_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_worse_okay_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_worse_better_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/playback_transport_mh_okay_better_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/algo_overview.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/obs_overview.png"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/obs_can_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/obs_tool_hang_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/obs_transport_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/lesson_1.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/lesson_2.png"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/can_paired.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/lesson_3.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/lesson_4.png"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/lesson_5.png"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/raw_rollout_lift_eval_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/can_eval_success_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/tool_hang_real_succ_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/tool_hang_insert_miss_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/tool_hang_fail_insert_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/tool_hang_fail_tool_grasp_2_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/tool_hang_tool_drop_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/can_no_wrist_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/can_no_rand_5x_bright.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "img",
+        "src": "/assets/images/final_task_8.jpeg"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Transport_PH_im_epoch260_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Transport_PH_im_epoch260_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Can_MH_im_epoch300_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Square_MH_im_epoch280_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_Can_Worse_im_epoch460_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Can_Worse_im_epoch140_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_Square_Worse_im_epoch400_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Square_Worse_im_epoch180_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_Square_Worse_Better_im_epoch460_trim.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "tag": "video",
+        "controls": "",
+        "autoplay": "",
+        "loop": "",
+        "muted": ""
+      },
+      {
+        "tag": "source",
+        "src": "/assets/videos/rollouts/BC_RNN_Square_Worse_Better_im_epoch240_trim.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "check_scope": "HTML media elements and text; no media files downloaded or played"
+  }
+}

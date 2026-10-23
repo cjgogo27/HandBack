@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A bounded Piper study of learning-value-based control handback: results, mechanism audit and reproducible analysis.">
+<title>HandBack — technical report</title>
+<style>
+:root{color-scheme:light;--ink:#172b3a;--muted:#526778;--line:#dce4e9;--accent:#12627f}
+*{box-sizing:border-box}body{margin:0;background:#fbfcfe;color:var(--ink);font:17px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+nav{border-bottom:1px solid var(--line);padding:18px max(20px,calc((100vw - 1040px)/2));display:flex;gap:24px;flex-wrap:wrap;background:white}
+a{color:var(--accent);text-underline-offset:3px}nav a{text-decoration:none;font-size:14px}main{max-width:1040px;margin:40px auto;padding:0 22px 70px}
+h1{font-size:clamp(29px,4vw,43px);line-height:1.18;letter-spacing:-.035em;max-width:960px;margin:20px 0}h2{font-size:24px;line-height:1.3;margin-top:42px}
+p{max-width:940px}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:14px;margin:24px 0}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{background:#edf3f7;white-space:nowrap}tbody tr:last-child{border-bottom:2px solid var(--line)}
+code{background:#eaf0f4;padding:2px 4px;border-radius:3px;font-size:.85em}pre{overflow:auto;padding:16px;background:#eaf0f4}pre code{padding:0}img{max-width:100%;height:auto;background:white}blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:18px}
+.status{background:#e9f2f5;border:1px solid #b8d1db;border-radius:6px;padding:16px 20px;margin:28px 0;font-size:16px}
+footer{border-top:1px solid var(--line);padding-top:24px;font-size:13px;color:var(--muted)}
+@media print{nav,.status{display:none}body{font-size:10pt;background:white}main{margin:0;max-width:none;padding:0}h1{font-size:23pt}h2{font-size:15pt;margin-top:20px}table{font-size:9pt;break-inside:avoid}a{color:inherit}img{max-height:6cm}footer{font-size:8pt}}
+</style></head><body><nav aria-label="Project navigation">
+<a href="https://github.com/cjgogo27/HandBack">GitHub</a>
+<a href="https://github.com/cjgogo27/HandBack/blob/main/docs/report.md">Markdown report</a>
+<a href="https://github.com/cjgogo27/HandBack/blob/main/docs/reproduction.md">Reproduce</a>
+<a href="https://github.com/cjgogo27/HandBack/tree/main/data">Data</a></nav><main>
+<div class="status"><strong>Exploratory result:</strong> feasibility gates failed; learning-value and first-support selected identical training treatments. No larger experiment was run.</div>
+<h1 id="handback-a-bounded-study-of-learning-value-based-control-handback">HandBack: A Bounded Study of Learning-Value-Based Control Handback</h1>
+<p>Exploratory technical report · Version 0.1.0 · 23 October 2026</p>
+<h2 id="abstract">Abstract</h2>
+<p>After a teacher corrects a robot, immediate ability to resume and usefulness of further teaching are different objectives. We tested whether a selector that estimates future learning benefit adds value beyond a visual–action support rule. The study used one Piper manipulation task, six teacher parent states, seven methods, one training seed, and twelve paired evaluation scenes per method. The learning-value method achieved joint success in 6/12 completed evaluation units versus 5/12 for each support baseline. It failed the predeclared improvement and deep-contact screening gates. More importantly, it selected exactly the same teacher prefixes and training treatment as the first-support baseline. The observed score difference therefore does not identify a learning-value selection effect. Original-attempt bounds also fail the screening gates without substituting infrastructure retries. We release selection primitives, per-scene derived evidence, audit summaries, and executable analysis; the larger experiment was not run.</p>
+<h2 id="1-question-and-relation-to-prior-work">1. Question and relation to prior work</h2>
+<p>The question is narrow: <strong>does choosing when to end a correction segment according to expected post-update benefit improve later autonomous performance beyond choosing by current support?</strong></p>
+<p>Bidirectional intervention and corrective supervision already appear in <a href="https://arxiv.org/abs/2608.07065">AutoIntervene</a>. Allocation of recovery-training effort according to expected task improvement appears in <a href="https://arxiv.org/abs/2209.13605">MetaReSkill</a>. Our candidate combines a common support gate with prediction of stop-versus-continue learning benefit for prefixes of the <em>same</em> correction segment. This report neither establishes priority for that combination nor reproduces those papers' original robot experiments. It tests a local candidate implementation.</p>
+<h2 id="2-executed-design">2. Executed design</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Setting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Task</td>
+<td><code>red_objects_in_basket</code>: place red targets in the basket while satisfying the task's other conditions</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Guava, MuJoCo, author robosuite fork, Piper model/control adapters; fixed camera and tool contract across methods</td>
+</tr>
+<tr>
+<td>Starting student</td>
+<td>Existing Qwen3.5-4B SFT <code>checkpoint-99</code>; <strong>not</strong> an untrained Qwen baseline</td>
+</tr>
+<tr>
+<td>Correction library</td>
+<td>Six usable nonterminal parent states from 24 acquisition attempts; real teacher prefixes of 1, 2, or 4 actions</td>
+</tr>
+<tr>
+<td>Value development</td>
+<td>18 single-parent/prefix updates and matched replay controls; 88 development executions</td>
+</tr>
+<tr>
+<td>Final update</td>
+<td>Six methods ×24 LoRA optimizer steps; seed 42, rank 8, alpha 16, q/v/o projections, learning rate 1e-4; vision frozen</td>
+</tr>
+<tr>
+<td>Replay</td>
+<td>Two common old targets per correction target; replay-only uses three old targets</td>
+</tr>
+<tr>
+<td>New-scene evaluation</td>
+<td>Seven methods ×12 paired initial states; no teacher during these executions</td>
+</tr>
+<tr>
+<td>Runtime limits</td>
+<td>Official task budget: 25 decisions; existing 30 cumulative tool-action cap; maximum output 2,048 tokens</td>
+</tr>
+</tbody>
+</table>
+<p>The four-step teacher library was collected in full before selection. All of its acquisition cost is charged. This is causal-prefix selection <strong>over an already paid library</strong>, followed by actual parameter updates and autonomous evaluation; it is not a newly executed online teacher handoff study.</p>
+<p>V uses fixed-L2 stop/continue regressions fitted out of fold: each parent is selected using the other five parents' development outcomes. The ten current-prefix features contain teacher count, remaining decision budget, past tool feedback, past teacher-target NLL, and last-tool categories. Parent IDs and simulator truth are not prediction features. Future outcomes are training labels only. The selector accesses checkpoints 1/2/4 sequentially and stops accessing prefixes after returning.</p>
+<p>S1, S2 and V share the calibrated visual–action support gate. S1 returns at the first acceptance; S2 requires two consecutive <strong>scheduled</strong> acceptances. V additionally requires predicted stopping value ≥ continuing value. If no handoff is declared, all four correction targets remain in training: abstention is not a hidden data-filtering advantage. Fixed-1 is chosen on development data, not the twelve evaluation scenes. Optimizer steps are matched; exact FLOPs are not claimed equal.</p>
+<p>The protocol and identification amendment were frozen before the new evaluation scenes were consumed. They were not externally preregistered. <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/protocol/07_prospective_validation_protocol.md">Original protocol</a>, <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/protocol/08_identification_amendment.md">amendment</a>.</p>
+<h2 id="3-main-results">3. Main results</h2>
+<p>“Complete + held” requires the original task predicate, a literal <code>Task complete.</code> response, and ten registered holds. The primary joint metric additionally requires maximum external robot contact depth ≤2mm over the registered control interval. Extra audit-only holds are reported separately. The 2mm threshold is an engineering simulation screen, not a real-robot safety limit. The &gt;5mm count covers <strong>all</strong> trajectories, not only successful ones.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th style="text-align: right;">Original predicate</th>
+<th style="text-align: right;">Complete + held</th>
+<th style="text-align: right;">Joint ≤2mm</th>
+<th style="text-align: right;">&gt;5mm contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U: no further update</td>
+<td style="text-align: right;">9/12</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">2/12</td>
+<td style="text-align: right;">6/12</td>
+</tr>
+<tr>
+<td>B: replay only</td>
+<td style="text-align: right;">10/12</td>
+<td style="text-align: right;">9/12</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">2/12</td>
+</tr>
+<tr>
+<td>F4: fixed four steps</td>
+<td style="text-align: right;">10/12</td>
+<td style="text-align: right;">7/12</td>
+<td style="text-align: right;">4/12</td>
+<td style="text-align: right;">5/12</td>
+</tr>
+<tr>
+<td>Fbest: development-selected fixed one step</td>
+<td style="text-align: right;">8/12</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">3/12</td>
+<td style="text-align: right;">2/12</td>
+</tr>
+<tr>
+<td>S1: first support acceptance</td>
+<td style="text-align: right;">11/12</td>
+<td style="text-align: right;">8/12</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">4/12</td>
+</tr>
+<tr>
+<td>S2: two scheduled support acceptances</td>
+<td style="text-align: right;">10/12</td>
+<td style="text-align: right;">8/12</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">3/12</td>
+</tr>
+<tr>
+<td>V: learning-value exit</td>
+<td style="text-align: right;">10/12</td>
+<td style="text-align: right;">8/12</td>
+<td style="text-align: right;">6/12</td>
+<td style="text-align: right;">4/12</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Paired-scene outcome counts and deep contacts" src="assets/outcomes.svg" /></p>
+<p>This completed table includes three infrastructure re-executions. The screening gate required V to exceed <strong>each</strong> of Fbest, S1 and S2 by at least two joint successes, and to have no more &gt;5mm trajectories than Fbest. Actual differences were +3/+1/+1, and V had four deep-contact trajectories versus Fbest's two. Both gates failed. Stage B, additional training seeds, and the paper-scale experiment were not executed. No significance test or population-level superiority claim is made. The released table also includes 1mm and 5mm sensitivity outcomes.</p>
+<h2 id="4-identification-check-the-added-selector-did-not-change-the-treatment">4. Identification check: the added selector did not change the treatment</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Retained teacher steps across the six parents</th>
+<th style="text-align: right;">Handoffs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F4</td>
+<td>4, 4, 4, 4, 4, 4</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Fbest</td>
+<td>1, 1, 1, 1, 1, 1</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>S1</td>
+<td>1, 1, 1, 4, 1, 1</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>4, 4, 2, 4, 4, 2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>V</td>
+<td><strong>1, 1, 1, 4, 1, 1</strong></td>
+<td style="text-align: right;"><strong>5</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The retained four-step parent without handoff is kept for training. V and S1 have identical targets, order, replay, and hyperparameters; their realized schedule hashes match. Saved weight tensors nevertheless differ numerically. Initial adapter tensors and encoded-input byte fingerprints were not captured, so the cause of the numerical divergence is unresolved. It must not be confidently attributed to initialization, GPU nondeterminism, or a particular bug.</p>
+<p>Thus the 6-versus-5 outcome difference cannot establish the proposed <strong>selection</strong> mechanism's benefit. This is a more fundamental limitation than small sample size. It does not prove V and S1 are globally identical policies.</p>
+<h2 id="5-immediate-returnability-and-interrupted-attempts">5. Immediate returnability and interrupted attempts</h2>
+<p>Immediate continuation is assessed separately by reusing 18 prior real same-state executions. These are not new trials and overlap across methods.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th style="text-align: right;">Handoffs</th>
+<th style="text-align: right;">Complete + held after handoff</th>
+<th style="text-align: right;">Joint ≤2mm after handoff</th>
+<th style="text-align: right;">No handoff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3/6</td>
+<td style="text-align: right;">2/6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Fbest</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2/6</td>
+<td style="text-align: right;">1/6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>S1</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2/5</td>
+<td style="text-align: right;">1/5</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>S2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1/2</td>
+<td style="text-align: right;">1/2</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>V</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2/5</td>
+<td style="text-align: right;">1/5</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>Support acceptance is not a guarantee of full-task returnability.</p>
+<p>The original 40-minute worker lease interrupted V/4004; fail-fast cleanup also stopped S1/4007 and S1/4011. An isolated revision retained 69 completed records, including failures, reran only those three fixed units, and executed the twelve originally unstarted units. The infrastructure lease became 90 minutes; task budgets, weights and control stayed unchanged. There are 84 logical units but <strong>87 actual attempt directories</strong>, including three preserved partials. Matching initial inputs does not make these exact continuations: later actions sometimes diverged.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th style="text-align: right;">Completed-table joint successes</th>
+<th style="text-align: right;">Original-attempt joint bounds</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fbest</td>
+<td style="text-align: right;">3/12</td>
+<td style="text-align: right;">3–3/12</td>
+</tr>
+<tr>
+<td>S1</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">4–5/12</td>
+</tr>
+<tr>
+<td>S2</td>
+<td style="text-align: right;">5/12</td>
+<td style="text-align: right;">5–5/12</td>
+</tr>
+<tr>
+<td>V</td>
+<td style="text-align: right;">6/12</td>
+<td style="text-align: right;"><strong>5–5/12</strong></td>
+</tr>
+</tbody>
+</table>
+<p>V/4004 had already reached 10.715mm contact depth before interruption, so its original primary failure cannot be reversed by a missing tail. Original V deep-contact count is five versus Fbest's two. Even favorable assignment of unresolved outcomes cannot pass the gates. These are missing-outcome bounds, not confidence intervals. <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/protocol/11_infrastructure_resumption_v3.md">Infrastructure amendment</a>.</p>
+<h2 id="6-physical-evidence-cost-and-limitations">6. Physical evidence, cost and limitations</h2>
+<p>Offline review recomputed 84 contact traces and independently reconstructed 84 task predicates from logged poses and contacts. Initial states/first inputs were paired; actual compiled models were byte-identical across methods for each scene. Original closure checks covered 3,679 source/asset entries, 2,432 artifact hashes and 1,844 unique native image paths. These checks establish artifact consistency, not successful execution of every task or external replication.</p>
+<p>Six saved CAD states were examined. Four deep palm-contact cases had sampled interior overlap between robot CAD and object collision convex hulls; a low-depth palm case had no sampled overlap but does not prove zero overlap. A low-depth link7 case used an open visual mesh and could not support reliable signed-volume certification. No geometric repair was deployed or credited as an algorithm improvement. Final images were internally inspected but gripper occlusion/stacking prevented blanket visual approval; derived peak views were not native frames and were not pixel-aligned certificates.</p>
+<table>
+<thead>
+<tr>
+<th>Work item</th>
+<th style="text-align: right;">Recorded amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Teacher acquisition</td>
+<td style="text-align: right;">24 attempts; 85 responses; 1,293.13s summed full-client request time</td>
+</tr>
+<tr>
+<td>Development training</td>
+<td style="text-align: right;">20 jobs; 100 optimizer steps</td>
+</tr>
+<tr>
+<td>Development execution</td>
+<td style="text-align: right;">88 rollouts</td>
+</tr>
+<tr>
+<td>Reused immediate-return probes</td>
+<td style="text-align: right;">18 executions</td>
+</tr>
+<tr>
+<td>Final pooled training</td>
+<td style="text-align: right;">6 methods ×24 =144 optimizer steps</td>
+</tr>
+<tr>
+<td>Final evaluation including partials</td>
+<td style="text-align: right;">1,885 student requests; 9,740.73s summed client request time</td>
+</tr>
+</tbody>
+</table>
+<p>Inner teacher-provider time (1,113.83s) is nested inside the outer client measurement, not additive. Summed request time is not parallel wall time. Full teacher acquisition was already paid; <strong>online API savings were not measured</strong>. GPU-energy, dollar cost, and unlogged idle/loading costs are not estimated.</p>
+<p>The study has one task, six parents, one training seed, twelve scene units per method, infrastructure deviations, and imperfect simulation geometry. It provides no evidence about broad task generalization, hardware safety, or sustained online learning. The negative feasibility decision is bounded to this implementation and protocol, not a proof that control-handback learning cannot work.</p>
+<h2 id="7-what-is-released">7. What is released</h2>
+<p>The public package contains per-scene derived outcomes (including failures), original-attempt bounds, selector features/models/traces, training-treatment fingerprints, contact and predicate audit records, cost summaries, protocol amendments, and computation primitives used for selection/contact analysis. The project page adds all 84 final-observation crops, three labelled discrete-observation replays, and two derived pose diagnostics. Replays are not continuous motion footage. A versioned media-source archive preserves selected original simulation observations and review panels. Private storage roots are replaced by stable artifact identifiers; original and exported hashes are recorded. Credentials, real-robot photographs, private server addresses, upstream mesh/asset bundles, executable pickles, full raw trajectory archives and checkpoint weights are excluded. <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/media.md">Media provenance</a>.</p>
+<p><code>python -m handback.analysis</code> replays selection from released features, regenerates tables, checks audit consistency and verifies the stopping decision. It does <strong>not</strong> recreate training or integrate the simulator. Hashes of unavailable artifacts prove neither their public availability nor their contents. <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/reproduction.md">Reproduction scope</a> · <a href="https://github.com/cjgogo27/HandBack/blob/main/data/README.md">Data card</a>.</p>
+<p>The practical result is to stop expansion of the current candidate. A future study would first need an observable decision disagreement from a strong baseline and an independently attributable benefit, rather than more evaluation samples of the same realized treatment.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>Tang, J. and Zhi, W. <em>AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies</em>. <a href="https://arxiv.org/abs/2608.07065">arXiv:2608.07065</a>.</li>
+<li>Vats, S., Likhachev, M. and Kroemer, O. <em>Efficient Recovery Learning using Model Predictive Meta-Reasoning</em>. <a href="https://arxiv.org/abs/2209.13605">arXiv:2209.13605</a>.</li>
+<li>Guava source/configuration reference, fixed commit <code>8eeed908bef4fb63c8bfc7c4e2fa2f5684eb067f</code>. <a href="https://github.com/hdacnw/guava-release/tree/8eeed908bef4fb63c8bfc7c4e2fa2f5684eb067f">Source</a>. Piper control adaptation and tool arguments are explicit departures from the original robot setup.</li>
+</ol>
+<footer>HandBack v0.1.0 · Exploratory technical report, not a peer-reviewed publication.<br>
+Report and derived results: CC BY 4.0. Code: MIT. <a href="https://github.com/cjgogo27/HandBack/blob/main/docs/reference_study.md">10 reporting precedents and 5 release examples</a>.</footer>
+</main></body></html>
